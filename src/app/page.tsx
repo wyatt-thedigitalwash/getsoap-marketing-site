@@ -1,65 +1,283 @@
-import Image from "next/image";
+import GlobalNav from "@/components/GlobalNav";
+import DashboardPlaceholder from "@/components/DashboardPlaceholder";
+import HeroAnimations from "@/components/HeroAnimations";
+import ScrollReveal from "@/components/ScrollReveal";
+import FeatureRows from "@/components/FeatureRows";
+import AutomationSection from "@/components/AutomationSection";
+import PlatformTabs from "@/components/PlatformTabs";
+import FaqAccordion from "@/components/FaqAccordion";
+import GuidesSection from "@/components/GuidesSection";
+import Button from "@/components/Button";
+import Container from "@/components/Container";
+
+const NOISE_SVG = `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")`;
+
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <>
+      {/* ============================================= */}
+      {/* Section 1: Hero                                */}
+      {/* ============================================= */}
+      <HeroAnimations>
+        <div className="relative">
+          <section
+            id="hero"
+            data-bg="dark"
+            className="relative overflow-visible md:h-dvh"
+            style={{
+              background: "radial-gradient(ellipse 80% 60% at 50% 20%, #1A4080 0%, #092F64 70%, #061F47 100%)",
+              borderWidth: "24px",
+              borderStyle: "solid",
+              borderColor: "#FFFFFF",
+              borderRadius: "40px",
+            }}
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+            {/* Noise texture overlay */}
+            <div
+              className="pointer-events-none absolute inset-0"
+              style={{
+                backgroundImage: NOISE_SVG,
+                backgroundRepeat: "repeat",
+                mixBlendMode: "overlay",
+                opacity: 0.15,
+                borderRadius: "16px",
+              }}
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            {/* Bottom fade */}
+            <div
+              className="pointer-events-none absolute inset-0"
+              style={{
+                background: "linear-gradient(to bottom, transparent 0%, transparent 80%, rgba(6, 31, 71, 0.4) 100%)",
+                borderRadius: "16px",
+              }}
+            />
+
+            {/* Content */}
+            <div className="relative z-10 flex flex-col md:h-full">
+              <GlobalNav inline />
+              <div className="mx-auto max-w-7xl px-8 pt-8 pb-8 text-center md:flex md:flex-1 md:flex-col md:items-center md:justify-center md:px-16 md:pt-0 md:pb-[200px]">
+                {/* Headline */}
+                <h1 data-hero-headline className="text-[34px] leading-[1.05] tracking-[-0.02em] text-white md:text-[68px] xl:text-[80px]">
+                  <span className="block font-extrabold">
+                    Marketing infrastructure
+                  </span>
+                  <span className="block font-normal italic">
+                    for franchise systems
+                    <span style={{ color: "#468BE6" }}>.</span>
+                  </span>
+                </h1>
+
+                {/* Subheadline */}
+                <p
+                  data-hero-sub
+                  className="mx-auto mt-8 max-w-[650px] text-[17px] leading-[1.6] md:text-[19px]"
+                  style={{ color: "#C9DBEC" }}
+                >
+                  Soap gives franchise systems unified visibility across every
+                  brand and location. Per-location websites, automated local SEO,
+                  Google Business Profile management, and integrated reporting in
+                  one platform.
+                </p>
+
+                {/* CTAs */}
+                <div data-hero-ctas className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
+                  <a
+                    href="/contact"
+                    className="btn-primary w-full text-center text-[16px] font-semibold text-white sm:w-auto"
+                    style={{ backgroundColor: "#468BE6", padding: "14px 32px", borderRadius: "8px" }}
+                  >
+                    Book a Demo
+                  </a>
+                  <a
+                    href="#"
+                    className="btn-outline w-full text-center text-[16px] font-semibold sm:w-auto"
+                    style={{
+                      border: "1px solid rgba(255, 255, 255, 0.3)",
+                      color: "#FFFFFF",
+                      padding: "13px 31px",
+                      borderRadius: "8px",
+                    }}
+                  >
+                    Download Our App
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Dashboard mockup */}
+          <div data-hero-mockup className="mx-auto mt-8 max-w-7xl px-6 md:absolute md:bottom-0 md:left-1/2 md:z-10 md:mt-0 md:w-[90%] md:max-w-[900px] md:px-0 md:-translate-x-1/2 md:translate-y-[calc(65%-24px)]">
+            <DashboardPlaceholder label="Product Demo Video" icon="play" />
+          </div>
         </div>
-      </main>
-    </div>
+      </HeroAnimations>
+
+      {/* ============================================= */}
+      {/* Section 2: Pain Points + Feature Cards         */}
+      {/* ============================================= */}
+      <section data-bg="white" className="pt-12 pb-0 md:pt-[370px] md:pb-0">
+        <ScrollReveal threshold={0.2} duration={700} distance={32} premium className="px-6 md:px-16">
+          <h2
+            className="mx-auto max-w-[900px] text-center text-[36px] font-extrabold leading-[1.1] tracking-[-0.02em] md:text-[52px]"
+            style={{ color: "#092F64" }}
+          >
+            <span className="block"><span className="italic" style={{ color: "#468BE6" }}>Franchisors</span> need visibility.</span>
+            <span className="block"><span className="italic" style={{ color: "#468BE6" }}>Franchisees</span> need leads.</span>
+            <span className="block"><span className="italic" style={{ color: "#468BE6" }}>Soap</span> delivers both.</span>
+          </h2>
+        </ScrollReveal>
+      </section>
+
+      {/* ============================================= */}
+      {/* Feature Cards                                  */}
+      {/* ============================================= */}
+      <section data-bg="white" className="pb-0 md:pb-0">
+        <FeatureRows />
+      </section>
+
+      {/* ============================================= */}
+      {/* Section 2b: Automation                         */}
+      {/* ============================================= */}
+      <AutomationSection />
+
+      {/* ============================================= */}
+      {/* Section 3: Inside the Platform                 */}
+      {/* ============================================= */}
+      <section
+        data-bg="light"
+        className="relative px-6 py-[84px] md:px-16 md:py-[112px]"
+        style={{
+          background: "radial-gradient(ellipse 80% 50% at 50% 0%, #E9F5FF 0%, #E0EFFA 100%)",
+          borderTop: "1px solid rgba(147, 191, 239, 0.1)",
+        }}
+      >
+        {/* Noise texture overlay */}
+        <div
+          className="pointer-events-none absolute inset-0"
+          style={{
+            backgroundImage: NOISE_SVG,
+            backgroundRepeat: "repeat",
+            mixBlendMode: "soft-light",
+            opacity: 0.1,
+          }}
+        />
+        <div className="relative mx-auto max-w-7xl">
+          <ScrollReveal>
+            <p
+              className="text-center text-[11px] font-bold uppercase tracking-[0.12em]"
+              style={{ color: "#1A5799" }}
+            >
+              Inside the Platform
+            </p>
+            <h2
+              className="mt-4 text-center text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]"
+              style={{ color: "#092F64" }}
+            >
+              Two views. One system.
+            </h2>
+            <p
+              className="mx-auto mt-4 max-w-[650px] text-center text-[16px] leading-[1.6] md:text-[17px]"
+              style={{ color: "#1F1F1F" }}
+            >
+              Soap gives franchisors portfolio-wide visibility and gives each
+              franchisee a dashboard scoped to their location. Same platform,
+              different views.
+            </p>
+          </ScrollReveal>
+
+          <ScrollReveal delay={200} distance={20}>
+            <div className="mt-12">
+              <PlatformTabs />
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      {/* ============================================= */}
+      {/* Section 4: Guides                              */}
+      {/* ============================================= */}
+      <section id="resources" data-bg="white" className="pt-[84px] pb-0 md:pt-[112px] md:pb-0">
+        <div className="mx-auto max-w-7xl px-6 md:px-16">
+          <GuidesSection />
+        </div>
+      </section>
+
+      {/* ============================================= */}
+      {/* Section 5: FAQ                                 */}
+      {/* ============================================= */}
+      <section data-bg="white" className="px-6 pt-[84px] pb-[84px] md:px-16 md:pt-[112px] md:pb-[112px]">
+        <div className="mx-auto max-w-7xl">
+          <ScrollReveal>
+            <p
+              className="text-center text-[11px] font-bold uppercase tracking-[0.12em]"
+              style={{ color: "#1A5799" }}
+            >
+              FAQ
+            </p>
+            <h2
+              className="mt-4 text-center text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]"
+              style={{ color: "#092F64" }}
+            >
+              What franchisors usually ask.
+            </h2>
+          </ScrollReveal>
+
+          <div className="mt-12">
+            <FaqAccordion />
+          </div>
+        </div>
+      </section>
+
+      {/* ============================================= */}
+      {/* Section 6: Final CTA                           */}
+      {/* ============================================= */}
+      <section
+        id="contact"
+        data-bg="dark"
+        className="px-6 py-16 md:px-16 md:py-24"
+        style={{ backgroundColor: "#092F64" }}
+      >
+        <Container>
+          <ScrollReveal>
+            <div className="text-center">
+              <p
+                className="text-[12px] font-bold uppercase tracking-[0.15em]"
+                style={{ color: "#468BE6" }}
+              >
+                Book a Demo
+              </p>
+              <h2
+                className="mx-auto mt-4 max-w-[800px] text-[36px] font-extrabold leading-[1.1] tracking-[-0.02em] text-white md:text-[48px]"
+              >
+                Let us clean up your franchise marketing.
+              </h2>
+              <p
+                className="mx-auto mt-4 max-w-[600px] text-[17px] leading-[1.55]"
+                style={{ color: "#C9DBEC" }}
+              >
+                Tell us about your franchise system. We will follow up within 24
+                hours with a personalized walkthrough.
+              </p>
+              <div className="mt-10">
+                <Button href="/contact" size="large">Get in touch</Button>
+              </div>
+              <p
+                className="mt-6 text-[14px]"
+                style={{ color: "#C9DBEC" }}
+              >
+                Or email Wyatt directly at{" "}
+                <a
+                  href="mailto:wyatt@thedigitalwash.com"
+                  className="text-white underline-offset-2 transition-colors hover:underline"
+                >
+                  wyatt@thedigitalwash.com
+                </a>
+              </p>
+            </div>
+          </ScrollReveal>
+        </Container>
+      </section>
+    </>
   );
 }

@@ -2,38 +2,310 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1f1f1f;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-inter);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Section spacing rule: remove top padding when consecutive sections share the same background */
-section[data-bg] + section[data-bg="dark"][data-bg] {
-  padding-top: 0;
+/* Focus visible */
+*:focus-visible {
+  outline: 2px solid #468BE6;
+  outline-offset: 2px;
 }
 
-section[data-bg="dark"] + section[data-bg="dark"] {
-  padding-top: 0;
+/* Primary button hover */
+.btn-primary {
+  transition: all 0.3s ease;
 }
 
-section[data-bg="light"] + section[data-bg="light"] {
-  padding-top: 0;
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(70, 139, 230, 0.3);
+}
+
+/* Outline button hover */
+.btn-outline {
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background-color: rgba(70, 139, 230, 0.06);
+  border-color: #468BE6 !important;
+  color: #468BE6 !important;
+}
+
+/* Hide scrollbar on carousel */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Automation carousel */
+.automation-carousel {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  gap: 16px;
+  padding-left: 24px;
+  padding-right: 40px;
+  cursor: grab;
+  user-select: none;
+}
+
+.automation-card {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 240px;
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 16px;
+  padding: 32px 28px;
+  box-shadow: none !important;
+}
+
+@media (min-width: 768px) {
+  .automation-carousel {
+    gap: 20px;
+    padding-left: max(24px, calc((100vw - 1280px) / 2 + 64px));
+    scroll-padding-left: max(24px, calc((100vw - 1280px) / 2 + 64px));
+  }
+
+  .automation-card {
+    width: 280px;
+  }
+}
+
+/* Card hover effects */
+@media (hover: hover) {
+  .card-hover {
+    transition: box-shadow 300ms ease, transform 300ms ease;
+  }
+
+  .card-hover:hover {
+    box-shadow: 0 8px 32px rgba(9, 47, 100, 0.10) !important;
+    transform: translateY(-2px) !important;
+  }
+
+
+  .guide-card {
+    transition: transform 300ms ease, box-shadow 300ms ease, border-color 300ms ease;
+  }
+
+  .guide-card:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 24px rgba(9, 47, 100, 0.08) !important;
+    border-color: rgba(70, 139, 230, 0.2) !important;
+  }
+}
+
+/* Arrow link animation */
+.arrow-link .arrow-icon {
+  display: inline-block;
+  transition: transform 200ms ease;
+}
+
+.arrow-link:hover .arrow-icon {
+  transform: translateX(4px);
+}
+
+/* Contact form input focus */
+#contact input:focus,
+#contact select:focus,
+#contact textarea:focus {
+  border-color: #468BE6 !important;
+}
+
+/* Contact page form input focus */
+.contact-form-light input:focus,
+.contact-form-light select:focus,
+.contact-form-light textarea:focus {
+  border-color: #1A5799 !important;
+  box-shadow: 0 0 0 3px rgba(26, 87, 153, 0.1) !important;
+}
+
+/* FAQ button hover */
+.faq-button:hover {
+  background-color: #F1F5F9;
+}
+
+/* FAQ accordion animation */
+.faq-answer {
+  overflow: hidden;
+  transition: max-height 0.35s ease, opacity 0.15s ease;
+}
+
+/* Scroll-triggered animation base */
+.anim-hidden {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+.anim-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 600ms ease-out, transform 600ms ease-out;
+}
+
+.anim-card-hidden {
+  opacity: 0;
+  transform: translateY(32px);
+}
+
+.anim-card-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 700ms cubic-bezier(0.16, 1, 0.3, 1), transform 700ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Legal page content styling */
+.legal-content h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #092F64;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+
+.legal-content h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #092F64;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.legal-content p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #1F1F1F;
+  margin-bottom: 16px;
+}
+
+.legal-content ul,
+.legal-content ol {
+  margin-left: 24px;
+  margin-bottom: 16px;
+}
+
+.legal-content li {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #1F1F1F;
+  padding: 4px 0;
+}
+
+.legal-content ul {
+  list-style-type: disc;
+}
+
+.legal-content ol {
+  list-style-type: decimal;
+}
+
+.legal-content strong {
+  font-weight: 600;
+  color: #092F64;
+}
+
+.legal-content a {
+  color: #1A5799;
+  text-decoration: none;
+}
+
+.legal-content a:hover {
+  text-decoration: underline;
+}
+
+/* Resource article content styling */
+.article-content h2 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #092F64;
+  letter-spacing: -0.015em;
+  margin-top: 56px;
+  margin-bottom: 20px;
+}
+
+.article-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #092F64;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.article-content p {
+  font-size: 16px;
+  line-height: 1.75;
+  color: #1F1F1F;
+  margin-bottom: 20px;
+}
+
+.article-content .lead {
+  font-size: 19px;
+  color: #1F1F1F;
+  line-height: 1.7;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.article-content ul,
+.article-content ol {
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+
+.article-content li {
+  font-size: 16px;
+  line-height: 1.75;
+  color: #1F1F1F;
+  padding: 5px 0;
+}
+
+.article-content ul {
+  list-style-type: disc;
+}
+
+.article-content ol {
+  list-style-type: decimal;
+}
+
+.article-content strong {
+  font-weight: 700;
+  color: #092F64;
+}
+
+.article-content blockquote {
+  font-size: 20px;
+  font-style: italic;
+  color: #092F64;
+  font-weight: 500;
+  border-left: 3px solid #1A5799;
+  padding-left: 24px;
+  margin: 40px 0;
+  line-height: 1.4;
+}
+
+/* Prefers reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.2s !important;
+    transition-duration: 0.2s !important;
+    animation-iteration-count: 1 !important;
+  }
 }
