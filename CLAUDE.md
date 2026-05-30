@@ -52,3 +52,8 @@ The following audits should run in this order before launch:
 6. (Rebuilds only) URL Redirects
 
 Each audit is a separate prompt that will be pasted in when ready. After all audits pass, the Final Launch Checklist in LAUNCH.md is walked through phase by phase.
+
+## Design Context
+- **PRODUCT.md**: Brand register, target users, personality, anti-references, strategic design principles
+- **SITE.md**: Visual direction, color palette, typography, component specs, site architecture
+- **DESIGN_SYSTEM.md**: Comprehensive token and component reference extracted from the live codebase

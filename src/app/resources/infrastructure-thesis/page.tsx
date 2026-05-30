@@ -34,7 +34,7 @@ export default function InfrastructureThesisPage() {
         brand equity issue, and an exit multiple issue.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>The Current State of Franchise Marketing</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>The Current State of Franchise Marketing</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         Walk into any PE-backed franchise portfolio today and ask how marketing
@@ -57,7 +57,7 @@ export default function InfrastructureThesisPage() {
         cost, low visibility, inconsistent execution.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>Why This Is a Margin Problem</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>Why This Is a Margin Problem</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         The financial cost of fragmented franchise marketing shows up in three
@@ -65,7 +65,7 @@ export default function InfrastructureThesisPage() {
         performance optimization.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Vendor sprawl</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Vendor sprawl</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         A typical mid-sized franchise system with 100 locations runs marketing
         across 6 to 15 vendor relationships. Per-franchisee website agencies.
@@ -80,7 +80,7 @@ export default function InfrastructureThesisPage() {
         vendor relationship looks expensive in isolation.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Coordination overhead</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Coordination overhead</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Every vendor relationship requires management. Corporate teams spend
         significant time coordinating across vendors, reconciling reports,
@@ -94,7 +94,7 @@ export default function InfrastructureThesisPage() {
         previously spent on vendor coordination.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Missed optimization</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Missed optimization</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Performance data is the highest-value asset in marketing. When that data
         is split across vendors who do not talk to each other, the optimization
@@ -111,13 +111,13 @@ export default function InfrastructureThesisPage() {
         marketing.
       </p>
 
-      <blockquote className={bq} style={{ color: "#092F64", borderLeft: "3px solid #1A5799" }}>
+      <blockquote className={bq} style={{ color: "#0E172A", borderLeft: "3px solid #1570EF" }}>
         The financial cost of fragmented franchise marketing is real but hidden.
         Vendor sprawl, coordination overhead, and missed cross-portfolio
         optimization compound across the entire system.
       </blockquote>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>Why This Is a Brand Equity Problem</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>Why This Is a Brand Equity Problem</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         For PE-backed franchise portfolios, brand equity is a balance sheet
@@ -126,7 +126,7 @@ export default function InfrastructureThesisPage() {
         most operators realize when marketing execution is inconsistent.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Consistency at scale</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Consistency at scale</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         A franchise brand promises customers a predictable experience regardless
         of which location they visit. That promise extends to the marketing
@@ -143,7 +143,7 @@ export default function InfrastructureThesisPage() {
         erodes the brand promise.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Compliance and brand risk</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Compliance and brand risk</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Off-brand or non-compliant marketing creates legal and reputational
         exposure. A franchisee&apos;s rogue website making unauthorized claims. A
@@ -159,7 +159,7 @@ export default function InfrastructureThesisPage() {
         aspirational in vendor contracts.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>Why This Is an Exit Multiple Problem</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>Why This Is an Exit Multiple Problem</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         PE investments in franchise systems are sold on multiples of EBITDA. The
@@ -168,7 +168,7 @@ export default function InfrastructureThesisPage() {
         infrastructure affects all four.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Growth signal</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Growth signal</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Sophisticated buyers look for evidence that marketing is engineered, not
         improvised. A franchise system that can show portfolio-wide marketing
@@ -178,7 +178,7 @@ export default function InfrastructureThesisPage() {
         signal.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Margin signal</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Margin signal</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Marketing cost as a percentage of revenue is a comp metric buyers track
         closely. A franchise system that has consolidated marketing
@@ -187,7 +187,7 @@ export default function InfrastructureThesisPage() {
         flows directly to EBITDA. Higher EBITDA flows directly to valuation.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Brand strength signal</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Brand strength signal</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Brand equity is harder to quantify than financial metrics but buyers do
         their own diligence. They visit franchisee locations. They search for
@@ -197,7 +197,7 @@ export default function InfrastructureThesisPage() {
         risk.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Operational sophistication signal</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Operational sophistication signal</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         When a buyer asks &ldquo;how do you run marketing across the
         portfolio?&rdquo; the answer reveals operational sophistication. &ldquo;We
@@ -208,13 +208,13 @@ export default function InfrastructureThesisPage() {
         collection of franchisees with corporate overhead on top.
       </p>
 
-      <blockquote className={bq} style={{ color: "#092F64", borderLeft: "3px solid #1A5799" }}>
+      <blockquote className={bq} style={{ color: "#0E172A", borderLeft: "3px solid #1570EF" }}>
         Unified marketing infrastructure is not just an operational improvement.
         It is an exit multiple signal that compounds across growth, margin,
         brand equity, and operational sophistication.
       </blockquote>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>What Unified Infrastructure Actually Means</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>What Unified Infrastructure Actually Means</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         The term infrastructure gets misused frequently. It is not just
@@ -224,7 +224,7 @@ export default function InfrastructureThesisPage() {
         contracts.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>The platform layer</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>The platform layer</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Multi-tenant software that models the actual hierarchy of a franchise
         portfolio: PE firm, franchisor, brand, location. Per-location data
@@ -233,7 +233,7 @@ export default function InfrastructureThesisPage() {
         the location level.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>The methodology layer</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>The methodology layer</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         A consistent operational approach to local SEO, content production, GBP
         management, and reviews that is applied uniformly across every location.
@@ -242,7 +242,7 @@ export default function InfrastructureThesisPage() {
         infrastructure from agency services.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>The operating model</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>The operating model</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         A clear division of responsibility between corporate, the platform
         operator, and individual franchisees. Corporate sets brand direction and
@@ -252,7 +252,7 @@ export default function InfrastructureThesisPage() {
         work.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>What This Looks Like in Practice</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>What This Looks Like in Practice</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         A franchise portfolio running on unified marketing infrastructure
@@ -261,7 +261,7 @@ export default function InfrastructureThesisPage() {
         happens.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>A new franchisee joins the system</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>A new franchisee joins the system</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Fragmented model: corporate sends a welcome packet, the franchisee
         signs contracts with three or four vendors, custom website work begins,
@@ -277,7 +277,7 @@ export default function InfrastructureThesisPage() {
         time: hours, not weeks.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Corporate launches a new service across the portfolio</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Corporate launches a new service across the portfolio</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Fragmented model: corporate creates marketing materials, sends them to
         franchisees, hopes franchisees update their local websites, follows up
@@ -292,7 +292,7 @@ export default function InfrastructureThesisPage() {
         deployment status across the portfolio.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>A negative review needs response</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>A negative review needs response</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Fragmented model: the franchisee may or may not see the review depending
         on whether they use the review management vendor. If they see it, they
@@ -307,7 +307,7 @@ export default function InfrastructureThesisPage() {
         package tier), and logs the entire interaction for corporate visibility.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>The Buy vs. Build vs. Vendor Stack Decision</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>The Buy vs. Build vs. Vendor Stack Decision</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         PE operating partners and franchisor leadership teams often ask whether
@@ -315,7 +315,7 @@ export default function InfrastructureThesisPage() {
         from a vendor, or assembled from a stack of best-of-breed tools.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Building internally</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Building internally</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Possible but rarely economical. Building a multi-tenant marketing
         platform with SEO automation, content production at scale, GBP
@@ -325,7 +325,7 @@ export default function InfrastructureThesisPage() {
         significant and the maintenance cost is permanent.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Assembling a stack of tools</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Assembling a stack of tools</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         This is what most franchise systems do today. The result is the current
         state described earlier in this thesis. Stacks of single-purpose tools
@@ -335,7 +335,7 @@ export default function InfrastructureThesisPage() {
         integration overhead and the lack of portfolio-wide cohesion.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Purchasing a unified platform</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Purchasing a unified platform</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         A platform purpose-built for franchise systems can deliver the
         infrastructure without the build cost and without the integration
@@ -345,13 +345,13 @@ export default function InfrastructureThesisPage() {
         this. Few deliver it.
       </p>
 
-      <blockquote className={bq} style={{ color: "#092F64", borderLeft: "3px solid #1A5799" }}>
+      <blockquote className={bq} style={{ color: "#0E172A", borderLeft: "3px solid #1570EF" }}>
         The buy decision is straightforward when the platform is purpose-built.
         The difficult part is finding a platform that is genuinely architected
         for franchise rather than retrofitted.
       </blockquote>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>What to Look For in a Platform</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>What to Look For in a Platform</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         For operating partners evaluating marketing infrastructure for a
@@ -372,7 +372,7 @@ export default function InfrastructureThesisPage() {
         vendor stacks dressed up as platforms.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>The Window of Opportunity</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>The Window of Opportunity</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         There is a specific window in the lifecycle of a PE-backed franchise
@@ -395,7 +395,7 @@ export default function InfrastructureThesisPage() {
         years.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>Why This Thesis Matters Now</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>Why This Thesis Matters Now</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         AI search is changing local marketing in ways that fragmented vendor
@@ -418,7 +418,7 @@ export default function InfrastructureThesisPage() {
         location&apos;s local presence.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>The Practical Path Forward</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>The Practical Path Forward</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         For operating partners considering this thesis, the practical path is
@@ -437,7 +437,7 @@ export default function InfrastructureThesisPage() {
         with higher multiples than peers that do not.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>Conclusion</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>Conclusion</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         Franchise marketing is the last operational layer waiting to be

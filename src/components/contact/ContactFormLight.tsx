@@ -46,7 +46,7 @@ export default function ContactFormLight() {
       <div className="flex flex-col items-center justify-center py-16 text-center">
         <p
           className="text-[18px] font-medium"
-          style={{ color: "#092F64" }}
+          style={{ color: "#0E172A" }}
         >
           Thanks. Wyatt will be in touch within 24 hours.
         </p>
@@ -61,9 +61,9 @@ export default function ContactFormLight() {
         <label
           htmlFor="contact-name"
           className={labelClass}
-          style={{ color: "#092F64" }}
+          style={{ color: "#0E172A" }}
         >
-          Full name <span style={{ color: "#468BE6" }}>*</span>
+          Full name <span style={{ color: "#1570EF" }}>*</span>
         </label>
         <input
           type="text"
@@ -74,7 +74,7 @@ export default function ContactFormLight() {
           style={{
             backgroundColor: "#FFFFFF",
             border: "1px solid #E2E8F0",
-            color: "#092F64",
+            color: "#0E172A",
           }}
           placeholder="Your full name"
         />
@@ -85,9 +85,9 @@ export default function ContactFormLight() {
         <label
           htmlFor="contact-email"
           className={labelClass}
-          style={{ color: "#092F64" }}
+          style={{ color: "#0E172A" }}
         >
-          Work email <span style={{ color: "#468BE6" }}>*</span>
+          Work email <span style={{ color: "#1570EF" }}>*</span>
         </label>
         <input
           type="email"
@@ -98,7 +98,7 @@ export default function ContactFormLight() {
           style={{
             backgroundColor: "#FFFFFF",
             border: "1px solid #E2E8F0",
-            color: "#092F64",
+            color: "#0E172A",
           }}
           placeholder="you@company.com"
         />
@@ -109,10 +109,10 @@ export default function ContactFormLight() {
         <label
           htmlFor="contact-company"
           className={labelClass}
-          style={{ color: "#092F64" }}
+          style={{ color: "#0E172A" }}
         >
           Company / franchise system{" "}
-          <span style={{ color: "#468BE6" }}>*</span>
+          <span style={{ color: "#1570EF" }}>*</span>
         </label>
         <input
           type="text"
@@ -123,7 +123,7 @@ export default function ContactFormLight() {
           style={{
             backgroundColor: "#FFFFFF",
             border: "1px solid #E2E8F0",
-            color: "#092F64",
+            color: "#0E172A",
           }}
           placeholder="Your company name"
         />
@@ -134,9 +134,9 @@ export default function ContactFormLight() {
         <label
           htmlFor="contact-locations"
           className={labelClass}
-          style={{ color: "#092F64" }}
+          style={{ color: "#0E172A" }}
         >
-          Number of locations <span style={{ color: "#468BE6" }}>*</span>
+          Number of locations <span style={{ color: "#1570EF" }}>*</span>
         </label>
         <select
           id="contact-locations"
@@ -147,7 +147,7 @@ export default function ContactFormLight() {
           style={{
             backgroundColor: "#FFFFFF",
             border: "1px solid #E2E8F0",
-            color: "#092F64",
+            color: "#0E172A",
           }}
         >
           <option value="" disabled>
@@ -165,7 +165,7 @@ export default function ContactFormLight() {
         <label
           htmlFor="contact-message"
           className={labelClass}
-          style={{ color: "#092F64" }}
+          style={{ color: "#0E172A" }}
         >
           Message (optional)
         </label>
@@ -177,7 +177,7 @@ export default function ContactFormLight() {
           style={{
             backgroundColor: "#FFFFFF",
             border: "1px solid #E2E8F0",
-            color: "#092F64",
+            color: "#0E172A",
           }}
           placeholder="Tell us about your franchise system"
         />
@@ -188,7 +188,7 @@ export default function ContactFormLight() {
         type="submit"
         disabled={sending}
         className="btn-primary w-full rounded-xl py-3.5 text-[16px] font-semibold text-white"
-        style={{ backgroundColor: "#468BE6" }}
+        style={{ backgroundColor: "#1570EF" }}
       >
         {sending ? "Sending..." : "Request a demo"}
       </button>

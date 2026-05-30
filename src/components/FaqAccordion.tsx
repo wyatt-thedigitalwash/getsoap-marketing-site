@@ -65,8 +65,8 @@ export default function FaqAccordion() {
             key={i}
             className="overflow-hidden rounded-xl bg-white"
             style={{
-              border: isOpen ? "1px solid rgba(70, 139, 230, 0.2)" : "1px solid #E2E8F0",
-              boxShadow: "0 1px 4px rgba(9, 47, 100, 0.03)",
+              border: isOpen ? "1px solid rgba(21, 112, 239, 0.2)" : "1px solid #E2E8F0",
+              boxShadow: "0 1px 4px rgba(14, 23, 42, 0.03)",
               opacity: revealed ? 1 : 0,
               transform: revealed ? "translateY(0)" : "translateY(16px)",
               transition: `opacity 400ms ease-out ${i * 80}ms, transform 400ms ease-out ${i * 80}ms, border-color 200ms ease`,
@@ -84,7 +84,7 @@ export default function FaqAccordion() {
             >
               <span
                 className="text-[17px] font-semibold"
-                style={{ color: "#092F64" }}
+                style={{ color: "#0E172A" }}
               >
                 {faq.q}
               </span>
@@ -98,7 +98,7 @@ export default function FaqAccordion() {
                 strokeLinejoin="round"
                 className="ml-4 shrink-0 transition-all duration-200"
                 style={{
-                  stroke: isOpen ? "#468BE6" : "#71717A",
+                  stroke: isOpen ? "#1570EF" : "#71717A",
                   transform: isOpen ? "rotate(90deg)" : "rotate(0deg)",
                 }}
               >
@@ -108,7 +108,7 @@ export default function FaqAccordion() {
             <div
               className="faq-answer"
               style={{
-                maxHeight: isOpen ? "400px" : "0px",
+                maxHeight: isOpen ? "1000px" : "0px",
                 opacity: isOpen ? 1 : 0,
               }}
             >

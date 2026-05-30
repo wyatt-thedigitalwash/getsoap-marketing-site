@@ -16,7 +16,7 @@ export default function GbpPhotoMockup() {
         border: "1px solid #E2E8F0",
         borderRadius: 10,
         boxShadow:
-          "0 4px 20px rgba(9, 47, 100, 0.06), 0 12px 40px rgba(9, 47, 100, 0.04)",
+          "0 4px 20px rgba(14, 23, 42, 0.06), 0 12px 40px rgba(14, 23, 42, 0.04)",
         overflow: "hidden",
       }}
     >
@@ -52,14 +52,14 @@ export default function GbpPhotoMockup() {
       <div style={{ padding: "16px 18px" }}>
         {/* Header row */}
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-          <p style={{ fontSize: 14, fontWeight: 700, color: "#092F64" }}>
+          <p style={{ fontSize: 14, fontWeight: 700, color: "#0E172A" }}>
             Photo Library · Tampa Location
           </p>
           <span
             style={{
               fontSize: 12,
               fontWeight: 600,
-              color: "#1A5799",
+              color: "#1570EF",
               background: "#FFFFFF",
               border: "1px solid #E2E8F0",
               borderRadius: 6,
@@ -78,10 +78,10 @@ export default function GbpPhotoMockup() {
               key={tab}
               style={{
                 fontSize: 11,
-                color: i === 0 ? "#1A5799" : "#71717A",
+                color: i === 0 ? "#1570EF" : "#71717A",
                 fontWeight: i === 0 ? 600 : 400,
                 paddingBottom: 6,
-                borderBottom: i === 0 ? "2px solid #1A5799" : "2px solid transparent",
+                borderBottom: i === 0 ? "2px solid #1570EF" : "2px solid transparent",
                 whiteSpace: "nowrap",
               }}
             >

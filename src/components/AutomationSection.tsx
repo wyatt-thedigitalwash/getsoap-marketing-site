@@ -8,7 +8,7 @@ const cards = [
     title: "Blog Content",
     description: "AI-drafted, human-reviewed blog posts for every location, every month.",
     icon: (
-      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#468BE6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#1570EF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <rect x="4" y="3" width="16" height="18" rx="2" />
         <line x1="8" y1="8" x2="16" y2="8" />
         <line x1="8" y1="12" x2="16" y2="12" />
@@ -20,7 +20,7 @@ const cards = [
     title: "Review Responses",
     description: "Every Google review gets a drafted response. Your team approves before it sends.",
     icon: (
-      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#468BE6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#1570EF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
       </svg>
     ),
@@ -29,7 +29,7 @@ const cards = [
     title: "SEO Audits",
     description: "Monthly technical audits flag issues and prioritize fixes automatically.",
     icon: (
-      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#468BE6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#1570EF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="11" cy="11" r="7" />
         <line x1="16.5" y1="16.5" x2="21" y2="21" />
         <path d="M8 11l2 2 4-4" />
@@ -40,7 +40,7 @@ const cards = [
     title: "GBP Posts",
     description: "Weekly Google Business Profile posts scheduled and published for every location.",
     icon: (
-      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#468BE6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#1570EF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <rect x="3" y="4" width="18" height="18" rx="2" />
         <line x1="3" y1="10" x2="21" y2="10" />
         <line x1="9" y1="4" x2="9" y2="10" />
@@ -54,7 +54,7 @@ const cards = [
     title: "Citation Building",
     description: "Local directory submissions across 60+ platforms, monitored for accuracy.",
     icon: (
-      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#468BE6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#1570EF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="9" />
         <ellipse cx="12" cy="12" rx="4" ry="9" />
         <line x1="3" y1="12" x2="21" y2="12" />
@@ -65,7 +65,7 @@ const cards = [
     title: "Website Audits",
     description: "Monthly performance, accessibility, and SEO health checks on every location site.",
     icon: (
-      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#468BE6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#1570EF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <rect x="3" y="4" width="18" height="14" rx="2" />
         <line x1="3" y1="9" x2="21" y2="9" />
         <line x1="7" y1="6.5" x2="7" y2="6.5" />
@@ -79,7 +79,7 @@ const cards = [
     title: "Schema Markup",
     description: "LocalBusiness structured data deployed and maintained on every page automatically.",
     icon: (
-      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#468BE6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#1570EF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <polyline points="16 18 22 12 16 6" />
         <polyline points="8 6 2 12 8 18" />
         <line x1="14" y1="4" x2="10" y2="20" />
@@ -90,7 +90,7 @@ const cards = [
     title: "Rank Tracking",
     description: "Weekly keyword ranking updates for every location across target search terms.",
     icon: (
-      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#468BE6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#1570EF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <polyline points="4 16 8 12 12 14 20 6" />
         <polyline points="16 6 20 6 20 10" />
       </svg>
@@ -205,10 +205,7 @@ export default function AutomationSection() {
     >
       {/* Header */}
       <ScrollReveal className="mx-auto max-w-7xl px-6 md:px-16" style={{ marginBottom: 48 }} distance={20}>
-        <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1A5799" }}>
-          Automation
-        </p>
-        <h2 className="mt-4 text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#092F64" }}>
+        <h2 className="text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#0E172A" }}>
           Automated execution. Human judgment.
         </h2>
         <p className="mt-4 max-w-[580px] text-[16px] leading-[1.6] md:text-[17px]" style={{ color: "#1F1F1F" }}>
@@ -234,7 +231,7 @@ export default function AutomationSection() {
             {card.icon}
             <h3
               className="text-[17px] font-bold"
-              style={{ color: "#092F64", marginTop: 14 }}
+              style={{ color: "#0E172A", marginTop: 14 }}
             >
               {card.title}
             </h3>
@@ -263,7 +260,7 @@ export default function AutomationSection() {
             aria-label="Previous"
             disabled={!canLeft}
           >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#092F64" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0E172A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <polyline points="15 18 9 12 15 6" />
             </svg>
           </button>
@@ -279,7 +276,7 @@ export default function AutomationSection() {
             aria-label="Next"
             disabled={!canRight}
           >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#092F64" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0E172A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <polyline points="9 18 15 12 9 6" />
             </svg>
           </button>

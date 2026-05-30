@@ -25,8 +25,8 @@ export default function Button({
         style={{
           ...sizeStyles,
           borderRadius: 8,
-          border: "1px solid rgba(9, 47, 100, 0.25)",
-          color: "#092F64",
+          border: "1px solid rgba(14, 23, 42, 0.25)",
+          color: "#0E172A",
         }}
       >
         {children}
@@ -41,7 +41,7 @@ export default function Button({
       style={{
         ...sizeStyles,
         borderRadius: 8,
-        backgroundColor: "#468BE6",
+        backgroundColor: "#1570EF",
         color: "#FFFFFF",
       }}
     >

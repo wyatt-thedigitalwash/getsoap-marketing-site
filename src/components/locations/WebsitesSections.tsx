@@ -99,10 +99,10 @@ export function ServicePagesSection() {
       <Container>
         <ScrollReveal>
           <div className="text-center">
-            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1A5799" }}>
+            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1570EF" }}>
               Service Pages
             </p>
-            <h2 className="mx-auto mt-4 max-w-[720px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#092F64" }}>
+            <h2 className="mx-auto mt-4 max-w-[720px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#0E172A" }}>
               What makes every page rank.
             </h2>
             <p className="mx-auto mt-4 max-w-[680px] text-[16px] leading-[1.6] md:text-[17px]" style={{ color: "#1F1F1F" }}>
@@ -119,10 +119,10 @@ export function ServicePagesSection() {
               distance={24}
               premium
               className="rounded-xl bg-white"
-              style={{ border: "1px solid #E1E5EC", padding: 28, boxShadow: "0 1px 3px rgba(9, 47, 100, 0.04)" }}
+              style={{ border: "1px solid #E1E5EC", padding: 28, boxShadow: "0 1px 3px rgba(14, 23, 42, 0.04)" }}
             >
-              <card.Icon size={28} style={{ color: "#1A5799" }} />
-              <h3 className="mt-5 text-[18px] font-bold" style={{ color: "#092F64" }}>{card.heading}</h3>
+              <card.Icon size={28} style={{ color: "#1570EF" }} />
+              <h3 className="mt-5 text-[18px] font-bold" style={{ color: "#0E172A" }}>{card.heading}</h3>
               <p className="mt-3 text-[14px] leading-[1.6] md:text-[15px]" style={{ color: "#1F1F1F" }}>{card.desc}</p>
             </ScrollReveal>
           ))}
@@ -135,13 +135,13 @@ export function ServicePagesSection() {
 /* ── S4: SEO Architecture ── */
 export function SeoArchitectureSection() {
   return (
-    <section data-bg="light" className="relative px-6 py-[84px] md:px-16 md:py-[112px]" style={{ backgroundColor: "#E9F5FF" }}>
+    <section data-bg="light" className="relative px-6 py-[84px] md:px-16 md:py-[112px]" style={{ backgroundColor: "#F8FAFC" }}>
       <div className="pointer-events-none absolute inset-0" style={{ backgroundImage: NOISE_SVG, backgroundRepeat: "repeat", mixBlendMode: "soft-light", opacity: 0.1 }} />
       <Container className="relative">
         <ScrollReveal>
           <div className="text-center">
-            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1A5799" }}>Technical Foundation</p>
-            <h2 className="mx-auto mt-4 max-w-[720px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#092F64" }}>
+            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1570EF" }}>Technical Foundation</p>
+            <h2 className="mx-auto mt-4 max-w-[720px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#0E172A" }}>
               Optimized before you even log in.
             </h2>
             <p className="mx-auto mt-4 max-w-[640px] text-[16px] leading-[1.6] md:text-[17px]" style={{ color: "#1F1F1F" }}>
@@ -153,15 +153,15 @@ export function SeoArchitectureSection() {
         <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
           {seoCards.map((card, i) => (
             <ScrollReveal key={card.heading} delay={150 + i * 100} premium className="rounded-xl bg-white" style={{ border: "1px solid #E2E8F0", padding: 28 }}>
-              <card.Icon size={28} style={{ color: "#1A5799" }} />
-              <h3 className="mt-5 text-[18px] font-bold" style={{ color: "#092F64" }}>{card.heading}</h3>
+              <card.Icon size={28} style={{ color: "#1570EF" }} />
+              <h3 className="mt-5 text-[18px] font-bold" style={{ color: "#0E172A" }}>{card.heading}</h3>
               <p className="mt-3 text-[14px] leading-[1.6]" style={{ color: "#1F1F1F" }}>{card.desc}</p>
             </ScrollReveal>
           ))}
         </div>
 
         <ScrollReveal delay={500}>
-          <p className="mt-12 text-center text-[13px] font-semibold" style={{ color: "#092F64" }}>
+          <p className="mt-12 text-center text-[13px] font-semibold" style={{ color: "#0E172A" }}>
             For the full technical and methodological depth, see the{" "}
             <Link href="/seo" className="underline decoration-transparent transition-colors hover:decoration-current">
               SEO page
@@ -177,7 +177,7 @@ export function SeoArchitectureSection() {
 /* ── S5: Built for Leads ── */
 export function LeadsSection() {
   return (
-    <section data-bg="dark" className="px-6 py-[84px] md:px-16 md:py-[112px]" style={{ backgroundColor: "#092F64" }}>
+    <section data-bg="dark" className="px-6 py-[84px] md:px-16 md:py-[112px]" style={{ backgroundColor: "#0E172A" }}>
       <Container>
         <ScrollReveal>
           <div className="text-center">
@@ -194,7 +194,7 @@ export function LeadsSection() {
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
           {leadBlocks.map((block, i) => (
             <ScrollReveal key={block.heading} delay={100 + i * 80} distance={20}>
-              <block.Icon size={24} style={{ color: "#468BE6" }} />
+              <block.Icon size={24} style={{ color: "#1570EF" }} />
               <h3 className="mt-4 text-[18px] font-bold text-white">{block.heading}</h3>
               <p className="mt-2 text-[14px] leading-[1.6]" style={{ color: "#C9DBEC" }}>{block.desc}</p>
             </ScrollReveal>
@@ -212,8 +212,8 @@ export function DeploymentSection() {
       <Container>
         <ScrollReveal>
           <div className="text-center">
-            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1A5799" }}>Deployment</p>
-            <h2 className="mx-auto mt-4 max-w-[800px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#092F64" }}>
+            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1570EF" }}>Deployment</p>
+            <h2 className="mx-auto mt-4 max-w-[800px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#0E172A" }}>
               New franchisee. Dozens of new pages. Live in minutes.
             </h2>
             <p className="mx-auto mt-4 max-w-[680px] text-[16px] leading-[1.6] md:text-[17px]" style={{ color: "#1F1F1F" }}>
@@ -233,13 +233,13 @@ export function DeploymentSection() {
 /* ── S7: Franchisor Controls ── */
 export function FranchisorControlsSection() {
   return (
-    <section data-bg="light" className="relative px-6 py-[84px] md:px-16 md:py-[112px]" style={{ backgroundColor: "#E9F5FF" }}>
+    <section data-bg="light" className="relative px-6 py-[84px] md:px-16 md:py-[112px]" style={{ backgroundColor: "#F8FAFC" }}>
       <div className="pointer-events-none absolute inset-0" style={{ backgroundImage: NOISE_SVG, backgroundRepeat: "repeat", mixBlendMode: "soft-light", opacity: 0.1 }} />
       <Container className="relative">
         <div className="flex flex-col gap-10 md:flex-row md:items-center md:gap-16">
           <ScrollReveal className="md:w-1/2">
-            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1A5799" }}>Franchisor Controls</p>
-            <h2 className="mt-4 text-[26px] font-bold leading-tight tracking-[-0.02em] md:text-[32px]" style={{ color: "#092F64" }}>
+            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1570EF" }}>Franchisor Controls</p>
+            <h2 className="mt-4 text-[26px] font-bold leading-tight tracking-[-0.02em] md:text-[32px]" style={{ color: "#0E172A" }}>
               Corporate sets the rules. Soap enforces them.
             </h2>
             <p className="mt-4 text-[15px] leading-[1.6] md:text-[16px]" style={{ color: "#1F1F1F" }}>
@@ -248,7 +248,7 @@ export function FranchisorControlsSection() {
             <ul className="mt-6 flex flex-col gap-3">
               {franchisorFeatures.map((f) => (
                 <li key={f} className="flex items-start gap-2.5">
-                  <Check size={16} style={{ color: "#1A5799", marginTop: 3, flexShrink: 0 }} />
+                  <Check size={16} style={{ color: "#1570EF", marginTop: 3, flexShrink: 0 }} />
                   <span className="text-[15px]" style={{ color: "#1F1F1F" }}>{f}</span>
                 </li>
               ))}

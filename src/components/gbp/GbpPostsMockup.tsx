@@ -29,7 +29,7 @@ export default function GbpPostsMockup() {
         border: "1px solid #E2E8F0",
         borderRadius: 10,
         boxShadow:
-          "0 4px 20px rgba(9, 47, 100, 0.06), 0 12px 40px rgba(9, 47, 100, 0.04)",
+          "0 4px 20px rgba(14, 23, 42, 0.06), 0 12px 40px rgba(14, 23, 42, 0.04)",
         overflow: "hidden",
       }}
     >
@@ -63,7 +63,7 @@ export default function GbpPostsMockup() {
 
       {/* Content */}
       <div style={{ padding: "16px 18px" }}>
-        <p style={{ fontSize: 14, fontWeight: 700, color: "#092F64" }}>
+        <p style={{ fontSize: 14, fontWeight: 700, color: "#0E172A" }}>
           Scheduled Posts · This Week
         </p>
         <p style={{ fontSize: 12, color: "#71717A", marginTop: 6 }}>
@@ -87,7 +87,7 @@ export default function GbpPostsMockup() {
                   width: 3,
                   height: 32,
                   borderRadius: 2,
-                  background: "#1A5799",
+                  background: "#1570EF",
                   flexShrink: 0,
                 }}
               />
@@ -97,7 +97,7 @@ export default function GbpPostsMockup() {
                 height="14"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="#1A5799"
+                stroke="#1570EF"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -110,7 +110,7 @@ export default function GbpPostsMockup() {
               </svg>
               {/* Post info */}
               <div style={{ flex: 1, minWidth: 0 }}>
-                <p style={{ fontSize: 13, fontWeight: 600, color: "#092F64" }}>
+                <p style={{ fontSize: 13, fontWeight: 600, color: "#0E172A" }}>
                   {post.title}
                 </p>
                 <p style={{ fontSize: 11, color: "#71717A", marginTop: 1 }}>

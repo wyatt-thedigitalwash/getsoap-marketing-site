@@ -20,18 +20,18 @@ The governing rule is "Subtle depth, not flat. Not decorative." Anti-patterns in
 
 | Name | Hex | CSS Variable | Tailwind Config | Usage |
 |------|-----|-------------|-----------------|-------|
-| Tufts Blue | `#468BE6` | `--color-tufts-blue: #468BE6;` | `'tufts-blue': '#468BE6'` | Primary CTAs, links, active states, key highlights, "Soap blue" |
-| Cobalt Blue | `#1A5799` | `--color-cobalt-blue: #1A5799;` | `'cobalt-blue': '#1A5799'` | Eyebrow labels, hover depth, secondary emphasis, focus rings |
-| Cool Black | `#092F64` | `--color-cool-black: #092F64;` | `'cool-black': '#092F64'` | Headlines, navigation text, footer background |
+| Tufts Blue | `#1570EF` | `--color-tufts-blue: #1570EF;` | `'tufts-blue': '#1570EF'` | Primary CTAs, links, active states, key highlights, "Soap blue" |
+| Cobalt Blue | `#1570EF` | `--color-cobalt-blue: #1570EF;` | `'cobalt-blue': '#1570EF'` | Eyebrow labels, hover depth, secondary emphasis, focus rings |
+| Cool Black | `#0E172A` | `--color-cool-black: #0E172A;` | `'cool-black': '#0E172A'` | Headlines, navigation text, footer background |
 
 #### Background
 
 | Name | Hex | CSS Variable | Tailwind Config | Usage |
 |------|-----|-------------|-----------------|-------|
 | White | `#FFFFFF` | `--color-bg-white: #FFFFFF;` | `'bg-white': '#FFFFFF'` | Primary page background, card backgrounds |
-| Alice Blue | `#E9F5FF` | `--color-alice-blue: #E9F5FF;` | `'alice-blue': '#E9F5FF'` | Alternating section backgrounds, gradient start, contact form container |
-| Alice Blue Dark | `#E0EFFA` | `--color-alice-blue-dark: #E0EFFA;` | `'alice-blue-dark': '#E0EFFA'` | Gradient endpoint for Alice Blue sections |
-| Cool Black | `#092F64` | `--color-bg-dark: #092F64;` | `'bg-dark': '#092F64'` | Footer, dark CTA sections, mobile app section |
+| Alice Blue | `#F8FAFC` | `--color-alice-blue: #F8FAFC;` | `'alice-blue': '#F8FAFC'` | Alternating section backgrounds, gradient start, contact form container |
+| Alice Blue Dark | `#F1F5F9` | `--color-alice-blue-dark: #F1F5F9;` | `'alice-blue-dark': '#F1F5F9'` | Gradient endpoint for Alice Blue sections |
+| Cool Black | `#0E172A` | `--color-bg-dark: #0E172A;` | `'bg-dark': '#0E172A'` | Footer, dark CTA sections, mobile app section |
 
 #### Surface
 
@@ -46,14 +46,14 @@ The governing rule is "Subtle depth, not flat. Not decorative." Anti-patterns in
 |------|-------|-------------|-----------------|-------|
 | Slate 200 | `#E2E8F0` | `--color-border: #E2E8F0;` | `'border': '#E2E8F0'` | Standard border for cards, inputs, dividers across the entire site |
 | Jordy Blue rgba | `rgba(147, 191, 239, X)` | `--color-jordy-blue-rgba: rgba(147, 191, 239, 0.15);` | N/A (inline only) | Hero gradients and decorative borders only, never as a direct hex |
-| Active Blue | `rgba(70, 139, 230, 0.2)` | `--color-active-border: rgba(70, 139, 230, 0.2);` | N/A (inline only) | FAQ active state, guide card hover |
-| Outline Button | `rgba(9, 47, 100, 0.25)` | `--color-outline-border: rgba(9, 47, 100, 0.25);` | N/A (inline only) | Outline button border |
+| Active Blue | `rgba(21, 112, 239, 0.2)` | `--color-active-border: rgba(21, 112, 239, 0.2);` | N/A (inline only) | FAQ active state, guide card hover |
+| Outline Button | `rgba(14, 23, 42, 0.25)` | `--color-outline-border: rgba(14, 23, 42, 0.25);` | N/A (inline only) | Outline button border |
 
 #### Text
 
 | Name | Hex | CSS Variable | Tailwind Config | Usage |
 |------|-----|-------------|-----------------|-------|
-| Cool Black | `#092F64` | `--color-text-headline: #092F64;` | `'text-headline': '#092F64'` | Headlines, nav text, form labels, FAQ questions |
+| Cool Black | `#0E172A` | `--color-text-headline: #0E172A;` | `'text-headline': '#0E172A'` | Headlines, nav text, form labels, FAQ questions |
 | Eerie Black | `#1F1F1F` | `--color-text-body: #1F1F1F;` | `'text-body': '#1F1F1F'` | Body text, card descriptions, legal content |
 | Gray 500 | `#71717A` | `--color-text-muted: #71717A;` | `'text-muted': '#71717A'` | Muted secondary text, captions, card descriptions, automation card descriptions |
 | Slate 400 | `#94A3B8` | `--color-text-placeholder: #94A3B8;` | `'text-placeholder': '#94A3B8'` | Placeholder text in form inputs |
@@ -95,14 +95,14 @@ The governing rule is "Subtle depth, not flat. Not decorative." Anti-patterns in
 /* CSS Custom Properties */
 :root {
   /* Brand */
-  --color-tufts-blue: #468BE6;
-  --color-cobalt-blue: #1A5799;
-  --color-cool-black: #092F64;
+  --color-tufts-blue: #1570EF;
+  --color-cobalt-blue: #1570EF;
+  --color-cool-black: #0E172A;
 
   /* Background */
   --color-bg-white: #FFFFFF;
-  --color-alice-blue: #E9F5FF;
-  --color-alice-blue-dark: #E0EFFA;
+  --color-alice-blue: #F8FAFC;
+  --color-alice-blue-dark: #F1F5F9;
 
   /* Surface */
   --color-slate-100: #F1F5F9;
@@ -112,7 +112,7 @@ The governing rule is "Subtle depth, not flat. Not decorative." Anti-patterns in
   --color-border: #E2E8F0;
 
   /* Text */
-  --color-text-headline: #092F64;
+  --color-text-headline: #0E172A;
   --color-text-body: #1F1F1F;
   --color-text-muted: #71717A;
   --color-text-placeholder: #94A3B8;
@@ -128,15 +128,15 @@ The governing rule is "Subtle depth, not flat. Not decorative." Anti-patterns in
 ```js
 // tailwind.config.js colors
 colors: {
-  'tufts-blue': '#468BE6',
-  'cobalt-blue': '#1A5799',
-  'cool-black': '#092F64',
-  'alice-blue': '#E9F5FF',
-  'alice-blue-dark': '#E0EFFA',
+  'tufts-blue': '#1570EF',
+  'cobalt-blue': '#1570EF',
+  'cool-black': '#0E172A',
+  'alice-blue': '#F8FAFC',
+  'alice-blue-dark': '#F1F5F9',
   'slate-100': '#F1F5F9',
   'slate-50': '#F8FAFC',
   'border': '#E2E8F0',
-  'text-headline': '#092F64',
+  'text-headline': '#0E172A',
   'text-body': '#1F1F1F',
   'text-muted': '#71717A',
   'text-placeholder': '#94A3B8',
@@ -194,19 +194,19 @@ colors: {
 
 | Context | Size | Weight | Tracking | Transform | Color |
 |---------|------|--------|----------|-----------|-------|
-| Standard section | 11px | 700 | 0.12em | uppercase | `#1A5799` |
-| CTA section (dark bg) | 12px | 700 | 0.15em | uppercase | `#468BE6` |
+| Standard section | 11px | 700 | 0.12em | uppercase | `#1570EF` |
+| CTA section (dark bg) | 12px | 700 | 0.15em | uppercase | `#1570EF` |
 | Dark mid-section | 11-12px | 700 | 0.15em | uppercase | `#C9DBEC` |
 | Footer column headers | 11px | 700 | 0.12em | uppercase | `rgba(255,255,255,0.4)` |
-| Card eyebrow | 11px | 700 | 0.08em | uppercase | `#092F64` |
+| Card eyebrow | 11px | 700 | 0.08em | uppercase | `#0E172A` |
 
 #### Form Typography
 
 | Element | Size | Weight | Tracking | Color |
 |---------|------|--------|----------|-------|
-| Label | 11px | 600-700 | 0.1em | `#092F64` |
-| Required asterisk | - | - | - | `#468BE6` |
-| Input text | 14px | 400 | - | `#092F64` |
+| Label | 11px | 600-700 | 0.1em | `#0E172A` |
+| Required asterisk | - | - | - | `#1570EF` |
+| Input text | 14px | 400 | - | `#0E172A` |
 | Placeholder | 14px | 400 | - | `#94A3B8` |
 | Submit button | 16px | 600 | - | `#FFFFFF` |
 | Helper text | 12px | 400 | - | `#71717A` |
@@ -215,8 +215,8 @@ colors: {
 
 | Element | Size | Weight | Color |
 |---------|------|--------|-------|
-| Logo wordmark | 24px (text-2xl) | 800 | `#092F64` (light) / `#FFFFFF` (dark) |
-| Nav links | 14px (text-sm) | 700 | `#092F64` (light) / `#FFFFFF` (dark) |
+| Logo wordmark | 24px (text-2xl) | 800 | `#0E172A` (light) / `#FFFFFF` (dark) |
+| Nav links | 14px (text-sm) | 700 | `#0E172A` (light) / `#FFFFFF` (dark) |
 | Nav CTA button | 14px (text-sm) | 600 | `#FFFFFF` |
 | Mobile nav links | 22px | 600 | matches mode |
 | Mobile nav CTA | 17px | 600 | `#FFFFFF` |
@@ -273,24 +273,24 @@ Standard spacing values used throughout the codebase, mapped to Tailwind utiliti
 | Token | Value | CSS Variable | Usage |
 |-------|-------|-------------|-------|
 | shadow-none | `none` | `--shadow-none: none;` | Automation cards, feature visual containers |
-| shadow-xs | `0 1px 3px rgba(9, 47, 100, 0.04)` | `--shadow-xs: 0 1px 3px rgba(9, 47, 100, 0.04);` | Nav header, hierarchy cards (WebsitesSections) |
-| shadow-sm | `0 1px 4px rgba(9, 47, 100, 0.03)` | `--shadow-sm: 0 1px 4px rgba(9, 47, 100, 0.03);` | FAQ items |
-| shadow-md | `0 4px 20px rgba(9, 47, 100, 0.05)` | `--shadow-md: 0 4px 20px rgba(9, 47, 100, 0.05);` | Feature cards, guide cards, standard cards |
-| shadow-lg | `0 8px 32px rgba(9, 47, 100, 0.08)` | `--shadow-lg: 0 8px 32px rgba(9, 47, 100, 0.08);` | Form containers, guide card hover |
-| shadow-hover | `0 8px 32px rgba(9, 47, 100, 0.10)` | `--shadow-hover: 0 8px 32px rgba(9, 47, 100, 0.10);` | Card hover state |
-| shadow-btn-primary | `0 4px 12px rgba(70, 139, 230, 0.3)` | `--shadow-btn-primary: 0 4px 12px rgba(70, 139, 230, 0.3);` | Primary button hover |
+| shadow-xs | `0 1px 3px rgba(14, 23, 42, 0.04)` | `--shadow-xs: 0 1px 3px rgba(14, 23, 42, 0.04);` | Nav header, hierarchy cards (WebsitesSections) |
+| shadow-sm | `0 1px 4px rgba(14, 23, 42, 0.03)` | `--shadow-sm: 0 1px 4px rgba(14, 23, 42, 0.03);` | FAQ items |
+| shadow-md | `0 4px 20px rgba(14, 23, 42, 0.05)` | `--shadow-md: 0 4px 20px rgba(14, 23, 42, 0.05);` | Feature cards, guide cards, standard cards |
+| shadow-lg | `0 8px 32px rgba(14, 23, 42, 0.08)` | `--shadow-lg: 0 8px 32px rgba(14, 23, 42, 0.08);` | Form containers, guide card hover |
+| shadow-hover | `0 8px 32px rgba(14, 23, 42, 0.10)` | `--shadow-hover: 0 8px 32px rgba(14, 23, 42, 0.10);` | Card hover state |
+| shadow-btn-primary | `0 4px 12px rgba(21, 112, 239, 0.3)` | `--shadow-btn-primary: 0 4px 12px rgba(21, 112, 239, 0.3);` | Primary button hover |
 | shadow-tab-active | `0 1px 3px rgba(0, 0, 0, 0.08)` | `--shadow-tab-active: 0 1px 3px rgba(0, 0, 0, 0.08);` | Active tab in PlatformTabs |
-| shadow-about-photo | `0 4px 20px rgba(9, 47, 100, 0.06), 0 12px 40px rgba(9, 47, 100, 0.04)` | N/A | About page headshot card |
+| shadow-about-photo | `0 4px 20px rgba(14, 23, 42, 0.06), 0 12px 40px rgba(14, 23, 42, 0.04)` | N/A | About page headshot card |
 
 ```css
 :root {
   --shadow-none: none;
-  --shadow-xs: 0 1px 3px rgba(9, 47, 100, 0.04);
-  --shadow-sm: 0 1px 4px rgba(9, 47, 100, 0.03);
-  --shadow-md: 0 4px 20px rgba(9, 47, 100, 0.05);
-  --shadow-lg: 0 8px 32px rgba(9, 47, 100, 0.08);
-  --shadow-hover: 0 8px 32px rgba(9, 47, 100, 0.10);
-  --shadow-btn-primary: 0 4px 12px rgba(70, 139, 230, 0.3);
+  --shadow-xs: 0 1px 3px rgba(14, 23, 42, 0.04);
+  --shadow-sm: 0 1px 4px rgba(14, 23, 42, 0.03);
+  --shadow-md: 0 4px 20px rgba(14, 23, 42, 0.05);
+  --shadow-lg: 0 8px 32px rgba(14, 23, 42, 0.08);
+  --shadow-hover: 0 8px 32px rgba(14, 23, 42, 0.10);
+  --shadow-btn-primary: 0 4px 12px rgba(21, 112, 239, 0.3);
   --shadow-tab-active: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 ```
@@ -356,10 +356,10 @@ Standard spacing values used throughout the codebase, mapped to Tailwind utiliti
 
 | Name | Value | Usage |
 |------|-------|-------|
-| Hero BG | `radial-gradient(ellipse 80% 60% at 50% 20%, #1A4080 0%, #092F64 70%, #061F47 100%)` | Home hero background, mobile menu dark mode |
+| Hero BG | `radial-gradient(ellipse 80% 60% at 50% 20%, #152D54 0%, #0E172A 70%, #060D1A 100%)` | Home hero background, mobile menu dark mode |
 | Hero Bottom Fade | `linear-gradient(to bottom, transparent 0%, transparent 80%, rgba(6, 31, 71, 0.4) 100%)` | Bottom fade on hero section |
-| Alice Blue Section | `radial-gradient(ellipse 80% 50% at 50% 0%, #E9F5FF 0%, #E0EFFA 100%)` | "Inside the Platform" section on home page |
-| Mockup Hero Banner | `linear-gradient(135deg, #E9F5FF 0%, #D6ECFD 100%)` | Website visual hero banner in FeatureRows |
+| Alice Blue Section | `radial-gradient(ellipse 80% 50% at 50% 0%, #F8FAFC 0%, #F1F5F9 100%)` | "Inside the Platform" section on home page |
+| Mockup Hero Banner | `linear-gradient(135deg, #F8FAFC 0%, #F1F5F9 100%)` | Website visual hero banner in FeatureRows |
 
 ---
 
@@ -386,7 +386,7 @@ url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/20
 
 | Property | Default | Large | Nav |
 |----------|---------|-------|-----|
-| Background | `#468BE6` | `#468BE6` | `#468BE6` |
+| Background | `#1570EF` | `#1570EF` | `#1570EF` |
 | Text color | `#FFFFFF` | `#FFFFFF` | `#FFFFFF` |
 | Font size | 14px | 16px | 14px |
 | Font weight | 600 | 600 | 600 |
@@ -399,8 +399,8 @@ url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/20
 | State | Effect |
 |-------|--------|
 | Default | Flat, no shadow |
-| Hover | `translateY(-2px)`, `box-shadow: 0 4px 12px rgba(70, 139, 230, 0.3)`, `transition: all 0.3s ease` |
-| Focus-visible | `outline: 2px solid #468BE6; outline-offset: 2px` |
+| Hover | `translateY(-2px)`, `box-shadow: 0 4px 12px rgba(21, 112, 239, 0.3)`, `transition: all 0.3s ease` |
+| Focus-visible | `outline: 2px solid #1570EF; outline-offset: 2px` |
 | Disabled (form submit) | Visually unchanged (sends "Sending..." text) |
 
 ```css
@@ -408,7 +408,7 @@ url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/20
   display: inline-block;
   font-weight: 600;
   text-align: center;
-  background-color: #468BE6;
+  background-color: #1570EF;
   color: #FFFFFF;
   padding: 12px 28px;
   font-size: 14px;
@@ -417,7 +417,7 @@ url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/20
 }
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(70, 139, 230, 0.3);
+  box-shadow: 0 4px 12px rgba(21, 112, 239, 0.3);
 }
 ```
 
@@ -426,11 +426,11 @@ url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/20
 | Property | Value |
 |----------|-------|
 | Background | transparent |
-| Text color | `#092F64` |
+| Text color | `#0E172A` |
 | Font size | 14px (default), 16px (large) |
 | Font weight | 600 |
 | Padding | `12px 28px` (default), `14px 32px` (large) |
-| Border | `1px solid rgba(9, 47, 100, 0.25)` |
+| Border | `1px solid rgba(14, 23, 42, 0.25)` |
 | Border radius | 8px |
 
 **States:**
@@ -438,8 +438,8 @@ url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/20
 | State | Effect |
 |-------|--------|
 | Default | Transparent background |
-| Hover | `background: rgba(70, 139, 230, 0.06)`, `border-color: #468BE6`, `color: #468BE6`, `transition: all 0.3s ease` |
-| Focus-visible | `outline: 2px solid #468BE6; outline-offset: 2px` |
+| Hover | `background: rgba(21, 112, 239, 0.06)`, `border-color: #1570EF`, `color: #1570EF`, `transition: all 0.3s ease` |
+| Focus-visible | `outline: 2px solid #1570EF; outline-offset: 2px` |
 
 **Outline on Dark (Hero):**
 
@@ -455,17 +455,17 @@ url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/20
   font-weight: 600;
   text-align: center;
   background-color: transparent;
-  color: #092F64;
+  color: #0E172A;
   padding: 12px 28px;
   font-size: 14px;
-  border: 1px solid rgba(9, 47, 100, 0.25);
+  border: 1px solid rgba(14, 23, 42, 0.25);
   border-radius: 8px;
   transition: all 0.3s ease;
 }
 .btn-outline:hover {
-  background-color: rgba(70, 139, 230, 0.06);
-  border-color: #468BE6;
-  color: #468BE6;
+  background-color: rgba(21, 112, 239, 0.06);
+  border-color: #1570EF;
+  color: #1570EF;
 }
 ```
 
@@ -473,7 +473,7 @@ url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/20
 
 | Property | Value |
 |----------|-------|
-| Background | `#468BE6` |
+| Background | `#1570EF` |
 | Text color | `#FFFFFF` |
 | Font size | 16px |
 | Font weight | 600 |
@@ -491,7 +491,7 @@ url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/20
 | Border radius | full (circle) |
 | Hover BG | `#F1F5F9` |
 | Disabled opacity | 0.3 |
-| Icon | 18x18px, stroke `#092F64`, strokeWidth 2 |
+| Icon | 18x18px, stroke `#0E172A`, strokeWidth 2 |
 
 ---
 
@@ -510,7 +510,7 @@ Based on ContactFormLight.tsx implementation.
 | Border radius | 8px (rounded-lg) |
 | Font size | 14px |
 | Font weight | 400 |
-| Text color | `#092F64` |
+| Text color | `#0E172A` |
 | Placeholder color | `#94A3B8` |
 | Outline | none (outline-none via Tailwind) |
 | Transition | all (via transition-all) |
@@ -520,7 +520,7 @@ Based on ContactFormLight.tsx implementation.
 | State | Effect |
 |-------|--------|
 | Default | `border: 1px solid #E2E8F0` |
-| Focus | `border-color: #1A5799`, `box-shadow: 0 0 0 3px rgba(26, 87, 153, 0.1)` |
+| Focus | `border-color: #1570EF`, `box-shadow: 0 0 0 3px rgba(21, 112, 239, 0.1)` |
 | Error | `border-color: #EF4444`, helper text `#EF4444` below input |
 | Disabled | Reduce opacity to 0.5, cursor: not-allowed |
 
@@ -532,8 +532,8 @@ Based on ContactFormLight.tsx implementation.
 | Font weight | 600-700 |
 | Transform | uppercase |
 | Letter spacing | 0.1em |
-| Color | `#092F64` |
-| Required marker | `*` in `#468BE6` |
+| Color | `#0E172A` |
+| Required marker | `*` in `#1570EF` |
 
 #### Select
 
@@ -551,9 +551,9 @@ Same styling as Text Input. Uses `rows={4}` for default height.
 | Border | `1.5px solid #E2E8F0` |
 | Border radius | 4px |
 | Background (unchecked) | `#FFFFFF` |
-| Background (checked) | `#468BE6` |
+| Background (checked) | `#1570EF` |
 | Check mark | White, 2px stroke |
-| Focus | `box-shadow: 0 0 0 3px rgba(26, 87, 153, 0.1)` |
+| Focus | `box-shadow: 0 0 0 3px rgba(21, 112, 239, 0.1)` |
 
 #### Radio (derived)
 
@@ -563,8 +563,8 @@ Same styling as Text Input. Uses `rows={4}` for default height.
 | Border | `1.5px solid #E2E8F0` |
 | Border radius | full |
 | Background (unselected) | `#FFFFFF` |
-| Inner dot (selected) | 8px, `#468BE6` |
-| Focus | `box-shadow: 0 0 0 3px rgba(26, 87, 153, 0.1)` |
+| Inner dot (selected) | 8px, `#1570EF` |
+| Focus | `box-shadow: 0 0 0 3px rgba(21, 112, 239, 0.1)` |
 
 #### Toggle (derived)
 
@@ -574,7 +574,7 @@ Same styling as Text Input. Uses `rows={4}` for default height.
 | Track height | 22px |
 | Track radius | full |
 | Track BG (off) | `#E2E8F0` |
-| Track BG (on) | `#468BE6` |
+| Track BG (on) | `#1570EF` |
 | Knob size | 18px |
 | Knob color | `#FFFFFF` |
 | Transition | 200ms ease |
@@ -585,7 +585,7 @@ Same styling as Text Input. Uses `rows={4}` for default height.
   width: 100%;
   padding: 12px 16px;
   font-size: 14px;
-  color: #092F64;
+  color: #0E172A;
   background-color: #FFFFFF;
   border: 1px solid #E2E8F0;
   border-radius: 8px;
@@ -596,8 +596,8 @@ Same styling as Text Input. Uses `rows={4}` for default height.
   color: #94A3B8;
 }
 .form-input:focus {
-  border-color: #1A5799;
-  box-shadow: 0 0 0 3px rgba(26, 87, 153, 0.1);
+  border-color: #1570EF;
+  box-shadow: 0 0 0 3px rgba(21, 112, 239, 0.1);
 }
 .form-input--error {
   border-color: #EF4444;
@@ -609,7 +609,7 @@ Same styling as Text Input. Uses `rows={4}` for default height.
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #092F64;
+  color: #0E172A;
 }
 ```
 
@@ -624,9 +624,9 @@ Same styling as Text Input. Uses `rows={4}` for default height.
 | Background | `#FFFFFF` |
 | Border | `1px solid #E2E8F0` |
 | Border radius | 16px |
-| Shadow | `0 4px 20px rgba(9, 47, 100, 0.05)` |
+| Shadow | `0 4px 20px rgba(14, 23, 42, 0.05)` |
 | Padding | `24px` mobile / `32px` desktop |
-| Hover | `translateY(-2px)`, shadow `0 8px 32px rgba(9, 47, 100, 0.10)`, `transition: 300ms ease` |
+| Hover | `translateY(-2px)`, shadow `0 8px 32px rgba(14, 23, 42, 0.10)`, `transition: 300ms ease` |
 | Entrance | `translateY(48px)` to 0, opacity 0 to 1, `800ms cubic-bezier(0.16, 1, 0.3, 1)` |
 | Desktop layout | 2-column grid, `gap: 48px`, min-height 420px, items centered |
 
@@ -648,10 +648,10 @@ Same styling as Text Input. Uses `rows={4}` for default height.
 | Background | `#FFFFFF` |
 | Border | `1px solid #E2E8F0` |
 | Border radius | 12px (rounded-xl) |
-| Shadow | none (most) or `0 1px 3px rgba(9, 47, 100, 0.04)` (WebsitesSections hierarchy cards) |
+| Shadow | none (most) or `0 1px 3px rgba(14, 23, 42, 0.04)` (WebsitesSections hierarchy cards) |
 | Padding | 28px (inline style) or 32px |
-| Icon | 28px, color `#1A5799` |
-| Title | 18px, weight 700, color `#092F64` |
+| Icon | 28px, color `#1570EF` |
+| Title | 18px, weight 700, color `#0E172A` |
 | Description | 14px, leading 1.6, color `#1F1F1F` |
 | Entrance | `translateY(24px)` to 0, staggered 150+i*100ms delay |
 
@@ -666,8 +666,8 @@ Same styling as Text Input. Uses `rows={4}` for default height.
 | Padding | `32px 28px` |
 | Width | 240px mobile / 280px desktop |
 | Flex | column, flex-shrink: 0 |
-| Icon | 36px, stroke `#468BE6`, strokeWidth 1.5 |
-| Title | 17px, weight 700, color `#092F64` |
+| Icon | 36px, stroke `#1570EF`, strokeWidth 1.5 |
+| Title | 17px, weight 700, color `#0E172A` |
 | Description | 14px, leading 1.5, color `#71717A` |
 | Hover | none |
 | Entrance | `translateY(32px)` to 0, `700ms cubic-bezier(0.16, 1, 0.3, 1)`, staggered `(i+1)*100ms` |
@@ -678,16 +678,16 @@ Same styling as Text Input. Uses `rows={4}` for default height.
 |----------|-------|
 | Background | `#FFFFFF` |
 | Border (default) | `1px solid #E2E8F0` |
-| Border (active) | `1px solid rgba(70, 139, 230, 0.2)` |
+| Border (active) | `1px solid rgba(21, 112, 239, 0.2)` |
 | Border radius | 12px (rounded-xl) |
-| Shadow | `0 1px 4px rgba(9, 47, 100, 0.03)` |
+| Shadow | `0 1px 4px rgba(14, 23, 42, 0.03)` |
 | Gap between items | 16px (gap-4) |
 | Button padding | `22px 28px` |
-| Question text | 17px, weight 600, color `#092F64` |
+| Question text | 17px, weight 600, color `#0E172A` |
 | Answer padding | `0 28px 22px 28px`, 16px padding-top above text |
 | Answer text | 15px mobile / 16px desktop, leading 1.6, color `#1F1F1F` |
 | Answer divider | `1px solid #E2E8F0` |
-| Chevron | 20x20, stroke `#71717A` (closed) / `#468BE6` (open), rotate 90deg on open |
+| Chevron | 20x20, stroke `#71717A` (closed) / `#1570EF` (open), rotate 90deg on open |
 | Button hover BG | `#F1F5F9` |
 | Entrance | staggered `opacity 400ms ease-out ${i*80}ms, transform 400ms ease-out ${i*80}ms` |
 
@@ -698,20 +698,20 @@ Same styling as Text Input. Uses `rows={4}` for default height.
 | Background | `#FFFFFF` |
 | Border | `1px solid #E2E8F0` |
 | Border radius | 16px |
-| Shadow | `0 4px 20px rgba(9, 47, 100, 0.05)` |
+| Shadow | `0 4px 20px rgba(14, 23, 42, 0.05)` |
 | Padding | `32px 28px` |
-| Hover | `translateY(-2px)`, `box-shadow: 0 8px 24px rgba(9, 47, 100, 0.08)`, `border-color: rgba(70, 139, 230, 0.2)`, `transition: 300ms ease` |
+| Hover | `translateY(-2px)`, `box-shadow: 0 8px 24px rgba(14, 23, 42, 0.08)`, `border-color: rgba(21, 112, 239, 0.2)`, `transition: 300ms ease` |
 | Pill | see below |
-| Title | 20px, weight 700, leading 1.3, color `#092F64`, hover color `#468BE6` |
+| Title | 20px, weight 700, leading 1.3, color `#0E172A`, hover color `#1570EF` |
 | Teaser | 14px mobile / 15px desktop, leading 1.5, color `#71717A` |
-| Arrow link | 14px, weight 600, color `#468BE6` |
+| Arrow link | 14px, weight 600, color `#1570EF` |
 
 #### Guide Card Pill
 
 | Property | Value |
 |----------|-------|
-| Background | `rgba(70, 139, 230, 0.08)` |
-| Text color | `#1A5799` |
+| Background | `rgba(21, 112, 239, 0.08)` |
+| Text color | `#1570EF` |
 | Border radius | full |
 | Padding | `4px 12px` |
 | Font | 11px, weight 600, uppercase, tracking 0.05em |
@@ -725,8 +725,8 @@ Same styling as Text Input. Uses `rows={4}` for default height.
 | Border radius | 12px (rounded-xl) |
 | Shadow | none |
 | Padding | 28px |
-| Value | 44px, weight 800, color `#1A5799` |
-| Label | 13px, weight 600, uppercase, tracking 0.08em, color `#092F64` |
+| Value | 44px, weight 800, color `#1570EF` |
+| Label | 13px, weight 600, uppercase, tracking 0.08em, color `#0E172A` |
 | Description | 13px, leading 1.55, color `#1F1F1F` |
 
 #### Step Card (Contact "What to Expect")
@@ -737,8 +737,8 @@ Same styling as Text Input. Uses `rows={4}` for default height.
 | Border | `1px solid #E2E8F0` |
 | Border radius | 12px (rounded-xl) |
 | Padding | 28px |
-| Step number | 32x32 circle, bg `#1A5799`, text 14px bold white |
-| Title | 17px, weight 700, color `#092F64` |
+| Step number | 32x32 circle, bg `#1570EF`, text 14px bold white |
+| Title | 17px, weight 700, color `#0E172A` |
 | Description | 14px, leading 1.6, color `#1F1F1F` |
 
 ---
@@ -762,9 +762,9 @@ Based on the dashboard mockup table patterns in FeatureRows DashboardVisual:
 | Data row | Border bottom | `1px solid #F1F5F9` |
 | Alternating stripe | Background | `#F8FAFC` (even rows) |
 | Hover | Background | `#F1F5F9` |
-| Sort icon | Color | `#1A5799` |
+| Sort icon | Color | `#1570EF` |
 | Progress bar (inline) | Track | `#E2E8F0` |
-| Progress bar (inline) | Fill | `#468BE6` |
+| Progress bar (inline) | Fill | `#1570EF` |
 | Progress bar (inline) | Height | 4px |
 | Progress bar (inline) | Radius | full |
 
@@ -802,10 +802,10 @@ Based on the dashboard mockup table patterns in FeatureRows DashboardVisual:
 |----------|-------|
 | Background | `#FFFFFF` |
 | Border radius | 16px |
-| Shadow | `0 8px 32px rgba(9, 47, 100, 0.08)` |
+| Shadow | `0 8px 32px rgba(14, 23, 42, 0.08)` |
 | Padding | 32px |
 | Max width | 480px (small), 640px (medium), 880px (large) |
-| Overlay | `rgba(9, 47, 100, 0.5)` |
+| Overlay | `rgba(14, 23, 42, 0.5)` |
 | Entrance | opacity 0 to 1, translateY(8px) to 0, 300ms ease-out |
 | Exit | opacity 1 to 0, translateY(0) to 8px, 200ms ease-out |
 
@@ -815,7 +815,7 @@ Based on the dashboard mockup table patterns in FeatureRows DashboardVisual:
 |----------|-------|
 | Background | `#FFFFFF` |
 | Border radius | 12px |
-| Shadow | `0 4px 20px rgba(9, 47, 100, 0.05)` |
+| Shadow | `0 4px 20px rgba(14, 23, 42, 0.05)` |
 | Padding | `16px 20px` |
 | Left accent bar | 4px width, color-coded by type |
 | Max width | 420px |
@@ -827,13 +827,13 @@ Based on the dashboard mockup table patterns in FeatureRows DashboardVisual:
 | Success | `#10B981` |
 | Error | `#EF4444` |
 | Warning | `#F59E0B` |
-| Info | `#468BE6` |
+| Info | `#1570EF` |
 
 #### Spinner
 
 | Property | Value |
 |----------|-------|
-| Color | `#468BE6` |
+| Color | `#1570EF` |
 | Sizes | 16px (inline), 24px (button), 32px (page) |
 | Animation | rotate 360deg, 800ms linear infinite |
 | Track color | `#E2E8F0` |
@@ -855,7 +855,7 @@ Based on the dashboard mockup table patterns in FeatureRows DashboardVisual:
 | Property | Value |
 |----------|-------|
 | Track background | `#E2E8F0` |
-| Fill background | `#468BE6` |
+| Fill background | `#1570EF` |
 | Height | 4px |
 | Border radius | full |
 | Transition | width 400ms ease-out |
@@ -874,7 +874,7 @@ Based on the KPI cards in FeatureRows DashboardVisual:
 | Border | `1px solid #E2E8F0` |
 | Border radius | 12px (rounded-lg in mockup) |
 | Padding | 16px |
-| Value font | 28px (scaled from mockup 18px), weight 700, color `#092F64` |
+| Value font | 28px (scaled from mockup 18px), weight 700, color `#0E172A` |
 | Label font | 13px, weight 500, color `#71717A` |
 | Change indicator | 13px, weight 600 |
 | Change positive | `#10B981` |
@@ -887,7 +887,7 @@ Based on the KPI cards in FeatureRows DashboardVisual:
 |----------|-------|
 | Layout | centered, flex column, items-center |
 | Icon | 48px, color `#71717A` (Gray 500) |
-| Heading | 18px, weight 700, color `#092F64` |
+| Heading | 18px, weight 700, color `#0E172A` |
 | Description | 14px, weight 400, color `#71717A` |
 | CTA button | Primary button (default size) |
 | Spacing | icon to heading: 16px, heading to desc: 8px, desc to CTA: 24px |
@@ -901,7 +901,7 @@ Based on Guide Card Pill pattern:
 | Success | `rgba(16, 185, 129, 0.1)` | `#10B981` |
 | Warning | `rgba(245, 158, 11, 0.1)` | `#F59E0B` |
 | Danger | `rgba(239, 68, 68, 0.1)` | `#EF4444` |
-| Info | `rgba(70, 139, 230, 0.08)` | `#1A5799` |
+| Info | `rgba(21, 112, 239, 0.08)` | `#1570EF` |
 | Neutral | `#F1F5F9` | `#71717A` |
 
 | Property | Value |
@@ -927,7 +927,7 @@ Based on Guide Card Pill pattern:
 .status-pill--success { background: rgba(16, 185, 129, 0.1); color: #10B981; }
 .status-pill--warning { background: rgba(245, 158, 11, 0.1); color: #F59E0B; }
 .status-pill--danger  { background: rgba(239, 68, 68, 0.1);  color: #EF4444; }
-.status-pill--info    { background: rgba(70, 139, 230, 0.08); color: #1A5799; }
+.status-pill--info    { background: rgba(21, 112, 239, 0.08); color: #1570EF; }
 .status-pill--neutral { background: #F1F5F9;                  color: #71717A; }
 ```
 
@@ -1064,10 +1064,10 @@ All animations fire once and never replay (unobserve after triggering).
 |----------|-------------------------|----------------------------|
 | Background | `rgba(255, 255, 255, 0.92)` | transparent |
 | Backdrop filter | `blur(12px)` | none |
-| Border bottom | `1px solid rgba(9, 47, 100, 0.06)` | `1px solid transparent` |
-| Box shadow | `0 1px 3px rgba(9, 47, 100, 0.04)` | none |
-| Text color | `#092F64` | `#FFFFFF` |
-| Link hover BG | `rgba(70, 139, 230, 0.08)` | `rgba(255, 255, 255, 0.08)` |
+| Border bottom | `1px solid rgba(14, 23, 42, 0.06)` | `1px solid transparent` |
+| Box shadow | `0 1px 3px rgba(14, 23, 42, 0.04)` | none |
+| Text color | `#0E172A` | `#FFFFFF` |
+| Link hover BG | `rgba(21, 112, 239, 0.08)` | `rgba(255, 255, 255, 0.08)` |
 | Layout | 3-column grid (logo / links / CTA) | Same |
 | Breakpoint | lg (1024px), hamburger below | Same |
 | Position | fixed, top 0, z-50 | relative (inline) |
@@ -1082,10 +1082,10 @@ All animations fire once and never replay (unobserve after triggering).
 |----------|-------|
 | Position | fixed, below nav (top: 64px) |
 | Background (light) | `rgba(255, 255, 255, 0.98)` with `blur(12px)` |
-| Background (dark) | `radial-gradient(ellipse 80% 60% at 50% 20%, #1A4080 0%, #092F64 70%, #061F47 100%)` |
+| Background (dark) | `radial-gradient(ellipse 80% 60% at 50% 20%, #152D54 0%, #0E172A 70%, #060D1A 100%)` |
 | Link size | 22px, weight 600 |
 | Link padding | `14px 12px` |
-| Link hover BG | `rgba(70, 139, 230, 0.06)` (light) / `rgba(255, 255, 255, 0.06)` (dark) |
+| Link hover BG | `rgba(21, 112, 239, 0.06)` (light) / `rgba(255, 255, 255, 0.06)` (dark) |
 | CTA button | full width, 17px, weight 600, 10px radius |
 | Open animation | `opacity 300ms cubic-bezier(0.16, 1, 0.3, 1), transform 300ms cubic-bezier(0.16, 1, 0.3, 1)` |
 | Close animation | `opacity 250ms cubic-bezier(0.4, 0, 0.6, 1), transform 250ms cubic-bezier(0.4, 0, 0.6, 1)` |
@@ -1115,10 +1115,10 @@ All animations fire once and never replay (unobserve after triggering).
 |----------|-------|
 | Max width | 880px |
 | Header padding | pt: 80px, pb: 48px |
-| Eyebrow | "Legal", 11px bold uppercase tracking 0.15em, `#1A5799` |
+| Eyebrow | "Legal", 11px bold uppercase tracking 0.15em, `#1570EF` |
 | Title | 34px mobile / 46px desktop, weight 800 |
 | Last updated | 13px, `#71717A` |
-| Notice banner | bg `#E9F5FF`, left border 3px `#1A5799`, 13px medium `#092F64` |
+| Notice banner | bg `#F8FAFC`, left border 3px `#1570EF`, 13px medium `#0E172A` |
 
 Content typography is controlled by `.legal-content` class in globals.css.
 
@@ -1128,10 +1128,10 @@ Content typography is controlled by `.legal-content` class in globals.css.
 |----------|-------|
 | Max width | 880px |
 | Header padding | pt: 96px, pb: 48px |
-| Pill | bg `#E9F5FF`, text `#1A5799`, 11px bold uppercase, rounded-full |
+| Pill | bg `#F8FAFC`, text `#1570EF`, 11px bold uppercase, rounded-full |
 | Title | 36px mobile / 56px desktop, weight 800 |
 | Meta | 14px, `#71717A` |
-| CTA card | bg `#E9F5FF`, rounded-xl, padding 32px |
+| CTA card | bg `#F8FAFC`, rounded-xl, padding 32px |
 
 Content typography is controlled by `.article-content` class in globals.css.
 
@@ -1155,11 +1155,11 @@ Inconsistencies found in the codebase and canonical values chosen:
 
 7. **Nav backdrop blur**: SITE.md says `blur(16px)`, code uses `blur(12px)`. **Canonical: `blur(12px)` (code is authoritative).**
 
-8. **Nav border-bottom**: SITE.md says `rgba(147, 191, 239, 0.15)`, code uses `rgba(9, 47, 100, 0.06)`. **Canonical: `rgba(9, 47, 100, 0.06)` (code is authoritative).**
+8. **Nav border-bottom**: SITE.md says `rgba(147, 191, 239, 0.15)`, code uses `rgba(14, 23, 42, 0.06)`. **Canonical: `rgba(14, 23, 42, 0.06)` (code is authoritative).**
 
 9. **Feature card entrance timing**: FeatureRows uses 800ms, while SITE.md also documents 800ms. **Resolved: consistent.** However, globals.css `.anim-card-visible` uses 700ms. **Canonical for card entrance via CSS class: 700ms. Via inline ScrollReveal: 800ms for feature cards, 700ms for smaller cards.**
 
-10. **Guide card hover shadow**: globals.css uses `0 8px 24px rgba(9, 47, 100, 0.08)`, while `.card-hover` uses `0 8px 32px rgba(9, 47, 100, 0.10)`. **Both are canonical**: guide cards use the softer 24px shadow, feature cards use the stronger 32px shadow.
+10. **Guide card hover shadow**: globals.css uses `0 8px 24px rgba(14, 23, 42, 0.08)`, while `.card-hover` uses `0 8px 32px rgba(14, 23, 42, 0.10)`. **Both are canonical**: guide cards use the softer 24px shadow, feature cards use the stronger 32px shadow.
 
 11. **Tab switcher container radius**: Code uses `borderRadius: 10` for the outer container and `borderRadius: 8` for inner buttons. **Canonical: 10px outer, 8px inner.**
 
@@ -1167,7 +1167,7 @@ Inconsistencies found in the codebase and canonical values chosen:
 
 13. **Footer padding**: Uses `py-12 md:py-12` (48px both breakpoints), differing from body sections. **Canonical: 48px for footer. This is intentional.**
 
-14. **About headshot shadow**: Uses compound shadow `0 4px 20px rgba(9, 47, 100, 0.06), 0 12px 40px rgba(9, 47, 100, 0.04)`. This is unique to the headshot card. **Canonical for photo cards: use this compound shadow.**
+14. **About headshot shadow**: Uses compound shadow `0 4px 20px rgba(14, 23, 42, 0.06), 0 12px 40px rgba(14, 23, 42, 0.04)`. This is unique to the headshot card. **Canonical for photo cards: use this compound shadow.**
 
 15. **CTA section heading sizes**: Home uses 36px/48px, inner pages use 36px/48px and 32px/44px. **Canonical: 36px mobile / 48px desktop for primary CTA, 32px mobile / 44px desktop for secondary CTA.**
 
@@ -1177,7 +1177,7 @@ Inconsistencies found in the codebase and canonical values chosen:
 
 | Pattern | Value |
 |---------|-------|
-| Focus-visible outline | `2px solid #468BE6`, offset 2px |
+| Focus-visible outline | `2px solid #1570EF`, offset 2px |
 | Reduced motion | All durations capped at 0.2s, single iteration |
 | Semantic HTML | `nav`, `main`, `section`, `footer`, `article` used consistently |
 | Image alt text | Required on all images per CLAUDE.md |

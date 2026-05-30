@@ -48,13 +48,13 @@ export default function DeploymentTimeline() {
           )}
           <div
             className="relative z-10 flex h-10 w-10 items-center justify-center rounded-full text-[16px] font-bold text-white"
-            style={{ backgroundColor: "#1A5799" }}
+            style={{ backgroundColor: "#1570EF" }}
           >
             {step.number}
           </div>
           <h4
             className="mt-3 text-center text-[14px] font-bold"
-            style={{ color: "#092F64" }}
+            style={{ color: "#0E172A" }}
           >
             {step.heading}
           </h4>

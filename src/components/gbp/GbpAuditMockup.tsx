@@ -18,15 +18,15 @@ export default function GbpAuditMockup() {
       color: "#F59E0B",
       text: "Austin location: 6 unanswered questions",
       action: "Queue",
-      actionBg: "rgba(70,139,230,0.1)",
-      actionColor: "#468BE6",
+      actionBg: "rgba(21, 112, 239,0.1)",
+      actionColor: "#1570EF",
     },
     {
       color: "#F59E0B",
       text: "Charlotte location: photos older than 90 days",
       action: "Refresh",
-      actionBg: "rgba(70,139,230,0.1)",
-      actionColor: "#468BE6",
+      actionBg: "rgba(21, 112, 239,0.1)",
+      actionColor: "#1570EF",
     },
   ];
 
@@ -37,7 +37,7 @@ export default function GbpAuditMockup() {
         border: "1px solid #E2E8F0",
         borderRadius: 10,
         boxShadow:
-          "0 4px 20px rgba(9, 47, 100, 0.06), 0 12px 40px rgba(9, 47, 100, 0.04)",
+          "0 4px 20px rgba(14, 23, 42, 0.06), 0 12px 40px rgba(14, 23, 42, 0.04)",
         overflow: "hidden",
       }}
     >
@@ -71,7 +71,7 @@ export default function GbpAuditMockup() {
 
       {/* Content */}
       <div style={{ padding: "16px 18px" }}>
-        <p style={{ fontSize: 14, fontWeight: 700, color: "#092F64" }}>
+        <p style={{ fontSize: 14, fontWeight: 700, color: "#0E172A" }}>
           GBP Audit · Bumble Roofing · 47 locations
         </p>
 
@@ -113,7 +113,7 @@ export default function GbpAuditMockup() {
                   {s.label}
                 </span>
               </div>
-              <p style={{ fontSize: 14, fontWeight: 700, color: "#092F64", marginTop: 4 }}>
+              <p style={{ fontSize: 14, fontWeight: 700, color: "#0E172A", marginTop: 4 }}>
                 {s.value}
               </p>
             </div>

@@ -49,13 +49,13 @@ const contentCards = [
 
 export function MethodologySection() {
   return (
-    <section data-bg="light" className="relative px-6 py-[84px] md:px-16 md:py-[112px]" style={{ backgroundColor: "#E9F5FF" }}>
+    <section data-bg="light" className="relative px-6 py-[84px] md:px-16 md:py-[112px]" style={{ backgroundColor: "#F8FAFC" }}>
       <div className="pointer-events-none absolute inset-0" style={{ backgroundImage: NOISE_SVG, backgroundRepeat: "repeat", mixBlendMode: "soft-light", opacity: 0.1 }} />
       <Container className="relative">
         <ScrollReveal>
           <div className="text-center">
-            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1A5799" }}>The Methodology</p>
-            <h2 className="mx-auto mt-4 max-w-[760px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#092F64" }}>
+            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1570EF" }}>The Methodology</p>
+            <h2 className="mx-auto mt-4 max-w-[760px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#0E172A" }}>
               Local SEO is not generic SEO.
             </h2>
             <p className="mx-auto mt-4 max-w-[720px] text-[16px] leading-[1.6] md:text-[17px]" style={{ color: "#1F1F1F" }}>
@@ -66,8 +66,8 @@ export function MethodologySection() {
         <div className="mt-14 grid grid-cols-1 gap-8 md:grid-cols-2">
           {methodBlocks.map((b, i) => (
             <ScrollReveal key={b.heading} delay={100 + i * 80} distance={20}>
-              <b.Icon size={28} style={{ color: "#1A5799" }} />
-              <h3 className="mt-4 text-[18px] font-bold" style={{ color: "#092F64" }}>{b.heading}</h3>
+              <b.Icon size={28} style={{ color: "#1570EF" }} />
+              <h3 className="mt-4 text-[18px] font-bold" style={{ color: "#0E172A" }}>{b.heading}</h3>
               <p className="mt-3 text-[14px] leading-[1.6]" style={{ color: "#1F1F1F" }}>{b.desc}</p>
             </ScrollReveal>
           ))}
@@ -83,8 +83,8 @@ export function AuditSection() {
       <Container>
         <div className="flex flex-col gap-10 md:flex-row md:items-center md:gap-16">
           <ScrollReveal className="md:w-[45%]">
-            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1A5799" }}>Automated Audits</p>
-            <h2 className="mt-4 text-[26px] font-bold leading-tight tracking-[-0.02em] md:text-[32px]" style={{ color: "#092F64" }}>
+            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1570EF" }}>Automated Audits</p>
+            <h2 className="mt-4 text-[26px] font-bold leading-tight tracking-[-0.02em] md:text-[32px]" style={{ color: "#0E172A" }}>
               Every page audited. Every month.
             </h2>
             <p className="mt-4 text-[15px] leading-[1.6] md:text-[16px]" style={{ color: "#1F1F1F" }}>
@@ -93,7 +93,7 @@ export function AuditSection() {
             <ul className="mt-6 flex flex-col gap-3">
               {auditFeatures.map((f) => (
                 <li key={f} className="flex items-start gap-2.5">
-                  <Check size={16} style={{ color: "#1A5799", marginTop: 3, flexShrink: 0 }} />
+                  <Check size={16} style={{ color: "#1570EF", marginTop: 3, flexShrink: 0 }} />
                   <span className="text-[15px]" style={{ color: "#1F1F1F" }}>{f}</span>
                 </li>
               ))}
@@ -117,8 +117,8 @@ export function SchemaSection() {
             <SchemaMockup />
           </ScrollReveal>
           <ScrollReveal delay={200} className="order-1 md:order-2 md:w-[45%]">
-            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1A5799" }}>Schema Markup</p>
-            <h2 className="mt-4 text-[26px] font-bold leading-tight tracking-[-0.02em] md:text-[32px]" style={{ color: "#092F64" }}>
+            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1570EF" }}>Schema Markup</p>
+            <h2 className="mt-4 text-[26px] font-bold leading-tight tracking-[-0.02em] md:text-[32px]" style={{ color: "#0E172A" }}>
               The structured data Google needs to rank you.
             </h2>
             <p className="mt-4 text-[15px] leading-[1.6] md:text-[16px]" style={{ color: "#1F1F1F" }}>
@@ -127,7 +127,7 @@ export function SchemaSection() {
             <ul className="mt-6 flex flex-col gap-3">
               {schemaFeatures.map((f) => (
                 <li key={f} className="flex items-start gap-2.5">
-                  <Check size={16} style={{ color: "#1A5799", marginTop: 3, flexShrink: 0 }} />
+                  <Check size={16} style={{ color: "#1570EF", marginTop: 3, flexShrink: 0 }} />
                   <span className="text-[15px]" style={{ color: "#1F1F1F" }}>{f}</span>
                 </li>
               ))}
@@ -141,13 +141,13 @@ export function SchemaSection() {
 
 export function ContentSection() {
   return (
-    <section data-bg="light" className="relative px-6 py-[84px] md:px-16 md:py-[112px]" style={{ backgroundColor: "#E9F5FF" }}>
+    <section data-bg="light" className="relative px-6 py-[84px] md:px-16 md:py-[112px]" style={{ backgroundColor: "#F8FAFC" }}>
       <div className="pointer-events-none absolute inset-0" style={{ backgroundImage: NOISE_SVG, backgroundRepeat: "repeat", mixBlendMode: "soft-light", opacity: 0.1 }} />
       <Container className="relative">
         <ScrollReveal>
           <div className="text-center">
-            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1A5799" }}>Content Engine</p>
-            <h2 className="mx-auto mt-4 max-w-[720px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#092F64" }}>
+            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1570EF" }}>Content Engine</p>
+            <h2 className="mx-auto mt-4 max-w-[720px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#0E172A" }}>
               Hyper-local content at portfolio scale.
             </h2>
             <p className="mx-auto mt-4 max-w-[680px] text-[16px] leading-[1.6] md:text-[17px]" style={{ color: "#1F1F1F" }}>
@@ -158,8 +158,8 @@ export function ContentSection() {
         <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
           {contentCards.map((card, i) => (
             <ScrollReveal key={card.heading} delay={150 + i * 100} distance={24} premium className="rounded-xl bg-white" style={{ border: "1px solid #E2E8F0", padding: 28 }}>
-              <card.Icon size={28} style={{ color: "#1A5799" }} />
-              <h3 className="mt-5 text-[18px] font-bold" style={{ color: "#092F64" }}>{card.heading}</h3>
+              <card.Icon size={28} style={{ color: "#1570EF" }} />
+              <h3 className="mt-5 text-[18px] font-bold" style={{ color: "#0E172A" }}>{card.heading}</h3>
               <p className="mt-3 text-[14px] leading-[1.6]" style={{ color: "#1F1F1F" }}>{card.desc}</p>
             </ScrollReveal>
           ))}
@@ -180,7 +180,7 @@ export function AiSearchSection() {
   ];
 
   return (
-    <section data-bg="dark" className="px-6 py-[84px] md:px-16 md:py-[112px]" style={{ backgroundColor: "#092F64" }}>
+    <section data-bg="dark" className="px-6 py-[84px] md:px-16 md:py-[112px]" style={{ backgroundColor: "#0E172A" }}>
       <Container>
         <ScrollReveal>
           <div className="text-center">
@@ -200,7 +200,7 @@ export function AiSearchSection() {
             <ul className="mt-5 flex flex-col gap-3">
               {features.map((f) => (
                 <li key={f} className="flex items-start gap-2.5">
-                  <Check size={16} style={{ color: "#468BE6", marginTop: 3, flexShrink: 0 }} />
+                  <Check size={16} style={{ color: "#1570EF", marginTop: 3, flexShrink: 0 }} />
                   <span className="text-[14px] leading-[1.6]" style={{ color: "#C9DBEC" }}>{f}</span>
                 </li>
               ))}
@@ -233,8 +233,8 @@ export function ProofSection() {
       <Container>
         <ScrollReveal>
           <div className="text-center">
-            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1A5799" }}>Proof</p>
-            <h2 className="mx-auto mt-4 max-w-[720px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#092F64" }}>
+            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1570EF" }}>Proof</p>
+            <h2 className="mx-auto mt-4 max-w-[720px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#0E172A" }}>
               Built by operators who have done this work.
             </h2>
             <p className="mx-auto mt-4 max-w-[680px] text-[16px] leading-[1.6] md:text-[17px]" style={{ color: "#1F1F1F" }}>
@@ -245,7 +245,7 @@ export function ProofSection() {
         <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
           {stats.map((s, i) => (
             <ScrollReveal key={s.value} delay={150 + i * 100} distance={24} premium className="rounded-xl bg-white" style={{ border: "1px solid #E2E8F0", padding: 28 }}>
-              <p className="text-[44px] font-extrabold" style={{ color: "#1A5799" }}>{s.value}</p>
+              <p className="text-[44px] font-extrabold" style={{ color: "#1570EF" }}>{s.value}</p>
               <p className="mt-3 text-[14px] leading-[1.5]" style={{ color: "#1F1F1F" }}>{s.desc}</p>
             </ScrollReveal>
           ))}
@@ -268,13 +268,13 @@ export function IntegrationSection() {
   ];
 
   return (
-    <section data-bg="light" className="relative px-6 py-[84px] md:px-16 md:py-[112px]" style={{ backgroundColor: "#E9F5FF" }}>
+    <section data-bg="light" className="relative px-6 py-[84px] md:px-16 md:py-[112px]" style={{ backgroundColor: "#F8FAFC" }}>
       <div className="pointer-events-none absolute inset-0" style={{ backgroundImage: NOISE_SVG, backgroundRepeat: "repeat", mixBlendMode: "soft-light", opacity: 0.1 }} />
       <Container className="relative">
         <ScrollReveal>
           <div className="text-center">
-            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1A5799" }}>Integrated</p>
-            <h2 className="mx-auto mt-4 max-w-[800px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#092F64" }}>
+            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1570EF" }}>Integrated</p>
+            <h2 className="mx-auto mt-4 max-w-[800px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#0E172A" }}>
               SEO is not a feature. It is the foundation.
             </h2>
             <p className="mx-auto mt-4 max-w-[720px] text-[16px] leading-[1.6] md:text-[17px]" style={{ color: "#1F1F1F" }}>
@@ -285,10 +285,10 @@ export function IntegrationSection() {
         <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
           {cards.map((card, i) => (
             <ScrollReveal key={card.eyebrow} delay={150 + i * 100} distance={24} premium className="flex flex-col rounded-xl bg-white" style={{ border: "1px solid #E2E8F0", padding: 24 }}>
-              <p className="text-[11px] font-bold uppercase tracking-[0.08em]" style={{ color: "#092F64" }}>{card.eyebrow}</p>
-              <h3 className="mt-2 text-[16px] font-bold" style={{ color: "#092F64" }}>{card.heading}</h3>
+              <p className="text-[11px] font-bold uppercase tracking-[0.08em]" style={{ color: "#0E172A" }}>{card.eyebrow}</p>
+              <h3 className="mt-2 text-[16px] font-bold" style={{ color: "#0E172A" }}>{card.heading}</h3>
               <p className="mt-3 flex-1 text-[13px] leading-[1.55]" style={{ color: "#1F1F1F" }}>{card.desc}</p>
-              <Link href={card.href} className="arrow-link mt-4 inline-flex items-center gap-1 text-[13px] font-semibold" style={{ color: "#468BE6" }}>
+              <Link href={card.href} className="arrow-link mt-4 inline-flex items-center gap-1 text-[13px] font-semibold" style={{ color: "#1570EF" }}>
                 Learn more <span className="arrow-icon">&rarr;</span>
               </Link>
             </ScrollReveal>

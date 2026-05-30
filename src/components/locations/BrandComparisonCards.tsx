@@ -12,7 +12,7 @@ function BrandCard({
       className="flex-1 overflow-hidden rounded-xl bg-white"
       style={{
         border: "1px solid #E2E8F0",
-        boxShadow: "0 4px 20px rgba(9, 47, 100, 0.05)",
+        boxShadow: "0 4px 20px rgba(14, 23, 42, 0.05)",
         minWidth: 260,
       }}
     >

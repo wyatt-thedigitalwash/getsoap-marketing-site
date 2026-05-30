@@ -20,7 +20,7 @@ export default function AuditMockup() {
     {
       color: "#F59E0B",
       text: "12 internal links could be added to area pages",
-      action: { label: "Queue", bg: "#468BE6", type: "button" as const },
+      action: { label: "Queue", bg: "#1570EF", type: "button" as const },
     },
   ];
 
@@ -31,7 +31,7 @@ export default function AuditMockup() {
         border: "1px solid #E2E8F0",
         borderRadius: 10,
         boxShadow:
-          "0 4px 20px rgba(9, 47, 100, 0.06), 0 12px 40px rgba(9, 47, 100, 0.04)",
+          "0 4px 20px rgba(14, 23, 42, 0.06), 0 12px 40px rgba(14, 23, 42, 0.04)",
         overflow: "hidden",
       }}
     >
@@ -66,7 +66,7 @@ export default function AuditMockup() {
       {/* Content */}
       <div style={{ padding: "16px 18px" }}>
         {/* Header */}
-        <p style={{ fontSize: 14, fontWeight: 700, color: "#092F64" }}>
+        <p style={{ fontSize: 14, fontWeight: 700, color: "#0E172A" }}>
           Audit Results · Tampa Location · November 2025
         </p>
 
@@ -108,7 +108,7 @@ export default function AuditMockup() {
                   {s.label}
                 </span>
               </div>
-              <p style={{ fontSize: 16, fontWeight: 700, color: "#092F64", marginTop: 4 }}>
+              <p style={{ fontSize: 16, fontWeight: 700, color: "#0E172A", marginTop: 4 }}>
                 {s.score}/100
               </p>
             </div>
@@ -165,7 +165,7 @@ export default function AuditMockup() {
                     style={{
                       fontSize: 9,
                       fontWeight: 600,
-                      color: "#468BE6",
+                      color: "#1570EF",
                       whiteSpace: "nowrap",
                       flexShrink: 0,
                     }}

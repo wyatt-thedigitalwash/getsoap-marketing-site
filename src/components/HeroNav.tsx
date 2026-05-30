@@ -27,7 +27,7 @@ export default function HeroNav() {
             <Link
               key={link.label}
               href={link.href}
-              className="whitespace-nowrap text-sm font-bold transition-all duration-200 hover:text-[#468BE6] hover:opacity-80 hover:-translate-y-px"
+              className="whitespace-nowrap text-sm font-bold transition-all duration-200 hover:text-[#1570EF] hover:opacity-80 hover:-translate-y-px"
               style={{ color: "#FFFFFF" }}
             >
               {link.label}
@@ -40,9 +40,9 @@ export default function HeroNav() {
           <Link
             href="/contact"
             className="btn-primary whitespace-nowrap text-sm font-semibold text-white"
-            style={{ backgroundColor: "#468BE6", padding: "12px 28px", borderRadius: "8px" }}
+            style={{ backgroundColor: "#1570EF", padding: "12px 28px", borderRadius: "8px" }}
           >
-            Request a Demo
+            Book a Demo
           </Link>
         </div>
       </div>
@@ -84,7 +84,7 @@ export default function HeroNav() {
             <Link
               href="/"
               className="text-2xl font-extrabold tracking-tight"
-              style={{ color: "#092F64" }}
+              style={{ color: "#0E172A" }}
               onClick={() => setMenuOpen(false)}
             >
               Soap.
@@ -94,7 +94,7 @@ export default function HeroNav() {
               onClick={() => setMenuOpen(false)}
               className="flex h-10 w-10 items-center justify-center"
               aria-label="Close menu"
-              style={{ color: "#092F64" }}
+              style={{ color: "#0E172A" }}
             >
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
                 <line x1="6" y1="6" x2="18" y2="18" />
@@ -107,8 +107,8 @@ export default function HeroNav() {
               <Link
                 key={link.label}
                 href={link.href}
-                className="text-xl font-bold transition-colors duration-200 hover:text-[#468BE6]"
-                style={{ color: "#092F64" }}
+                className="text-xl font-bold transition-colors duration-200 hover:text-[#1570EF]"
+                style={{ color: "#0E172A" }}
                 onClick={() => setMenuOpen(false)}
               >
                 {link.label}
@@ -117,10 +117,10 @@ export default function HeroNav() {
             <Link
               href="/contact"
               className="btn-primary mt-4 text-lg font-semibold text-white"
-              style={{ backgroundColor: "#468BE6", padding: "12px 28px", borderRadius: "8px" }}
+              style={{ backgroundColor: "#1570EF", padding: "12px 28px", borderRadius: "8px" }}
               onClick={() => setMenuOpen(false)}
             >
-              Request a Demo
+              Book a Demo
             </Link>
           </div>
         </div>

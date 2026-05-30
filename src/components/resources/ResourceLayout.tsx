@@ -44,7 +44,7 @@ export default function ResourceLayout({
         <Link
           href="/#resources"
           className="mb-8 inline-block text-[13px] font-semibold transition-colors hover:underline"
-          style={{ color: "#092F64" }}
+          style={{ color: "#0E172A" }}
         >
           &larr; Back to Resources
         </Link>
@@ -53,8 +53,8 @@ export default function ResourceLayout({
           <span
             className="inline-block rounded-full text-[11px] font-bold uppercase tracking-[0.05em]"
             style={{
-              backgroundColor: "#E9F5FF",
-              color: "#1A5799",
+              backgroundColor: "#F8FAFC",
+              color: "#1570EF",
               padding: "6px 12px",
             }}
           >
@@ -64,7 +64,7 @@ export default function ResourceLayout({
 
         <h1
           className="text-[36px] font-extrabold leading-[1.05] tracking-[-0.02em] md:text-[56px]"
-          style={{ color: "#092F64", marginBottom: 24 }}
+          style={{ color: "#0E172A", marginBottom: 24 }}
         >
           {title}
         </h1>
@@ -91,11 +91,11 @@ export default function ResourceLayout({
       <div className="mx-auto max-w-[880px] px-6 md:px-16">
         <div
           className="rounded-xl"
-          style={{ backgroundColor: "#E9F5FF", padding: 32 }}
+          style={{ backgroundColor: "#F8FAFC", padding: 32 }}
         >
           <h3
             className="text-[24px] font-bold"
-            style={{ color: "#092F64", marginBottom: 8 }}
+            style={{ color: "#0E172A", marginBottom: 8 }}
           >
             Want to see this in your portfolio?
           </h3>
@@ -117,7 +117,7 @@ export default function ResourceLayout({
       >
         <p
           className="text-[11px] font-bold uppercase tracking-[0.12em]"
-          style={{ color: "#1A5799", marginBottom: 24 }}
+          style={{ color: "#1570EF", marginBottom: 24 }}
         >
           Read Next
         </p>
@@ -135,8 +135,8 @@ export default function ResourceLayout({
               <span
                 className="inline-block rounded-full text-[11px] font-bold uppercase tracking-[0.05em]"
                 style={{
-                  backgroundColor: "#E9F5FF",
-                  color: "#1A5799",
+                  backgroundColor: "#F8FAFC",
+                  color: "#1570EF",
                   padding: "4px 10px",
                   marginBottom: 12,
                 }}
@@ -144,8 +144,8 @@ export default function ResourceLayout({
                 {guide.pill}
               </span>
               <p
-                className="text-[18px] font-bold leading-[1.3] transition-colors group-hover:text-[#1A5799]"
-                style={{ color: "#092F64" }}
+                className="text-[18px] font-bold leading-[1.3] transition-colors group-hover:text-[#1570EF]"
+                style={{ color: "#0E172A" }}
               >
                 {guide.title}
               </p>

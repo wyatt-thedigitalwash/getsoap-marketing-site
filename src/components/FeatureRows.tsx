@@ -72,17 +72,17 @@ function DashboardVisual() {
   return (
     <div ref={wrapperRef} className="flex h-full flex-col overflow-hidden rounded-lg bg-white" style={{ border: "1px solid #E2E8F0", padding: "16px 20px" }}>
       <div className="flex items-center justify-between" style={{ marginBottom: 18 }}>
-        <span className="text-[11px] font-semibold" style={{ color: "#092F64" }}>Portfolio Overview</span>
+        <span className="text-[11px] font-semibold" style={{ color: "#0E172A" }}>Portfolio Overview</span>
         <div className="flex items-center gap-2">
           <span className="rounded px-2 py-0.5 text-[8px] font-medium" style={{ color: "#71717A", backgroundColor: "#F1F5F9" }}>Last 30 Days</span>
-          <span className="rounded px-2 py-0.5 text-[9px] font-semibold text-white" style={{ backgroundColor: "#468BE6" }}>Generate Report</span>
+          <span className="rounded px-2 py-0.5 text-[9px] font-semibold text-white" style={{ backgroundColor: "#1570EF" }}>Generate Report</span>
         </div>
       </div>
       <div className="flex gap-2" style={{ marginBottom: 18 }}>
         {kpis.map((k) => (
           <div key={k.label} className="flex-1 rounded-lg bg-white p-2.5" style={{ border: "1px solid #E2E8F0" }}>
             <p className="text-[9px] font-medium" style={{ color: "#71717A", marginBottom: 2 }}>{k.label}</p>
-            <p className="text-[18px] font-bold leading-none" style={{ color: "#092F64" }}>{k.value}</p>
+            <p className="text-[18px] font-bold leading-none" style={{ color: "#0E172A" }}>{k.value}</p>
             <p className="mt-0.5 text-[9px] font-semibold" style={{ color: "#10B981", opacity: showChange ? 1 : 0, transition: "opacity 400ms ease-out" }}>{k.change}</p>
           </div>
         ))}
@@ -100,18 +100,18 @@ function DashboardVisual() {
           { name: "FreshCoat", locs: "67", pct: 45 },
         ].map((r) => (
           <div key={r.name} className="flex items-center border-b py-2.5" style={{ borderColor: "#F1F5F9" }}>
-            <span className="flex-1 text-[9px] font-medium" style={{ color: "#092F64" }}>{r.name}</span>
+            <span className="flex-1 text-[9px] font-medium" style={{ color: "#0E172A" }}>{r.name}</span>
             <span className="w-14 text-center text-[9px]" style={{ color: "#71717A" }}>{r.locs}</span>
             <div className="flex w-20 justify-end">
               <div className="h-1 w-full rounded" style={{ backgroundColor: "#E2E8F0" }}>
-                <div className="h-1 rounded" style={{ width: `${r.pct}%`, backgroundColor: "#468BE6" }} />
+                <div className="h-1 rounded" style={{ width: `${r.pct}%`, backgroundColor: "#1570EF" }} />
               </div>
             </div>
           </div>
         ))}
       </div>
       <div className="flex items-baseline justify-between border-t pt-3" style={{ borderColor: "#E2E8F0", marginTop: "auto" }}>
-        <span className="text-[10px] font-semibold" style={{ color: "#092F64" }}>Total Portfolio Leads: 3,241</span>
+        <span className="text-[10px] font-semibold" style={{ color: "#0E172A" }}>Total Portfolio Leads: 3,241</span>
         <span className="text-[9px] font-semibold" style={{ color: "#10B981" }}>+11.2% vs last month</span>
       </div>
     </div>
@@ -139,7 +139,7 @@ function WebsiteVisual() {
       <div className="flex flex-1 flex-col overflow-hidden bg-white" style={{ borderRadius: "0 0 8px 8px" }}>
         {/* Navigation bar */}
         <div className="flex items-center justify-between" style={{ padding: "8px 16px", borderBottom: "1px solid #F1F5F9" }}>
-          <span className="text-[12px] font-bold" style={{ color: "#092F64" }}>Wallaby Windows</span>
+          <span className="text-[12px] font-bold" style={{ color: "#0E172A" }}>Wallaby Windows</span>
           <div className="flex" style={{ gap: 14 }}>
             {["Home", "Services", "About", "Contact"].map((t) => (
               <span key={t} className="text-[9px] font-medium" style={{ color: "#71717A" }}>{t}</span>
@@ -148,11 +148,11 @@ function WebsiteVisual() {
         </div>
 
         {/* Hero banner */}
-        <div style={{ background: "linear-gradient(135deg, #E9F5FF 0%, #D6ECFD 100%)", padding: "16px 16px" }}>
-          <p className="text-[13px] font-bold" style={{ color: "#092F64" }}>Window Installation &amp; Replacement</p>
+        <div style={{ background: "linear-gradient(135deg, #F8FAFC 0%, #F1F5F9 100%)", padding: "16px 16px" }}>
+          <p className="text-[13px] font-bold" style={{ color: "#0E172A" }}>Window Installation &amp; Replacement</p>
           <p className="text-[9px]" style={{ color: "#71717A", marginTop: 2 }}>Tampa, FL -- Licensed &amp; Insured Since 2015</p>
-          <p className="text-[10px] font-semibold" style={{ color: "#092F64", marginTop: 4 }}>(813) 555-0147</p>
-          <span className="inline-block text-[9px] font-semibold text-white" style={{ backgroundColor: "#468BE6", borderRadius: 4, padding: "4px 10px", marginTop: 8 }}>Get a Free Quote</span>
+          <p className="text-[10px] font-semibold" style={{ color: "#0E172A", marginTop: 4 }}>(813) 555-0147</p>
+          <span className="inline-block text-[9px] font-semibold text-white" style={{ backgroundColor: "#1570EF", borderRadius: 4, padding: "4px 10px", marginTop: 8 }}>Get a Free Quote</span>
         </div>
 
         {/* Services section */}
@@ -165,7 +165,7 @@ function WebsiteVisual() {
               { name: "Repair", desc: "Fast, affordable window repair and glass replacement." },
             ].map((s) => (
               <div key={s.name} className="flex-1" style={{ backgroundColor: "#F8FAFC", borderRadius: 6, padding: 8 }}>
-                <p className="text-[9px] font-semibold" style={{ color: "#092F64" }}>{s.name}</p>
+                <p className="text-[9px] font-semibold" style={{ color: "#0E172A" }}>{s.name}</p>
                 <p className="text-[7px]" style={{ color: "#71717A", marginTop: 2, lineHeight: 1.3 }}>{s.desc}</p>
               </div>
             ))}
@@ -201,13 +201,13 @@ function SeoVisual() {
       </div>
       <div className="flex gap-4 border-b pb-1.5" style={{ borderColor: "#F1F5F9" }}>
         {["All", "Images", "Maps", "News"].map((t) => (
-          <span key={t} className="text-[9px]" style={{ color: t === "All" ? "#468BE6" : "#71717A", borderBottom: t === "All" ? "2px solid #468BE6" : "none", paddingBottom: 3 }}>{t}</span>
+          <span key={t} className="text-[9px]" style={{ color: t === "All" ? "#1570EF" : "#71717A", borderBottom: t === "All" ? "2px solid #1570EF" : "none", paddingBottom: 3 }}>{t}</span>
         ))}
       </div>
       <p className="mt-1.5 text-[8px]" style={{ color: "#71717A" }}>About 1,240,000 results</p>
-      <div className="mt-2 rounded-lg p-2.5" style={{ background: "rgba(70,139,230,0.04)", border: "1px solid rgba(70,139,230,0.12)" }}>
+      <div className="mt-2 rounded-lg p-2.5" style={{ background: "rgba(21, 112, 239,0.04)", border: "1px solid rgba(21, 112, 239,0.12)" }}>
         <div className="flex items-center gap-1.5">
-          <div className="flex h-4 w-4 shrink-0 items-center justify-center rounded-full" style={{ backgroundColor: "#092F64" }}>
+          <div className="flex h-4 w-4 shrink-0 items-center justify-center rounded-full" style={{ backgroundColor: "#0E172A" }}>
             <span className="text-[8px] font-bold text-white">W</span>
           </div>
           <div>
@@ -370,7 +370,7 @@ function FeatureCard({
       className={`overflow-hidden rounded-[16px] bg-white p-6 md:p-8 ${visible ? "card-hover" : ""}`}
       style={{
         border: "1px solid #E2E8F0",
-        boxShadow: "0 4px 20px rgba(9, 47, 100, 0.05)",
+        boxShadow: "0 4px 20px rgba(14, 23, 42, 0.05)",
         opacity: visible ? 1 : 0,
         transform: visible ? "translateY(0)" : "translateY(48px)",
         transition: "opacity 800ms cubic-bezier(0.16, 1, 0.3, 1), transform 800ms cubic-bezier(0.16, 1, 0.3, 1)",
@@ -389,11 +389,11 @@ function FeatureCard({
           <div className="w-full overflow-hidden">{visual}</div>
         </div>
         <div className="pt-6">
-          <Link href={link.href} className="block text-[26px] font-extrabold leading-tight tracking-[-0.02em] transition-colors hover:text-[#468BE6]" style={{ color: "#092F64" }}>{title}</Link>
-          <p className="mt-2 text-[15px] font-medium leading-[1.5]" style={{ color: "#468BE6" }}>{subheader}</p>
+          <Link href={link.href} className="block text-[26px] font-extrabold leading-tight tracking-[-0.02em] transition-colors hover:text-[#1570EF]" style={{ color: "#0E172A" }}>{title}</Link>
+          <p className="mt-2 text-[15px] font-medium leading-[1.5]" style={{ color: "#1570EF" }}>{subheader}</p>
           <p className="mt-4 text-[15px] leading-[1.6]" style={{ color: "#1F1F1F" }}>{description}</p>
           <div className="mt-6">
-            <Link href={link.href} className="arrow-link text-[15px] font-semibold transition-colors hover:underline" style={{ color: "#468BE6" }}>{link.label.replace(/\s*\u2192$/, "")} <span className="arrow-icon">{"\u2192"}</span></Link>
+            <Link href={link.href} className="arrow-link text-[15px] font-semibold transition-colors hover:underline" style={{ color: "#1570EF" }}>{link.label.replace(/\s*\u2192$/, "")} <span className="arrow-icon">{"\u2192"}</span></Link>
           </div>
         </div>
       </div>
@@ -410,11 +410,11 @@ function FeatureCard({
         }}
       >
         <div className={`flex flex-col justify-center ${reversed ? "order-2" : "order-1"}`}>
-          <Link href={link.href} className="block text-[28px] font-extrabold leading-tight tracking-[-0.02em] md:text-[36px] transition-colors hover:text-[#468BE6]" style={{ color: "#092F64" }}>{title}</Link>
-          <p className="mt-2 text-[15px] font-medium leading-[1.5] md:text-[16px]" style={{ color: "#468BE6" }}>{subheader}</p>
+          <Link href={link.href} className="block text-[28px] font-extrabold leading-tight tracking-[-0.02em] md:text-[36px] transition-colors hover:text-[#1570EF]" style={{ color: "#0E172A" }}>{title}</Link>
+          <p className="mt-2 text-[15px] font-medium leading-[1.5] md:text-[16px]" style={{ color: "#1570EF" }}>{subheader}</p>
           <p className="mt-4 max-w-[420px] text-[15px] leading-[1.6] md:text-[16px]" style={{ color: "#1F1F1F" }}>{description}</p>
           <div className="mt-6">
-            <Link href={link.href} className="arrow-link text-[15px] font-semibold transition-colors hover:underline" style={{ color: "#468BE6" }}>{link.label.replace(/\s*\u2192$/, "")} <span className="arrow-icon">{"\u2192"}</span></Link>
+            <Link href={link.href} className="arrow-link text-[15px] font-semibold transition-colors hover:underline" style={{ color: "#1570EF" }}>{link.label.replace(/\s*\u2192$/, "")} <span className="arrow-icon">{"\u2192"}</span></Link>
           </div>
         </div>
         <div
@@ -438,15 +438,9 @@ export default function FeatureRows() {
     <div>
       {/* Section header */}
       <div className="mt-[84px] text-center md:mt-[112px]">
-        <p
-          className="text-[11px] font-bold uppercase tracking-[0.12em]"
-          style={{ color: "#1A5799" }}
-        >
-          Inside the Platform
-        </p>
         <h2
-          className="mx-auto mt-4 max-w-[760px] text-[32px] font-extrabold leading-[1.1] tracking-[-0.02em] md:text-[44px]"
-          style={{ color: "#092F64" }}
+          className="mx-auto max-w-[760px] text-[32px] font-extrabold leading-[1.1] tracking-[-0.02em] md:text-[44px]"
+          style={{ color: "#0E172A" }}
         >
           Everything franchise systems actually need.
         </h2>

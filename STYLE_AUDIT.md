@@ -12,40 +12,40 @@ The home page (`src/app/page.tsx`) serves as the source of truth for styling pat
 
 | Element | Mobile | Desktop | Weight | Color | Line-Height | Tracking |
 |---|---|---|---|---|---|---|
-| Hero headline | 34px | 68px md / 80px xl | 800 | #092F64 | 1.05 | -0.02em |
-| Hero italic subline | 34px | 68px md / 80px xl | 400 italic | #092F64 | 1.05 | -0.02em |
-| Hero period | -- | -- | -- | #1A5799 | -- | -- |
+| Hero headline | 34px | 68px md / 80px xl | 800 | #0E172A | 1.05 | -0.02em |
+| Hero italic subline | 34px | 68px md / 80px xl | 400 italic | #0E172A | 1.05 | -0.02em |
+| Hero period | -- | -- | -- | #1570EF | -- | -- |
 | Hero subheadline | 17px | 19px | 400 | #1F1F1F | 1.6 | -- |
-| Pain points headline | 36px | 52px | 800 | #092F64 | 1.1 | -0.02em |
-| Pain points italic words | -- | -- | -- | #468BE6 | -- | -- |
-| Blockquote | 24px | 32px | 500 italic | #092F64 | 1.3 | -0.015em |
-| Section eyebrow | 11px | 11px | 700 | #1A5799 | -- | 0.12em |
-| Section h2 | 34px | 46px | 800 | #092F64 | tight | -0.02em |
+| Pain points headline | 36px | 52px | 800 | #0E172A | 1.1 | -0.02em |
+| Pain points italic words | -- | -- | -- | #1570EF | -- | -- |
+| Blockquote | 24px | 32px | 500 italic | #0E172A | 1.3 | -0.015em |
+| Section eyebrow | 11px | 11px | 700 | #1570EF | -- | 0.12em |
+| Section h2 | 34px | 46px | 800 | #0E172A | tight | -0.02em |
 | Section body | 16px | 17px | 400 | #1F1F1F | 1.6 | -- |
-| Feature card title (h3) | 26px | 28-36px | 800 | #092F64 | tight | -0.02em |
-| Feature card subheader | 15px | 16px | 500 | #468BE6 | 1.5 | -- |
+| Feature card title (h3) | 26px | 28-36px | 800 | #0E172A | tight | -0.02em |
+| Feature card subheader | 15px | 16px | 500 | #1570EF | 1.5 | -- |
 | Feature card body | 15px | 16px | 400 | #1F1F1F | 1.6 | -- |
-| Automation card title | 17px | 17px | 700 | #092F64 | -- | -- |
+| Automation card title | 17px | 17px | 700 | #0E172A | -- | -- |
 | Automation card desc | 14px | 14px | 400 | #71717A | 1.5 | -- |
-| Guide card pill | 11px | 11px | 600 | #1A5799 | -- | 0.05em |
-| Guide card title | 20px | 20px | 700 | #092F64 | 1.3 | -- |
+| Guide card pill | 11px | 11px | 600 | #1570EF | -- | 0.05em |
+| Guide card title | 20px | 20px | 700 | #0E172A | 1.3 | -- |
 | Guide card teaser | 14px | 15px | 400 | #71717A | 1.5 | -- |
-| Guide card link | 14px | 14px | 600 | #468BE6 | -- | -- |
-| FAQ question | 17px | 17px | 600 | #092F64 | -- | -- |
+| Guide card link | 14px | 14px | 600 | #1570EF | -- | -- |
+| FAQ question | 17px | 17px | 600 | #0E172A | -- | -- |
 | FAQ answer | 15px | 16px | 400 | #1F1F1F | 1.6 | -- |
-| Final CTA eyebrow | 12px | 12px | 700 | #468BE6 | -- | 0.15em |
+| Final CTA eyebrow | 12px | 12px | 700 | #1570EF | -- | 0.15em |
 | Final CTA h2 | 36px | 48px | 800 | white | 1.1 | -0.02em |
 | Final CTA body | 17px | 17px | 400 | #C9DBEC | 1.55 | -- |
-| Arrow link text | 15px | 15px | 600 | #468BE6 | -- | -- |
-| Nav links | 14px | 14px | 700 | #092F64 | -- | -- |
+| Arrow link text | 15px | 15px | 600 | #1570EF | -- | -- |
+| Nav links | 14px | 14px | 700 | #0E172A | -- | -- |
 
 ### Colors Used on Home Page
 
 | Token | Hex/Value | Where Used |
 |---|---|---|
-| Cool Black | #092F64 | Headlines, nav text, footer bg |
-| Tufts Blue | #468BE6 | CTAs, feature card subheaders, arrow links, pain points italic accent, final CTA eyebrow |
-| Cobalt Blue | #1A5799 | Eyebrows, hero period, guide pills, blockquote quotes |
+| Cool Black | #0E172A | Headlines, nav text, footer bg |
+| Tufts Blue | #1570EF | CTAs, feature card subheaders, arrow links, pain points italic accent, final CTA eyebrow |
+| Cobalt Blue | #1570EF | Eyebrows, hero period, guide pills, blockquote quotes |
 | Eerie Black | #1F1F1F | Body text, FAQ answers |
 | Gray 500 | #71717A | Automation card descriptions, guide card teasers, FAQ chevron (closed) |
 | White | #FFFFFF | Backgrounds, card backgrounds, CTA text |
@@ -78,9 +78,9 @@ The home page (`src/app/page.tsx`) serves as the source of truth for styling pat
 **Feature Cards (FeatureRows):**
 - Border: 1px solid #E2E8F0
 - Border-radius: 16px
-- Shadow: 0 4px 20px rgba(9, 47, 100, 0.05)
+- Shadow: 0 4px 20px rgba(14, 23, 42, 0.05)
 - Padding: p-6 mobile / p-8 desktop (inner grid has 32px 24px padding)
-- Hover: card-hover class (translateY(-2px), shadow 0 8px 32px rgba(9, 47, 100, 0.10))
+- Hover: card-hover class (translateY(-2px), shadow 0 8px 32px rgba(14, 23, 42, 0.10))
 - Visual container: bg #F1F5F9, border 1px solid #E2E8F0, border-radius 14px, height 380px desktop / 220px mobile
 
 **Automation Cards:**
@@ -94,22 +94,22 @@ The home page (`src/app/page.tsx`) serves as the source of truth for styling pat
 **Guide Cards:**
 - Border: 1px solid #E2E8F0
 - Border-radius: 16px
-- Shadow: 0 4px 20px rgba(9, 47, 100, 0.05)
+- Shadow: 0 4px 20px rgba(14, 23, 42, 0.05)
 - Padding: 32px 28px
-- Hover: translateY(-2px), shadow 0 8px 24px rgba(9, 47, 100, 0.08), border-color rgba(70, 139, 230, 0.2)
+- Hover: translateY(-2px), shadow 0 8px 24px rgba(14, 23, 42, 0.08), border-color rgba(21, 112, 239, 0.2)
 
 **FAQ Items:**
-- Border: 1px solid #E2E8F0 (open: rgba(70, 139, 230, 0.2))
+- Border: 1px solid #E2E8F0 (open: rgba(21, 112, 239, 0.2))
 - Border-radius: 12px (rounded-xl)
-- Shadow: 0 1px 4px rgba(9, 47, 100, 0.03)
+- Shadow: 0 1px 4px rgba(14, 23, 42, 0.03)
 - Gap: 16px (gap-4)
 - Button padding: 22px 28px
 
 ### Button System (Home Page)
 
-**Hero Primary:** bg #468BE6, text white, 16px weight 600, padding 14px 32px, border-radius 8px
-**Hero Outline:** border 1px solid rgba(9,47,100,0.25), text #092F64, 16px weight 600, padding 13px 31px, border-radius 8px
-**Nav CTA:** bg #468BE6, text white, 14px weight 600, padding 12px 28px, border-radius 8px
+**Hero Primary:** bg #1570EF, text white, 16px weight 600, padding 14px 32px, border-radius 8px
+**Hero Outline:** border 1px solid rgba(14, 23, 42,0.25), text #0E172A, 16px weight 600, padding 13px 31px, border-radius 8px
+**Nav CTA:** bg #1570EF, text white, 14px weight 600, padding 12px 28px, border-radius 8px
 **Button component (large):** padding 14px 32px, fontSize 16
 **Button component (default):** padding 12px 28px, fontSize 14
 
@@ -127,13 +127,13 @@ The home page (`src/app/page.tsx`) serves as the source of truth for styling pat
 
 - **Hero:** Complex radial gradients on Alice Blue base, 24px white border, 40px border-radius, noise overlay (opacity 0.30, soft-light)
 - **Platform Tabs section:** radial-gradient(ellipse 80% 50% at 50% 0%, #E9F5FF 0%, #E0EFFA 100%), noise overlay (opacity 0.1)
-- **Final CTA:** solid #092F64
+- **Final CTA:** solid #0E172A
 - **White sections:** no explicit bg (inherits white)
 
 ### Eyebrow Pattern (Home Page)
 
-Standard: `text-[11px] font-bold uppercase tracking-[0.12em]` with color `#1A5799`
-Exception: Final CTA eyebrow uses `text-[12px] ... tracking-[0.15em]` with color `#468BE6`
+Standard: `text-[11px] font-bold uppercase tracking-[0.12em]` with color `#1570EF`
+Exception: Final CTA eyebrow uses `text-[12px] ... tracking-[0.15em]` with color `#1570EF`
 
 ---
 
@@ -172,9 +172,9 @@ Exception: Final CTA eyebrow uses `text-[12px] ... tracking-[0.15em]` with color
    **Severity**: Minor (left-aligned sub-section heading pattern)
 
 7. **Category**: Color
-   **Deviation**: Mobile App eyebrow uses `#C9DBEC` instead of `#468BE6` for dark-bg eyebrow
+   **Deviation**: Mobile App eyebrow uses `#C9DBEC` instead of `#1570EF` for dark-bg eyebrow
    **File**: `src/app/platform/page.tsx`, line 321
-   **Severity**: Minor (dark section variant, but home page Final CTA uses #468BE6)
+   **Severity**: Minor (dark section variant, but home page Final CTA uses #1570EF)
 
 8. **Category**: Typography
    **Deviation**: Sub-section body text uses `text-[16px] md:text-[18px]` with color `#4A5568` for centered descriptions; home page uses `text-[16px] md:text-[17px]` with color `#1F1F1F`
@@ -192,7 +192,7 @@ Exception: Final CTA eyebrow uses `text-[12px] ... tracking-[0.15em]` with color
     **Severity**: Minor
 
 11. **Category**: Eyebrow
-    **Deviation**: Hero eyebrow includes a decorative line element (`h-0.5 w-5` with bg #1A5799) not present on home page eyebrows
+    **Deviation**: Hero eyebrow includes a decorative line element (`h-0.5 w-5` with bg #1570EF) not present on home page eyebrows
     **File**: `src/app/platform/page.tsx`, lines 112-114
     **Severity**: Minor (inner-page pattern, consistent across product pages)
 
@@ -229,7 +229,7 @@ Exception: Final CTA eyebrow uses `text-[12px] ... tracking-[0.15em]` with color
    **Severity**: Minor
 
 6. **Category**: Eyebrow
-   **Deviation**: "Conversion First" eyebrow in dark section uses `text-[12px] tracking-[0.15em]` with color `#C9DBEC` -- mixing the enlarged-eyebrow pattern with a muted color instead of #468BE6
+   **Deviation**: "Conversion First" eyebrow in dark section uses `text-[12px] tracking-[0.15em]` with color `#C9DBEC` -- mixing the enlarged-eyebrow pattern with a muted color instead of #1570EF
    **File**: `src/components/locations/WebsitesSections.tsx`, line 202
    **Severity**: Minor
 
@@ -266,7 +266,7 @@ Exception: Final CTA eyebrow uses `text-[12px] ... tracking-[0.15em]` with color
    **Severity**: Minor
 
 6. **Category**: Card Styling
-   **Deviation**: Integration section cards use padding 24 (not 28) and `rounded-xl` (12px); arrow-link text uses color `#092F64` instead of `#468BE6`
+   **Deviation**: Integration section cards use padding 24 (not 28) and `rounded-xl` (12px); arrow-link text uses color `#0E172A` instead of `#1570EF`
    **File**: `src/components/seo/SeoSections.tsx`, lines 287, 291
    **Severity**: Important (arrow link color deviation)
 
@@ -298,12 +298,12 @@ Exception: Final CTA eyebrow uses `text-[12px] ... tracking-[0.15em]` with color
    **Severity**: Minor (intentional stat emphasis)
 
 5. **Category**: Card Styling
-   **Deviation**: Integrated section cards same as SEO -- padding 24, arrow-link color `#092F64` instead of `#468BE6`
+   **Deviation**: Integrated section cards same as SEO -- padding 24, arrow-link color `#0E172A` instead of `#1570EF`
    **File**: `src/components/gbp/GbpSections.tsx`, lines 246, 250
    **Severity**: Important (arrow link color deviation)
 
 6. **Category**: Eyebrow
-   **Deviation**: Dark section eyebrows (AI Search in /seo, Built for Portfolios in /gbp, Conversion First in /locations) inconsistently use `#C9DBEC` while home page Final CTA dark section uses `#468BE6`
+   **Deviation**: Dark section eyebrows (AI Search in /seo, Built for Portfolios in /gbp, Conversion First in /locations) inconsistently use `#C9DBEC` while home page Final CTA dark section uses `#1570EF`
    **File**: `src/components/seo/SeoSections.tsx` line 187, `src/components/gbp/GbpSections2.tsx` line 95
    **Severity**: Important
 
@@ -340,7 +340,7 @@ Exception: Final CTA eyebrow uses `text-[12px] ... tracking-[0.15em]` with color
    **Severity**: Minor (decorative element)
 
 7. **Category**: Final CTA
-   **Deviation**: Final CTA has white background (`data-bg="white"`) instead of Cool Black (#092F64) used on home page and all other product pages. Eyebrow uses `#1A5799` instead of `#468BE6`. Email link text uses `#092F64` instead of white.
+   **Deviation**: Final CTA has white background (`data-bg="white"`) instead of Cool Black (#0E172A) used on home page and all other product pages. Eyebrow uses `#1570EF` instead of `#1570EF`. Email link text uses `#0E172A` instead of white.
    **File**: `src/app/about/page.tsx`, lines 81-129
    **Severity**: Important (significantly different visual treatment)
 
@@ -377,7 +377,7 @@ Exception: Final CTA eyebrow uses `text-[12px] ... tracking-[0.15em]` with color
    **Severity**: Minor
 
 5. **Category**: Form Styling
-   **Deviation**: Form container uses `bg-[#E9F5FF]` with `padding: 40px` and `rounded-2xl` (16px) -- no border, no shadow per SITE.md form container spec (should have border 1px solid #E2E8F0, shadow 0 8px 32px rgba(9,47,100,0.08), border-radius 18px)
+   **Deviation**: Form container uses `bg-[#E9F5FF]` with `padding: 40px` and `rounded-2xl` (16px) -- no border, no shadow per SITE.md form container spec (should have border 1px solid #E2E8F0, shadow 0 8px 32px rgba(14, 23, 42,0.08), border-radius 18px)
    **File**: `src/app/contact/page.tsx`, line 81
    **Severity**: Important
 
@@ -417,7 +417,7 @@ Exception: Final CTA eyebrow uses `text-[12px] ... tracking-[0.15em]` with color
     **Severity**: Minor
 
 13. **Category**: Eyebrow
-    **Deviation**: "Or email directly" label uses `tracking-[0.15em]` instead of `0.12em`, and color `#092F64` instead of `#1A5799`
+    **Deviation**: "Or email directly" label uses `tracking-[0.15em]` instead of `0.12em`, and color `#0E172A` instead of `#1570EF`
     **File**: `src/app/contact/page.tsx`, line 57
     **Severity**: Minor
 
@@ -444,7 +444,7 @@ Exception: Final CTA eyebrow uses `text-[12px] ... tracking-[0.15em]` with color
    **Severity**: Minor (appropriate for legal)
 
 5. **Category**: Color
-   **Deviation**: Legal links use `#1A5799` for color which matches SITE.md legal-content link color; strong uses `#092F64` -- these are consistent with globals.css definitions
+   **Deviation**: Legal links use `#1570EF` for color which matches SITE.md legal-content link color; strong uses `#0E172A` -- these are consistent with globals.css definitions
    **File**: `src/app/globals.css`, lines 220-230
    **Severity**: No issue (consistent)
 
@@ -486,7 +486,7 @@ Exception: Final CTA eyebrow uses `text-[12px] ... tracking-[0.15em]` with color
    **Severity**: Important
 
 8. **Category**: Eyebrow
-   **Deviation**: "Read Next" label uses `tracking-[0.15em]` with color `#092F64` instead of standard eyebrow color `#1A5799`
+   **Deviation**: "Read Next" label uses `tracking-[0.15em]` with color `#0E172A` instead of standard eyebrow color `#1570EF`
    **File**: `src/components/resources/ResourceLayout.tsx`, line 119
    **Severity**: Minor
 
@@ -532,13 +532,13 @@ The color `#4A5568` appears extensively across product pages but is NOT defined 
 
 | Context | Tracking | Color |
 |---|---|---|
-| Home page standard eyebrows | 0.12em | #1A5799 |
-| Home page Final CTA eyebrow | 0.15em | #468BE6 |
-| Product page Final CTA eyebrows | 0.15em | #468BE6 |
+| Home page standard eyebrows | 0.12em | #1570EF |
+| Home page Final CTA eyebrow | 0.15em | #1570EF |
+| Product page Final CTA eyebrows | 0.15em | #1570EF |
 | Dark-section mid-page eyebrows | 0.15em | #C9DBEC |
-| Legal page eyebrow | 0.15em | #1A5799 |
-| Resource page pill badge | 0.15em | #1A5799 |
-| Contact "Or email directly" | 0.15em | #092F64 |
+| Legal page eyebrow | 0.15em | #1570EF |
+| Resource page pill badge | 0.15em | #1570EF |
+| Contact "Or email directly" | 0.15em | #0E172A |
 | About Roadmap eyebrow | 0.15em | #C9DBEC |
 
 There are two distinct patterns: standard `0.12em` for most eyebrows, and `0.15em` for CTA eyebrows, legal, and resources. The inconsistency is whether `0.15em` is reserved for CTA contexts or used more broadly.
@@ -547,18 +547,18 @@ There are two distinct patterns: standard `0.12em` for most eyebrows, and `0.15e
 
 | Section | Eyebrow Color |
 |---|---|
-| Home Final CTA | #468BE6 |
-| Platform Final CTA | #468BE6 |
+| Home Final CTA | #1570EF |
+| Platform Final CTA | #1570EF |
 | Platform Mobile App | #C9DBEC |
 | Locations Leads section | #C9DBEC |
 | SEO AI Search | #C9DBEC |
 | GBP Scale section | #C9DBEC |
 | About Roadmap | #C9DBEC |
-| Locations Final CTA | #468BE6 |
-| SEO Final CTA | #468BE6 |
-| GBP Final CTA | #468BE6 |
+| Locations Final CTA | #1570EF |
+| SEO Final CTA | #1570EF |
+| GBP Final CTA | #1570EF |
 
-Pattern: Final CTA sections consistently use `#468BE6`. Mid-page dark sections use `#C9DBEC`. This seems intentional but is not documented in SITE.md.
+Pattern: Final CTA sections consistently use `#1570EF`. Mid-page dark sections use `#C9DBEC`. This seems intentional but is not documented in SITE.md.
 
 ### 3.6 Card Border-Radius
 
@@ -580,12 +580,12 @@ Three distinct card radii are in use: 16px (home primary), 12px (product pages, 
 
 | Location | Arrow Link Color |
 |---|---|
-| Home FeatureRows | #468BE6 |
-| Home GuidesSection | #468BE6 |
-| SEO IntegrationSection | #092F64 |
-| GBP IntegratedSection | #092F64 |
+| Home FeatureRows | #1570EF |
+| Home GuidesSection | #1570EF |
+| SEO IntegrationSection | #0E172A |
+| GBP IntegratedSection | #0E172A |
 
-The SEO and GBP "Integrated" sections use `#092F64` (Cool Black) for arrow links instead of the standard `#468BE6` (Tufts Blue).
+The SEO and GBP "Integrated" sections use `#0E172A` (Cool Black) for arrow links instead of the standard `#1570EF` (Tufts Blue).
 
 ### 3.8 Final CTA H2 Size
 
@@ -698,7 +698,7 @@ These components are properly reused across pages:
    - **Effort**: 15 minutes if replacing, 2 minutes if documenting
 
 2. **Fix arrow link colors in SEO and GBP integration sections**
-   - Change `#092F64` to `#468BE6` in integration card arrow links
+   - Change `#0E172A` to `#1570EF` in integration card arrow links
    - Files: `src/components/seo/SeoSections.tsx` line 291, `src/components/gbp/GbpSections.tsx` line 250
    - **Effort**: 2 minutes
 
@@ -713,7 +713,7 @@ These components are properly reused across pages:
    - **Effort**: 2 minutes
 
 5. **Fix contact form required asterisk color**
-   - Change from `#71717A` to `#468BE6` (Tufts Blue) per SITE.md spec
+   - Change from `#71717A` to `#1570EF` (Tufts Blue) per SITE.md spec
    - File: `src/components/contact/ContactFormLight.tsx`, 4 instances
    - **Effort**: 3 minutes
 
@@ -746,7 +746,7 @@ These components are properly reused across pages:
     - **Effort**: 20 minutes
 
 11. **Add form container border and shadow to contact form**
-    - Add `border: 1px solid #E2E8F0` and `boxShadow: 0 8px 32px rgba(9,47,100,0.08)` per SITE.md
+    - Add `border: 1px solid #E2E8F0` and `boxShadow: 0 8px 32px rgba(14, 23, 42,0.08)` per SITE.md
     - Change border-radius from 16px to 18px per SITE.md
     - File: `src/app/contact/page.tsx`, line 81
     - **Effort**: 5 minutes
@@ -758,7 +758,7 @@ These components are properly reused across pages:
     - **Effort**: 30 minutes
 
 13. **Document the dark-section eyebrow color convention**
-    - Add to SITE.md: Final CTA eyebrows use `#468BE6`, mid-page dark section eyebrows use `#C9DBEC`
+    - Add to SITE.md: Final CTA eyebrows use `#1570EF`, mid-page dark section eyebrows use `#C9DBEC`
     - **Effort**: 5 minutes
 
 14. **Standardize Final CTA h2 sizing**
@@ -818,8 +818,8 @@ These are cases where the home page and SITE.md disagree:
 
 4. **anim-card animation values**: globals.css `.anim-card-visible` uses 700ms, but the actual FeatureRows cards use 800ms with inline styles. The CSS class values and inline animation values differ.
 
-5. **Card hover shadow**: globals.css `.card-hover:hover` uses `!important` for shadow and transform. SITE.md hover spec says `shadow 0 8px 32px rgba(9, 47, 100, 0.10), transition 300ms`. The CSS matches but the `!important` flags are not ideal.
+5. **Card hover shadow**: globals.css `.card-hover:hover` uses `!important` for shadow and transform. SITE.md hover spec says `shadow 0 8px 32px rgba(14, 23, 42, 0.10), transition 300ms`. The CSS matches but the `!important` flags are not ideal.
 
 6. **Footer padding**: SITE.md says "48px top and bottom". Footer component uses `py-12` (48px) on both mobile and desktop, which matches. However, SITE.md also shows `md:py-12` which is redundant but correct.
 
-7. **Contact form focus**: globals.css has two different focus styles: `#contact input:focus` uses `border-color: #468BE6` while `.contact-form-light input:focus` uses `border-color: #1A5799` with a box-shadow. The contact page form focus is different from the SITE.md-implied standard.
+7. **Contact form focus**: globals.css has two different focus styles: `#contact input:focus` uses `border-color: #1570EF` while `.contact-form-light input:focus` uses `border-color: #1570EF` with a box-shadow. The contact page form focus is different from the SITE.md-implied standard.

@@ -18,7 +18,7 @@ body {
 
 /* Focus visible */
 *:focus-visible {
-  outline: 2px solid #468BE6;
+  outline: 2px solid #1570EF;
   outline-offset: 2px;
 }
 
@@ -29,7 +29,7 @@ body {
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(70, 139, 230, 0.3);
+  box-shadow: 0 4px 12px rgba(21, 112, 239, 0.3);
 }
 
 /* Outline button hover */
@@ -38,9 +38,9 @@ body {
 }
 
 .btn-outline:hover {
-  background-color: rgba(70, 139, 230, 0.06);
-  border-color: #468BE6 !important;
-  color: #468BE6 !important;
+  background-color: rgba(21, 112, 239, 0.06);
+  border-color: #1570EF !important;
+  color: #1570EF !important;
 }
 
 /* Hide scrollbar on carousel */
@@ -97,7 +97,7 @@ body {
   }
 
   .card-hover:hover {
-    box-shadow: 0 8px 32px rgba(9, 47, 100, 0.10) !important;
+    box-shadow: 0 8px 32px rgba(14, 23, 42, 0.10) !important;
     transform: translateY(-2px) !important;
   }
 
@@ -108,8 +108,8 @@ body {
 
   .guide-card:hover {
     transform: translateY(-2px) !important;
-    box-shadow: 0 8px 24px rgba(9, 47, 100, 0.08) !important;
-    border-color: rgba(70, 139, 230, 0.2) !important;
+    box-shadow: 0 8px 24px rgba(14, 23, 42, 0.08) !important;
+    border-color: rgba(21, 112, 239, 0.2) !important;
   }
 }
 
@@ -127,15 +127,15 @@ body {
 #contact input:focus,
 #contact select:focus,
 #contact textarea:focus {
-  border-color: #468BE6 !important;
+  border-color: #1570EF !important;
 }
 
 /* Contact page form input focus */
 .contact-form-light input:focus,
 .contact-form-light select:focus,
 .contact-form-light textarea:focus {
-  border-color: #1A5799 !important;
-  box-shadow: 0 0 0 3px rgba(26, 87, 153, 0.1) !important;
+  border-color: #1570EF !important;
+  box-shadow: 0 0 0 3px rgba(21, 112, 239, 0.1) !important;
 }
 
 /* FAQ button hover */
@@ -176,7 +176,7 @@ body {
 .legal-content h2 {
   font-size: 22px;
   font-weight: 700;
-  color: #092F64;
+  color: #0E172A;
   margin-top: 48px;
   margin-bottom: 16px;
 }
@@ -184,7 +184,7 @@ body {
 .legal-content h3 {
   font-size: 16px;
   font-weight: 700;
-  color: #092F64;
+  color: #0E172A;
   margin-top: 24px;
   margin-bottom: 12px;
 }
@@ -219,11 +219,11 @@ body {
 
 .legal-content strong {
   font-weight: 600;
-  color: #092F64;
+  color: #0E172A;
 }
 
 .legal-content a {
-  color: #1A5799;
+  color: #1570EF;
   text-decoration: none;
 }
 
@@ -235,7 +235,7 @@ body {
 .article-content h2 {
   font-size: 28px;
   font-weight: 800;
-  color: #092F64;
+  color: #0E172A;
   letter-spacing: -0.015em;
   margin-top: 56px;
   margin-bottom: 20px;
@@ -244,7 +244,7 @@ body {
 .article-content h3 {
   font-size: 20px;
   font-weight: 700;
-  color: #092F64;
+  color: #0E172A;
   margin-top: 40px;
   margin-bottom: 16px;
 }
@@ -287,15 +287,15 @@ body {
 
 .article-content strong {
   font-weight: 700;
-  color: #092F64;
+  color: #0E172A;
 }
 
 .article-content blockquote {
   font-size: 20px;
   font-style: italic;
-  color: #092F64;
+  color: #0E172A;
   font-weight: 500;
-  border-left: 3px solid #1A5799;
+  border-left: 3px solid #1570EF;
   padding-left: 24px;
   margin: 40px 0;
   line-height: 1.4;

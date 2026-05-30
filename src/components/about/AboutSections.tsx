@@ -12,7 +12,7 @@ export function StorySection() {
     <section
       data-bg="light"
       className="relative px-6 py-[84px] md:px-16 md:py-[112px]"
-      style={{ backgroundColor: "#E9F5FF" }}
+      style={{ backgroundColor: "#F8FAFC" }}
     >
       <div
         className="pointer-events-none absolute inset-0"
@@ -28,19 +28,19 @@ export function StorySection() {
           <ScrollReveal className="md:w-[40%]">
             <p
               className="text-[11px] font-bold uppercase tracking-[0.12em]"
-              style={{ color: "#1A5799" }}
+              style={{ color: "#1570EF" }}
             >
               The Parent Company
             </p>
             <h2
               className="mt-4 text-[34px] font-extrabold tracking-[-0.02em] md:text-[46px]"
-              style={{ color: "#092F64" }}
+              style={{ color: "#0E172A" }}
             >
               The Digital Wash.
             </h2>
             <p
               className="mt-4 text-[13px] font-medium"
-              style={{ color: "#092F64" }}
+              style={{ color: "#0E172A" }}
             >
               Tampa, FL · Agency since 2023
             </p>
@@ -119,13 +119,13 @@ export function WhySoapSection() {
           <div className="text-center">
             <p
               className="text-[11px] font-bold uppercase tracking-[0.12em]"
-              style={{ color: "#1A5799" }}
+              style={{ color: "#1570EF" }}
             >
               Origin
             </p>
             <h2
               className="mx-auto mt-4 max-w-[800px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]"
-              style={{ color: "#092F64" }}
+              style={{ color: "#0E172A" }}
             >
               Soap exists because franchise systems deserved better.
             </h2>
@@ -151,10 +151,10 @@ export function WhySoapSection() {
               className="rounded-xl bg-white"
               style={{ border: "1px solid #E2E8F0", padding: 28 }}
             >
-              <card.Icon size={28} style={{ color: "#1A5799" }} />
+              <card.Icon size={28} style={{ color: "#1570EF" }} />
               <h3
                 className="mt-5 text-[18px] font-bold"
-                style={{ color: "#092F64" }}
+                style={{ color: "#0E172A" }}
               >
                 {card.heading}
               </h3>
@@ -186,7 +186,7 @@ export function FounderSection() {
     <section
       data-bg="light"
       className="relative px-6 py-[84px] md:px-16 md:py-[112px]"
-      style={{ backgroundColor: "#E9F5FF" }}
+      style={{ backgroundColor: "#F8FAFC" }}
     >
       <div
         className="pointer-events-none absolute inset-0"
@@ -203,7 +203,7 @@ export function FounderSection() {
             <FounderPhoto />
             <p
               className="mt-4 text-center text-[16px] font-bold"
-              style={{ color: "#092F64" }}
+              style={{ color: "#0E172A" }}
             >
               Wyatt Bensman · Founder
             </p>
@@ -212,13 +212,13 @@ export function FounderSection() {
           <ScrollReveal delay={150} className="md:w-[65%]">
             <p
               className="text-[11px] font-bold uppercase tracking-[0.12em]"
-              style={{ color: "#1A5799" }}
+              style={{ color: "#1570EF" }}
             >
               Founder
             </p>
             <h2
               className="mt-4 text-[34px] font-extrabold tracking-[-0.02em] md:text-[46px]"
-              style={{ color: "#092F64" }}
+              style={{ color: "#0E172A" }}
             >
               Wyatt Bensman.
             </h2>
@@ -260,7 +260,7 @@ export function FounderSection() {
                   <Check
                     size={16}
                     style={{
-                      color: "#1A5799",
+                      color: "#1570EF",
                       marginTop: 3,
                       flexShrink: 0,
                     }}

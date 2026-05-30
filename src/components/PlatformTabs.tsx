@@ -74,7 +74,7 @@ export default function PlatformTabs() {
                 fontSize: 14,
                 fontWeight: 600,
                 cursor: "pointer",
-                color: active === tab.id ? "#092F64" : "#71717A",
+                color: active === tab.id ? "#0E172A" : "#71717A",
                 backgroundColor: active === tab.id ? "#FFFFFF" : "transparent",
                 boxShadow: active === tab.id ? "0 1px 3px rgba(0, 0, 0, 0.08)" : "none",
               }}

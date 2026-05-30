@@ -23,10 +23,10 @@ export default function ContactForm() {
         style={{
           background: "#FFFFFF",
           border: "1px solid #E2E8F0",
-          boxShadow: "0 8px 32px rgba(9, 47, 100, 0.08)",
+          boxShadow: "0 8px 32px rgba(14, 23, 42, 0.08)",
         }}
       >
-        <p className="text-[18px] font-medium" style={{ color: "#092F64" }}>
+        <p className="text-[18px] font-medium" style={{ color: "#0E172A" }}>
           Thanks. Wyatt will be in touch within 24 hours.
         </p>
       </div>
@@ -40,14 +40,14 @@ export default function ContactForm() {
       style={{
         background: "#FFFFFF",
         border: "1px solid #E2E8F0",
-        boxShadow: "0 8px 32px rgba(9, 47, 100, 0.08)",
+        boxShadow: "0 8px 32px rgba(14, 23, 42, 0.08)",
       }}
     >
       <div className="flex flex-col gap-5">
         {/* Full name */}
         <div className="flex flex-col gap-2">
           <label htmlFor="name" className={labelClass} style={{ color: "#71717A" }}>
-            Full name <span style={{ color: "#468BE6", fontWeight: 400 }}>*</span>
+            Full name <span style={{ color: "#1570EF", fontWeight: 400 }}>*</span>
           </label>
           <input
             type="text"
@@ -63,7 +63,7 @@ export default function ContactForm() {
         {/* Work email */}
         <div className="flex flex-col gap-2">
           <label htmlFor="email" className={labelClass} style={{ color: "#71717A" }}>
-            Work email <span style={{ color: "#468BE6", fontWeight: 400 }}>*</span>
+            Work email <span style={{ color: "#1570EF", fontWeight: 400 }}>*</span>
           </label>
           <input
             type="email"
@@ -79,7 +79,7 @@ export default function ContactForm() {
         {/* Company */}
         <div className="flex flex-col gap-2">
           <label htmlFor="company" className={labelClass} style={{ color: "#71717A" }}>
-            Company / franchise system <span style={{ color: "#468BE6", fontWeight: 400 }}>*</span>
+            Company / franchise system <span style={{ color: "#1570EF", fontWeight: 400 }}>*</span>
           </label>
           <input
             type="text"
@@ -95,7 +95,7 @@ export default function ContactForm() {
         {/* Number of locations */}
         <div className="flex flex-col gap-2">
           <label htmlFor="locations" className={labelClass} style={{ color: "#71717A" }}>
-            Number of locations <span style={{ color: "#468BE6", fontWeight: 400 }}>*</span>
+            Number of locations <span style={{ color: "#1570EF", fontWeight: 400 }}>*</span>
           </label>
           <select
             id="locations"
@@ -136,9 +136,9 @@ export default function ContactForm() {
         <button
           type="submit"
           className="btn-primary w-full rounded-xl py-3.5 text-[14px] font-semibold text-white"
-          style={{ backgroundColor: "#468BE6" }}
+          style={{ backgroundColor: "#1570EF" }}
         >
-          Request a Demo
+          Book a Demo
         </button>
       </div>
     </form>

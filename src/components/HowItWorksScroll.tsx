@@ -22,8 +22,8 @@ function PortfolioDashboardVisual() {
   return (
     <div className="h-full overflow-hidden p-5">
       <div className="flex items-center justify-between" style={{ marginBottom: 14 }}>
-        <span className="text-[11px] font-semibold" style={{ color: "#092F64" }}>Portfolio Overview</span>
-        <span className="rounded px-2 py-0.5 text-[9px] font-semibold text-white" style={{ backgroundColor: "#468BE6" }}>Generate Report</span>
+        <span className="text-[11px] font-semibold" style={{ color: "#0E172A" }}>Portfolio Overview</span>
+        <span className="rounded px-2 py-0.5 text-[9px] font-semibold text-white" style={{ backgroundColor: "#1570EF" }}>Generate Report</span>
       </div>
       <div className="flex gap-2" style={{ marginBottom: 14 }}>
         {[
@@ -33,7 +33,7 @@ function PortfolioDashboardVisual() {
         ].map((k) => (
           <div key={k.label} className="flex-1 rounded-lg bg-white p-2.5" style={{ border: "1px solid #E2E8F0" }}>
             <p className="text-[9px] font-medium" style={{ color: "#71717A", marginBottom: 2 }}>{k.label}</p>
-            <p className="text-[18px] font-bold leading-none" style={{ color: "#092F64" }}>{k.value}</p>
+            <p className="text-[18px] font-bold leading-none" style={{ color: "#0E172A" }}>{k.value}</p>
             <p className="mt-0.5 text-[9px] font-semibold" style={{ color: "#10B981" }}>{k.change}</p>
           </div>
         ))}
@@ -50,11 +50,11 @@ function PortfolioDashboardVisual() {
           { name: "BrightStar", locs: "94", pct: 55 },
         ].map((r) => (
           <div key={r.name} className="flex items-center border-b py-1.5" style={{ borderColor: "#F1F5F9" }}>
-            <span className="flex-1 text-[9px] font-medium" style={{ color: "#092F64" }}>{r.name}</span>
+            <span className="flex-1 text-[9px] font-medium" style={{ color: "#0E172A" }}>{r.name}</span>
             <span className="w-12 text-center text-[9px]" style={{ color: "#71717A" }}>{r.locs}</span>
             <div className="flex w-20 justify-end">
               <div className="h-1 w-full rounded" style={{ backgroundColor: "#E2E8F0" }}>
-                <div className="h-1 rounded" style={{ width: `${r.pct}%`, backgroundColor: "#468BE6" }} />
+                <div className="h-1 rounded" style={{ width: `${r.pct}%`, backgroundColor: "#1570EF" }} />
               </div>
             </div>
           </div>
@@ -87,9 +87,9 @@ function PerLocationWebsiteVisual() {
             ))}
           </div>
           <div className="mt-2.5">
-            <p className="text-[14px] font-bold" style={{ color: "#092F64" }}>Wallaby Windows</p>
+            <p className="text-[14px] font-bold" style={{ color: "#0E172A" }}>Wallaby Windows</p>
             <p className="mt-0.5 text-[9px]" style={{ color: "#71717A" }}>Tampa, FL — Window Installation &amp; Replacement</p>
-            <span className="mt-2 inline-block rounded px-2.5 py-1 text-[8px] font-semibold text-white" style={{ backgroundColor: "#468BE6" }}>Get a Free Quote</span>
+            <span className="mt-2 inline-block rounded px-2.5 py-1 text-[8px] font-semibold text-white" style={{ backgroundColor: "#1570EF" }}>Get a Free Quote</span>
           </div>
           <div className="mt-2.5 flex flex-col gap-1">
             <div className="h-1 rounded" style={{ width: "85%", backgroundColor: "#F1F5F9" }} />
@@ -119,9 +119,9 @@ function LocalSeoVisual() {
         <span className="text-[10px]" style={{ color: "#202124" }}>window replacement tampa</span>
       </div>
       <p className="border-b pb-1.5 text-[8px]" style={{ color: "#71717A", borderColor: "#F1F5F9" }}>About 1,240,000 results</p>
-      <div className="mt-2 rounded-lg p-2.5" style={{ background: "rgba(70,139,230,0.04)", border: "1px solid rgba(70,139,230,0.12)" }}>
+      <div className="mt-2 rounded-lg p-2.5" style={{ background: "rgba(21, 112, 239,0.04)", border: "1px solid rgba(21, 112, 239,0.12)" }}>
         <div className="flex items-center gap-1.5">
-          <div className="flex h-4 w-4 shrink-0 items-center justify-center rounded-full" style={{ backgroundColor: "#092F64" }}>
+          <div className="flex h-4 w-4 shrink-0 items-center justify-center rounded-full" style={{ backgroundColor: "#0E172A" }}>
             <span className="text-[8px] font-bold text-white">W</span>
           </div>
           <div>
@@ -276,13 +276,13 @@ export default function HowItWorksScroll() {
                 >
                   <p
                     className="text-[11px] font-bold uppercase tracking-[0.12em]"
-                    style={{ color: "#1A5799" }}
+                    style={{ color: "#1570EF" }}
                   >
                     {step.eyebrow}
                   </p>
                   <h3
                     className="mt-4 text-[28px] font-extrabold leading-tight tracking-[-0.02em] md:text-[32px]"
-                    style={{ color: "#092F64" }}
+                    style={{ color: "#0E172A" }}
                   >
                     {step.title}
                   </h3>
@@ -296,7 +296,7 @@ export default function HowItWorksScroll() {
                     <Link
                       href={step.link.href}
                       className="text-[14px] font-semibold transition-colors hover:underline"
-                      style={{ color: "#468BE6" }}
+                      style={{ color: "#1570EF" }}
                     >
                       {step.link.label}
                     </Link>
@@ -311,7 +311,7 @@ export default function HowItWorksScroll() {
                   key={i}
                   className="h-2 w-2 rounded-full"
                   style={{
-                    backgroundColor: active === i ? "#468BE6" : "#E2E8F0",
+                    backgroundColor: active === i ? "#1570EF" : "#E2E8F0",
                     transition: "background-color 200ms ease",
                   }}
                 />
@@ -380,7 +380,7 @@ export default function HowItWorksScroll() {
           </div>
           <h3
             className="mt-5 text-[20px] font-bold"
-            style={{ color: "#092F64" }}
+            style={{ color: "#0E172A" }}
           >
             {step.title}
           </h3>
@@ -394,7 +394,7 @@ export default function HowItWorksScroll() {
             <Link
               href={step.link.href}
               className="text-[14px] font-semibold transition-colors hover:underline"
-              style={{ color: "#468BE6" }}
+              style={{ color: "#1570EF" }}
             >
               {step.link.label}
             </Link>

@@ -4,7 +4,7 @@ export default function BrandStandardsMockup() {
       className="overflow-hidden rounded-xl bg-white"
       style={{
         border: "1px solid #E2E8F0",
-        boxShadow: "0 4px 20px rgba(9, 47, 100, 0.05)",
+        boxShadow: "0 4px 20px rgba(14, 23, 42, 0.05)",
       }}
     >
       {/* Browser chrome */}
@@ -30,7 +30,7 @@ export default function BrandStandardsMockup() {
 
       <div className="px-5 py-4">
         {/* Header */}
-        <p className="text-[14px] font-bold" style={{ color: "#092F64" }}>
+        <p className="text-[14px] font-bold" style={{ color: "#0E172A" }}>
           Brand Standards &middot; Bumble Roofing
         </p>
 
@@ -42,7 +42,7 @@ export default function BrandStandardsMockup() {
           >
             <p
               className="text-[11px] font-bold uppercase tracking-[0.08em]"
-              style={{ color: "#092F64" }}
+              style={{ color: "#0E172A" }}
             >
               Design System
             </p>
@@ -86,7 +86,7 @@ export default function BrandStandardsMockup() {
           >
             <p
               className="text-[11px] font-bold uppercase tracking-[0.08em]"
-              style={{ color: "#092F64" }}
+              style={{ color: "#0E172A" }}
             >
               Approved Content
             </p>
@@ -110,7 +110,7 @@ export default function BrandStandardsMockup() {
           >
             <p
               className="text-[11px] font-bold uppercase tracking-[0.08em]"
-              style={{ color: "#092F64" }}
+              style={{ color: "#0E172A" }}
             >
               Compliance Status
             </p>

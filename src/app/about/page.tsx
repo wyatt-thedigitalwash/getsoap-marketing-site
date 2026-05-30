@@ -22,25 +22,25 @@ export default function AboutPage() {
                 className="flex flex-col items-center justify-center overflow-hidden rounded-xl"
                 style={{
                   aspectRatio: "4 / 5",
-                  backgroundColor: "#092F64",
-                  boxShadow: "0 4px 20px rgba(9, 47, 100, 0.06), 0 12px 40px rgba(9, 47, 100, 0.04)",
+                  backgroundColor: "#0E172A",
+                  boxShadow: "0 4px 20px rgba(14, 23, 42, 0.06), 0 12px 40px rgba(14, 23, 42, 0.04)",
                 }}
               >
                 <User size={48} style={{ color: "rgba(255,255,255,0.3)" }} />
                 <span className="mt-2 text-[12px]" style={{ color: "rgba(255,255,255,0.4)" }}>Headshot placeholder</span>
               </div>
               <div className="mt-4 text-center">
-                <p className="text-[16px] font-bold" style={{ color: "#092F64" }}>Wyatt Bensman</p>
+                <p className="text-[16px] font-bold" style={{ color: "#0E172A" }}>Wyatt Bensman</p>
                 <p className="text-[14px]" style={{ color: "#71717A" }}>Founder, The Digital Wash</p>
               </div>
             </ScrollReveal>
 
             {/* Right: headline + body */}
             <ScrollReveal delay={150} className="md:w-[60%]">
-              <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1A5799" }}>About</p>
+              <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1570EF" }}>About</p>
               <h1
                 className="mt-5 text-[36px] font-extrabold leading-[1.05] tracking-[-0.02em] md:text-[56px]"
-                style={{ color: "#092F64" }}
+                style={{ color: "#0E172A" }}
               >
                 I built Soap because no one else was going to.
               </h1>
@@ -62,10 +62,10 @@ export default function AboutPage() {
       <section data-bg="white" className="px-6 pb-[84px] md:px-16 md:pb-[112px]">
         <div className="mx-auto max-w-[1100px]">
           <ScrollReveal>
-            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1A5799" }}>Why Soap Exists</p>
+            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1570EF" }}>Why Soap Exists</p>
             <h2
               className="mt-4 text-[32px] font-extrabold leading-[1.1] tracking-[-0.02em] md:text-[44px]"
-              style={{ color: "#092F64" }}
+              style={{ color: "#0E172A" }}
             >
               Real work. Real transparency.
             </h2>
@@ -117,13 +117,13 @@ export default function AboutPage() {
       <section
         data-bg="dark"
         className="px-6 py-24 md:px-16 md:py-24"
-        style={{ backgroundColor: "#092F64" }}
+        style={{ backgroundColor: "#0E172A" }}
       >
         <div className="mx-auto max-w-[720px] text-center">
           <ScrollReveal>
             <p
               className="text-[12px] font-bold uppercase tracking-[0.15em]"
-              style={{ color: "#468BE6" }}
+              style={{ color: "#1570EF" }}
             >
               Get in Touch
             </p>

@@ -93,9 +93,9 @@ export default function GlobalNav({ inline = false }: { inline?: boolean }) {
             <Link
               href="/contact"
               className="btn-primary whitespace-nowrap text-sm font-semibold text-white"
-              style={{ backgroundColor: "#468BE6", padding: "10px 24px", borderRadius: "8px" }}
+              style={{ backgroundColor: "#1570EF", padding: "10px 24px", borderRadius: "8px" }}
             >
-              Request a Demo
+              Book a Demo
             </Link>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function GlobalNav({ inline = false }: { inline?: boolean }) {
           className="lg:hidden"
           style={{
             position: "fixed", top: 64, left: 0, right: 0, bottom: 0,
-            background: "radial-gradient(ellipse 80% 60% at 50% 20%, #1A4080 0%, #092F64 70%, #061F47 100%)",
+            background: "radial-gradient(ellipse 80% 60% at 50% 20%, #152D54 0%, #0E172A 70%, #060D1A 100%)",
             opacity: menuOpen ? 1 : 0,
             transform: menuOpen ? "translateY(0)" : "translateY(-12px)",
             pointerEvents: menuOpen ? "auto" : "none",
@@ -139,7 +139,7 @@ export default function GlobalNav({ inline = false }: { inline?: boolean }) {
               ))}
             </div>
             <div className="mt-8">
-              <Link href="/contact" className="btn-primary block w-full text-center text-[17px] font-semibold text-white" style={{ backgroundColor: "#468BE6", padding: "16px 24px", borderRadius: "10px" }} onClick={closeMenu}>Request a Demo</Link>
+              <Link href="/contact" className="btn-primary block w-full text-center text-[17px] font-semibold text-white" style={{ backgroundColor: "#1570EF", padding: "16px 24px", borderRadius: "10px" }} onClick={closeMenu}>Book a Demo</Link>
             </div>
           </div>
         </div>
@@ -148,11 +148,11 @@ export default function GlobalNav({ inline = false }: { inline?: boolean }) {
   }
 
   // Fixed mode (layout-level, all pages)
-  const textColor = isLight ? "#092F64" : "#FFFFFF";
-  const hoverBg = isLight ? "rgba(70, 139, 230, 0.08)" : "rgba(255, 255, 255, 0.08)";
-  const menuBg = isLight ? "rgba(255, 255, 255, 0.98)" : "radial-gradient(ellipse 80% 60% at 50% 20%, #1A4080 0%, #092F64 70%, #061F47 100%)";
-  const menuTextColor = isLight ? "#092F64" : "#FFFFFF";
-  const menuHoverBg = isLight ? "rgba(70, 139, 230, 0.06)" : "rgba(255, 255, 255, 0.06)";
+  const textColor = isLight ? "#0E172A" : "#FFFFFF";
+  const hoverBg = isLight ? "rgba(21, 112, 239, 0.08)" : "rgba(255, 255, 255, 0.08)";
+  const menuBg = isLight ? "rgba(255, 255, 255, 0.98)" : "radial-gradient(ellipse 80% 60% at 50% 20%, #152D54 0%, #0E172A 70%, #060D1A 100%)";
+  const menuTextColor = isLight ? "#0E172A" : "#FFFFFF";
+  const menuHoverBg = isLight ? "rgba(21, 112, 239, 0.06)" : "rgba(255, 255, 255, 0.06)";
 
   return (
     <header
@@ -165,8 +165,8 @@ export default function GlobalNav({ inline = false }: { inline?: boolean }) {
         backgroundColor: isLight ? "rgba(255, 255, 255, 0.92)" : "transparent",
         backdropFilter: isLight ? "blur(12px)" : "none",
         WebkitBackdropFilter: isLight ? "blur(12px)" : "none",
-        borderBottom: isLight ? "1px solid rgba(9, 47, 100, 0.06)" : "1px solid transparent",
-        boxShadow: isLight ? "0 1px 3px rgba(9, 47, 100, 0.04)" : "none",
+        borderBottom: isLight ? "1px solid rgba(14, 23, 42, 0.06)" : "1px solid transparent",
+        boxShadow: isLight ? "0 1px 3px rgba(14, 23, 42, 0.04)" : "none",
         transition: "opacity 250ms ease, transform 250ms ease, background-color 250ms ease, border-bottom-color 250ms ease, box-shadow 250ms ease, backdrop-filter 250ms ease",
       }}
     >
@@ -190,7 +190,7 @@ export default function GlobalNav({ inline = false }: { inline?: boolean }) {
             ))}
           </div>
           <div className="justify-self-end">
-            <Link href="/contact" className="btn-primary whitespace-nowrap text-sm font-semibold text-white" style={{ backgroundColor: "#468BE6", padding: "10px 24px", borderRadius: "8px" }}>Request a Demo</Link>
+            <Link href="/contact" className="btn-primary whitespace-nowrap text-sm font-semibold text-white" style={{ backgroundColor: "#1570EF", padding: "10px 24px", borderRadius: "8px" }}>Book a Demo</Link>
           </div>
         </div>
         <div className="flex items-center justify-between lg:hidden">
@@ -235,7 +235,7 @@ export default function GlobalNav({ inline = false }: { inline?: boolean }) {
             ))}
           </div>
           <div className="mt-8">
-            <Link href="/contact" className="btn-primary block w-full text-center text-[17px] font-semibold text-white" style={{ backgroundColor: "#468BE6", padding: "16px 24px", borderRadius: "10px" }} onClick={closeMenu}>Request a Demo</Link>
+            <Link href="/contact" className="btn-primary block w-full text-center text-[17px] font-semibold text-white" style={{ backgroundColor: "#1570EF", padding: "16px 24px", borderRadius: "10px" }} onClick={closeMenu}>Book a Demo</Link>
           </div>
         </div>
       </div>

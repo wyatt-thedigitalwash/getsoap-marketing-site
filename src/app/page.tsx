@@ -7,6 +7,7 @@ import AutomationSection from "@/components/AutomationSection";
 import PlatformTabs from "@/components/PlatformTabs";
 import FaqAccordion from "@/components/FaqAccordion";
 import GuidesSection from "@/components/GuidesSection";
+import IntegrationTrust from "@/components/IntegrationTrust";
 import Button from "@/components/Button";
 import Container from "@/components/Container";
 
@@ -26,7 +27,7 @@ export default function Home() {
             data-bg="dark"
             className="relative overflow-visible md:h-dvh"
             style={{
-              background: "radial-gradient(ellipse 80% 60% at 50% 20%, #1A4080 0%, #092F64 70%, #061F47 100%)",
+              background: "radial-gradient(ellipse 80% 60% at 50% 20%, #152D54 0%, #0E172A 70%, #060D1A 100%)",
               borderWidth: "24px",
               borderStyle: "solid",
               borderColor: "#FFFFFF",
@@ -64,7 +65,7 @@ export default function Home() {
                   </span>
                   <span className="block font-normal italic">
                     for franchise systems
-                    <span style={{ color: "#468BE6" }}>.</span>
+                    <span style={{ color: "#1570EF" }}>.</span>
                   </span>
                 </h1>
 
@@ -85,7 +86,7 @@ export default function Home() {
                   <a
                     href="/contact"
                     className="btn-primary w-full text-center text-[16px] font-semibold text-white sm:w-auto"
-                    style={{ backgroundColor: "#468BE6", padding: "14px 32px", borderRadius: "8px" }}
+                    style={{ backgroundColor: "#1570EF", padding: "14px 32px", borderRadius: "8px" }}
                   >
                     Book a Demo
                   </a>
@@ -120,11 +121,11 @@ export default function Home() {
         <ScrollReveal threshold={0.2} duration={700} distance={32} premium className="px-6 md:px-16">
           <h2
             className="mx-auto max-w-[900px] text-center text-[36px] font-extrabold leading-[1.1] tracking-[-0.02em] md:text-[52px]"
-            style={{ color: "#092F64" }}
+            style={{ color: "#0E172A" }}
           >
-            <span className="block"><span className="italic" style={{ color: "#468BE6" }}>Franchisors</span> need visibility.</span>
-            <span className="block"><span className="italic" style={{ color: "#468BE6" }}>Franchisees</span> need leads.</span>
-            <span className="block"><span className="italic" style={{ color: "#468BE6" }}>Soap</span> delivers both.</span>
+            <span className="block"><span className="italic" style={{ color: "#1570EF" }}>Franchisors</span> need visibility.</span>
+            <span className="block"><span className="italic" style={{ color: "#1570EF" }}>Franchisees</span> need leads.</span>
+            <span className="block"><span className="italic" style={{ color: "#1570EF" }}>Soap</span> delivers both.</span>
           </h2>
         </ScrollReveal>
       </section>
@@ -142,14 +143,19 @@ export default function Home() {
       <AutomationSection />
 
       {/* ============================================= */}
+      {/* Section 2c: Integration Trust                  */}
+      {/* ============================================= */}
+      <IntegrationTrust />
+
+      {/* ============================================= */}
       {/* Section 3: Inside the Platform                 */}
       {/* ============================================= */}
       <section
         data-bg="light"
         className="relative px-6 py-[84px] md:px-16 md:py-[112px]"
         style={{
-          background: "radial-gradient(ellipse 80% 50% at 50% 0%, #E9F5FF 0%, #E0EFFA 100%)",
-          borderTop: "1px solid rgba(147, 191, 239, 0.1)",
+          background: "radial-gradient(ellipse 80% 50% at 50% 0%, #F8FAFC 0%, #F1F5F9 100%)",
+          borderTop: "1px solid rgba(14, 23, 42, 0.06)",
         }}
       >
         {/* Noise texture overlay */}
@@ -166,13 +172,13 @@ export default function Home() {
           <ScrollReveal>
             <p
               className="text-center text-[11px] font-bold uppercase tracking-[0.12em]"
-              style={{ color: "#1A5799" }}
+              style={{ color: "#1570EF" }}
             >
               Inside the Platform
             </p>
             <h2
               className="mt-4 text-center text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]"
-              style={{ color: "#092F64" }}
+              style={{ color: "#0E172A" }}
             >
               Two views. One system.
             </h2>
@@ -209,15 +215,9 @@ export default function Home() {
       <section data-bg="white" className="px-6 pt-[84px] pb-[84px] md:px-16 md:pt-[112px] md:pb-[112px]">
         <div className="mx-auto max-w-7xl">
           <ScrollReveal>
-            <p
-              className="text-center text-[11px] font-bold uppercase tracking-[0.12em]"
-              style={{ color: "#1A5799" }}
-            >
-              FAQ
-            </p>
             <h2
-              className="mt-4 text-center text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]"
-              style={{ color: "#092F64" }}
+              className="text-center text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]"
+              style={{ color: "#0E172A" }}
             >
               What franchisors usually ask.
             </h2>
@@ -236,19 +236,13 @@ export default function Home() {
         id="contact"
         data-bg="dark"
         className="px-6 py-16 md:px-16 md:py-24"
-        style={{ backgroundColor: "#092F64" }}
+        style={{ backgroundColor: "#0E172A" }}
       >
         <Container>
           <ScrollReveal>
             <div className="text-center">
-              <p
-                className="text-[12px] font-bold uppercase tracking-[0.15em]"
-                style={{ color: "#468BE6" }}
-              >
-                Book a Demo
-              </p>
               <h2
-                className="mx-auto mt-4 max-w-[800px] text-[36px] font-extrabold leading-[1.1] tracking-[-0.02em] text-white md:text-[48px]"
+                className="mx-auto max-w-[800px] text-[36px] font-extrabold leading-[1.1] tracking-[-0.02em] text-white md:text-[48px]"
               >
                 Let us clean up your franchise marketing.
               </h2>
@@ -260,7 +254,7 @@ export default function Home() {
                 hours with a personalized walkthrough.
               </p>
               <div className="mt-10">
-                <Button href="/contact" size="large">Get in touch</Button>
+                <Button href="/contact" size="large">Book a Demo</Button>
               </div>
               <p
                 className="mt-6 text-[14px]"

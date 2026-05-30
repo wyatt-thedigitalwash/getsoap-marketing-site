@@ -5,7 +5,7 @@ const guides = [
     pill: "Deployment",
     title: "The First 90 Days: How Soap Deploys Across a Franchise Portfolio",
     teaser:
-      "A week-by-week breakdown of what happens after you sign. Brand onboarding, website deployment, franchisee activation, first audits, and the first monthly performance report. Built for franchise systems that want operational clarity before they commit.",
+      "A week-by-week breakdown of what happens after you sign: brand onboarding, website deployment, franchisee activation, and the first monthly performance report.",
     href: "/resources/first-90-days",
   },
   {
@@ -13,7 +13,7 @@ const guides = [
     title:
       "The Infrastructure Thesis: Why Franchise Portfolios Need Unified Marketing Architecture",
     teaser:
-      "Fragmented vendor stacks cost more than they save. Brand consistency at scale drives exit multiples. Portfolio-wide visibility is becoming table stakes. The strategic argument for unified marketing infrastructure in PE-backed franchise systems.",
+      "The strategic argument for unified marketing infrastructure in PE-backed franchise systems. Why fragmented vendor stacks cost more than they save.",
     href: "/resources/infrastructure-thesis",
   },
   {
@@ -21,7 +21,7 @@ const guides = [
     title:
       "How Soap Handles 100 Franchisees Without Losing the Plot",
     teaser:
-      "The operational reality behind portfolio-wide marketing. How Soap scales SEO, content, GBP, and reviews across hundreds of locations without compromising quality. The automation engine, the human review layer, and the methodology that makes it work.",
+      "How Soap scales SEO, content, GBP, and reviews across hundreds of locations without compromising quality. The automation engine and the human review layer.",
     href: "/resources/operating-at-scale",
   },
 ];
@@ -32,13 +32,13 @@ export default function GuidesSection() {
       <ScrollReveal>
         <p
           className="text-center text-[11px] font-bold uppercase tracking-[0.12em]"
-          style={{ color: "#1A5799" }}
+          style={{ color: "#1570EF" }}
         >
           Resources
         </p>
         <h2
           className="mt-4 text-center text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]"
-          style={{ color: "#092F64" }}
+          style={{ color: "#0E172A" }}
         >
           Guides for franchise operators.
         </h2>
@@ -55,15 +55,15 @@ export default function GuidesSection() {
             className="guide-card flex flex-col rounded-[16px] bg-white"
             style={{
               border: "1px solid #E2E8F0",
-              boxShadow: "0 4px 20px rgba(9, 47, 100, 0.05)",
+              boxShadow: "0 4px 20px rgba(14, 23, 42, 0.05)",
               padding: "32px 28px",
             }}
           >
             <span
               className="self-start rounded-full text-[11px] font-semibold uppercase tracking-[0.05em]"
               style={{
-                backgroundColor: "rgba(70, 139, 230, 0.08)",
-                color: "#1A5799",
+                backgroundColor: "rgba(21, 112, 239, 0.08)",
+                color: "#1570EF",
                 padding: "4px 12px",
               }}
             >
@@ -71,8 +71,8 @@ export default function GuidesSection() {
             </span>
             <a
               href={guide.href}
-              className="block text-[20px] font-bold leading-[1.3] transition-colors hover:text-[#468BE6]"
-              style={{ color: "#092F64", marginTop: 20 }}
+              className="block text-[20px] font-bold leading-[1.3] transition-colors hover:text-[#1570EF]"
+              style={{ color: "#0E172A", marginTop: 20 }}
             >
               {guide.title}
             </a>
@@ -86,7 +86,7 @@ export default function GuidesSection() {
               <a
                 href={guide.href}
                 className="arrow-link text-[14px] font-semibold transition-colors hover:underline"
-                style={{ color: "#468BE6" }}
+                style={{ color: "#1570EF" }}
               >
                 Read Guide <span className="arrow-icon">&rarr;</span>
               </a>

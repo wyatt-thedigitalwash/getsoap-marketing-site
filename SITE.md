@@ -46,15 +46,15 @@ Principles:
 ## Color Palette
 
 ### Primary Brand
-- Tufts Blue: #468BE6 (primary CTAs, links, active states, key highlights, "Soap blue")
-- Cobalt Blue: #1A5799 (eyebrow labels, hover depth, secondary emphasis)
-- Cool Black: #092F64 (headlines, navigation text, footer background)
+- Tufts Blue: #1570EF (primary CTAs, links, active states, key highlights, "Soap blue")
+- Cobalt Blue: #1570EF (eyebrow labels, hover depth, secondary emphasis)
+- Cool Black: #0E172A (headlines, navigation text, footer background)
 
 ### Backgrounds
 - White: #FFFFFF (primary page background, card backgrounds)
-- Alice Blue: #E9F5FF (alternating section backgrounds, gradient start)
-- Alice Blue Dark: #E0EFFA (gradient endpoint for Alice Blue sections)
-- Cool Black: #092F64 (footer only)
+- Alice Blue: #F8FAFC (alternating section backgrounds, gradient start)
+- Alice Blue Dark: #F1F5F9 (gradient endpoint for Alice Blue sections)
+- Cool Black: #0E172A (footer only)
 
 ### Surfaces
 - Slate 100: #F1F5F9 (subtle card surface backgrounds, feature visual containers, hover backgrounds, tab switcher background)
@@ -66,7 +66,7 @@ Principles:
 
 ### Text
 - Eerie Black: #1F1F1F (body text)
-- Cool Black: #092F64 (headlines, nav text)
+- Cool Black: #0E172A (headlines, nav text)
 - Gray 500: #71717A (muted secondary text, captions, card descriptions)
 - Slate 400: #94A3B8 (placeholder text in form inputs)
 
@@ -94,7 +94,7 @@ Single typeface: Inter (Google Fonts). Weights: 400, 500, 600, 700, 800.
 ### Type Scale
 - Hero headline: 34px mobile / 68px md / 80px xl, weight 800, tracking -0.02em, line-height 1.05
 - Hero italic subline: same sizing, weight 400 italic
-- Hero period: Cobalt Blue #1A5799
+- Hero period: Cobalt Blue #1570EF
 - Pain points headline: 36px mobile / 52px desktop, weight 800
 - Section headings (h2): 34px mobile / 44-48px desktop, weight 800, tracking -0.02em
 - Feature card titles (h3): 26px mobile / 28-36px desktop, weight 800
@@ -104,20 +104,20 @@ Single typeface: Inter (Google Fonts). Weights: 400, 500, 600, 700, 800.
 - Body large (intro paragraphs): 17-19px, weight 400, line-height 1.6
 - Body: 15-17px, weight 400, line-height 1.6
 - Small (captions, descriptions): 13-14px, weight 400-500
-- Eyebrow labels: 11px, weight 700, uppercase, letter-spacing 0.12em, color Cobalt Blue #1A5799
-- Nav links: 14px, weight 700, color Cool Black #092F64
+- Eyebrow labels: 11px, weight 700, uppercase, letter-spacing 0.12em, color Cobalt Blue #1570EF
+- Nav links: 14px, weight 700, color Cool Black #0E172A
 - Button text: 14-16px, weight 600
 - Form labels: 11px, weight 700, uppercase, letter-spacing 0.1em
 - Form inputs: 14px, weight 400
 
 ### Eyebrow Conventions
-- Standard section eyebrows: 11px, weight 700, letter-spacing 0.12em, uppercase, color #1A5799
-- CTA section eyebrows (dark backgrounds): 12px, weight 700, letter-spacing 0.15em, uppercase, color #468BE6
+- Standard section eyebrows: 11px, weight 700, letter-spacing 0.12em, uppercase, color #1570EF
+- CTA section eyebrows (dark backgrounds): 12px, weight 700, letter-spacing 0.15em, uppercase, color #1570EF
 - Dark mid-section eyebrows: 11px, weight 700, letter-spacing 0.15em, uppercase, color #C9DBEC
 
 ## Logo
 
-Placeholder wordmark: "Soap." in Inter weight 800, color Cool Black (#092F64). Size: 24px in nav.
+Placeholder wordmark: "Soap." in Inter weight 800, color Cool Black (#0E172A). Size: 24px in nav.
 
 The period is a brand element. It is not optional. It stays in the wordmark everywhere.
 
@@ -129,8 +129,8 @@ Final logo is pending.
 - Background: #FFFFFF
 - Border: 1px solid #E2E8F0
 - Border-radius: 16px
-- Shadow: 0 4px 20px rgba(9, 47, 100, 0.05)
-- Hover (where applicable): translateY(-2px), shadow 0 8px 32px rgba(9, 47, 100, 0.10), transition 300ms
+- Shadow: 0 4px 20px rgba(14, 23, 42, 0.05)
+- Hover (where applicable): translateY(-2px), shadow 0 8px 32px rgba(14, 23, 42, 0.10), transition 300ms
 
 ### Feature Visual Containers (inside feature cards)
 - Background: #F1F5F9
@@ -148,14 +148,14 @@ Final logo is pending.
 
 ### FAQ Items
 - Background: #FFFFFF
-- Border: 1px solid #E2E8F0 (active: rgba(70, 139, 230, 0.2))
+- Border: 1px solid #E2E8F0 (active: rgba(21, 112, 239, 0.2))
 - Border-radius: 12px
-- Shadow: 0 1px 4px rgba(9, 47, 100, 0.03)
+- Shadow: 0 1px 4px rgba(14, 23, 42, 0.03)
 - Gap between items: 16px
 
 ### Guide Card Pills
-- Background: rgba(70, 139, 230, 0.08)
-- Color: #1A5799
+- Background: rgba(21, 112, 239, 0.08)
+- Color: #1570EF
 - Border-radius: full
 - Font: 11px, weight 600, uppercase, tracking 0.05em
 
@@ -163,27 +163,27 @@ Final logo is pending.
 - Background: #FFFFFF
 - Border: 1px solid #E2E8F0
 - Border-radius: 18px
-- Shadow: 0 8px 32px rgba(9, 47, 100, 0.08)
+- Shadow: 0 8px 32px rgba(14, 23, 42, 0.08)
 
 ## Button System
 
 ### Primary (filled)
-- Background: Tufts Blue #468BE6
+- Background: Tufts Blue #1570EF
 - Text: white
 - Padding: 14px 32px (hero), 12px 28px (nav)
 - Font: 16px weight 600 (hero), 14px weight 600 (nav)
 - Border-radius: 8px
-- Hover: translateY(-2px), shadow 0 4px 12px rgba(70, 139, 230, 0.3), transition 300ms
+- Hover: translateY(-2px), shadow 0 4px 12px rgba(21, 112, 239, 0.3), transition 300ms
 
 ### Outline
 - Background: transparent
-- Border: 1px solid rgba(9, 47, 100, 0.25)
-- Text: Cool Black #092F64
+- Border: 1px solid rgba(14, 23, 42, 0.25)
+- Text: Cool Black #0E172A
 - Same padding and font as primary
-- Hover: background rgba(70, 139, 230, 0.06), border-color Tufts Blue, text Tufts Blue
+- Hover: background rgba(21, 112, 239, 0.06), border-color Tufts Blue, text Tufts Blue
 
 ### Form Submit
-- Background: Tufts Blue #468BE6
+- Background: Tufts Blue #1570EF
 - Text: white, 14px weight 600
 - Full width
 - Border-radius: 12px
@@ -229,7 +229,7 @@ Contact is in the footer Company column and linked from all CTA buttons, not in 
 - Transition: opacity fade 400ms, cubic-bezier(0.16, 1, 0.3, 1)
 
 ### Footer
-- Background: Cool Black #092F64
+- Background: Cool Black #0E172A
 - Soap. wordmark, copyright, legal links (Privacy, Terms, Cookies), "Built by The Digital Wash" link
 - All in bottom row separated by pipe divider
 - No newsletter signup. No social icons unless real accounts exist.

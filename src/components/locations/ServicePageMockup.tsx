@@ -4,7 +4,7 @@ export default function ServicePageMockup() {
       className="overflow-hidden rounded-[10px] bg-white"
       style={{
         border: "1px solid #E2E8F0",
-        boxShadow: "0 4px 20px rgba(9, 47, 100, 0.05)",
+        boxShadow: "0 4px 20px rgba(14, 23, 42, 0.05)",
       }}
     >
       {/* Browser chrome */}
@@ -29,7 +29,7 @@ export default function ServicePageMockup() {
       <div className="px-4 py-3">
         {/* Header bar */}
         <div className="flex items-center justify-between">
-          <p className="text-[10px] font-bold" style={{ color: "#092F64" }}>
+          <p className="text-[10px] font-bold" style={{ color: "#0E172A" }}>
             Bumble Roofing -- Tampa
           </p>
           <div className="hidden items-center gap-3 sm:flex">
@@ -51,7 +51,7 @@ export default function ServicePageMockup() {
         <div className="rounded-lg px-3 py-4" style={{ backgroundColor: "#F8FAFC" }}>
           <h3
             className="text-[16px] font-bold leading-tight sm:text-[18px]"
-            style={{ color: "#092F64" }}
+            style={{ color: "#0E172A" }}
           >
             Storm Damage Restoration in Tampa, FL
           </h3>
@@ -60,7 +60,7 @@ export default function ServicePageMockup() {
           </p>
           <div
             className="mt-3 inline-block rounded px-3 py-1.5 text-[10px] font-semibold text-white"
-            style={{ backgroundColor: "#1A5799" }}
+            style={{ backgroundColor: "#1570EF" }}
           >
             Get a Free Quote
           </div>
@@ -76,7 +76,7 @@ export default function ServicePageMockup() {
         {/* Footer strip */}
         <div
           className="mt-3 rounded px-2 py-1.5"
-          style={{ backgroundColor: "#092F64" }}
+          style={{ backgroundColor: "#0E172A" }}
         >
           <p className="text-[8px] text-white/60">
             Bumble Roofing Tampa &middot; Licensed &amp; Insured

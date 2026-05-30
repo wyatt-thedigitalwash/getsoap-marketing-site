@@ -14,10 +14,10 @@ export default function HierarchyDiagram() {
             style={{
               border: "1px solid #E1E5EC",
               padding: "20px 24px",
-              boxShadow: "0 1px 3px rgba(9, 47, 100, 0.04)",
+              boxShadow: "0 1px 3px rgba(14, 23, 42, 0.04)",
             }}
           >
-            <p className="text-[16px] font-bold" style={{ color: "#092F64" }}>
+            <p className="text-[16px] font-bold" style={{ color: "#0E172A" }}>
               {tier.title}
             </p>
             <p className="mt-1 text-[13px]" style={{ color: "#6B7585" }}>

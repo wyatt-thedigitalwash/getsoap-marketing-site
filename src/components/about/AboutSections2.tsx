@@ -38,13 +38,13 @@ export function PrinciplesSection() {
           <div className="text-center">
             <p
               className="text-[11px] font-bold uppercase tracking-[0.12em]"
-              style={{ color: "#1A5799" }}
+              style={{ color: "#1570EF" }}
             >
               Operating Principles
             </p>
             <h2
               className="mx-auto mt-4 max-w-[720px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]"
-              style={{ color: "#092F64" }}
+              style={{ color: "#0E172A" }}
             >
               How Soap is built. How Soap is run.
             </h2>
@@ -69,7 +69,7 @@ export function PrinciplesSection() {
               </p>
               <h3
                 className="mt-2 text-[18px] font-bold"
-                style={{ color: "#092F64" }}
+                style={{ color: "#0E172A" }}
               >
                 {p.heading}
               </h3>
@@ -115,7 +115,7 @@ export function RoadmapSection() {
     <section
       data-bg="dark"
       className="px-6 py-[84px] md:px-16 md:py-[112px]"
-      style={{ backgroundColor: "#092F64" }}
+      style={{ backgroundColor: "#0E172A" }}
     >
       <Container>
         <ScrollReveal>
@@ -147,7 +147,7 @@ export function RoadmapSection() {
             <ScrollReveal key={item.eyebrow} delay={150 + i * 100} distance={20}>
               <p
                 className="text-[11px] font-bold uppercase tracking-[0.15em]"
-                style={{ color: "#468BE6" }}
+                style={{ color: "#1570EF" }}
               >
                 {item.eyebrow}
               </p>

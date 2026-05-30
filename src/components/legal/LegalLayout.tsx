@@ -25,13 +25,13 @@ export default function LegalLayout({
       <div style={{ paddingTop: 80, paddingBottom: 48 }}>
         <p
           className="text-[11px] font-bold uppercase tracking-[0.15em]"
-          style={{ color: "#1A5799" }}
+          style={{ color: "#1570EF" }}
         >
           Legal
         </p>
         <h1
           className="mt-4 text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]"
-          style={{ color: "#092F64" }}
+          style={{ color: "#0E172A" }}
         >
           {title}
         </h1>
@@ -44,13 +44,13 @@ export default function LegalLayout({
       <div
         className="rounded-r-lg"
         style={{
-          backgroundColor: "#E9F5FF",
-          borderLeft: "3px solid #1A5799",
+          backgroundColor: "#F8FAFC",
+          borderLeft: "3px solid #1570EF",
           padding: "16px 20px",
           margin: "0 0 48px 0",
         }}
       >
-        <p className="text-[13px] font-medium" style={{ color: "#092F64" }}>
+        <p className="text-[13px] font-medium" style={{ color: "#0E172A" }}>
           This document is a working version pending review by legal counsel.
           Final policy language will be published prior to platform launch.
         </p>
@@ -69,7 +69,7 @@ export default function LegalLayout({
               <Link
                 href={page.href}
                 className="font-semibold underline-offset-2 transition-colors hover:underline"
-                style={{ color: "#092F64" }}
+                style={{ color: "#0E172A" }}
               >
                 {page.label}
               </Link>

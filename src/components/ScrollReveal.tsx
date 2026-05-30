@@ -37,9 +37,6 @@ export default function ScrollReveal({
     const el = ref.current;
     if (!el) return;
 
-    el.style.opacity = "0";
-    el.style.transform = `translateY(${distance}px)`;
-
     const ease = premium
       ? "cubic-bezier(0.16, 1, 0.3, 1)"
       : "ease-out";
@@ -62,9 +59,15 @@ export default function ScrollReveal({
     return () => observer.disconnect();
   }, [delay, threshold, premium, distance, duration]);
 
+  const initialStyle: CSSProperties = {
+    ...style,
+    opacity: 0,
+    transform: `translateY(${distance}px)`,
+  };
+
   return (
     // @ts-expect-error - dynamic tag
-    <Tag ref={ref} className={className} style={style}>
+    <Tag ref={ref} className={className} style={initialStyle}>
       {children}
     </Tag>
   );

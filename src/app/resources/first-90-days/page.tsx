@@ -34,7 +34,7 @@ export default function First90DaysPage() {
         is what the first 90 days actually look like.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>Week 1 to 2: Brand Onboarding</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>Week 1 to 2: Brand Onboarding</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         The first two weeks are about getting Soap configured to match your
@@ -48,7 +48,7 @@ export default function First90DaysPage() {
         the first pixel.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>What we collect</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>What we collect</h3>
       <ul className={ul}>
         <li className={li} style={{ color: "#1F1F1F" }}>Logo files in all required formats and orientations</li>
         <li className={li} style={{ color: "#1F1F1F" }}>Approved brand colors with exact hex values</li>
@@ -60,7 +60,7 @@ export default function First90DaysPage() {
         <li className={li} style={{ color: "#1F1F1F" }}>Existing website assets that need to be migrated</li>
       </ul>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>What we configure</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>What we configure</h3>
       <ul className={ul}>
         <li className={li} style={{ color: "#1F1F1F" }}>Master design system in the Soap platform</li>
         <li className={li} style={{ color: "#1F1F1F" }}>Brand-locked templates for service pages, area pages, and location homepages</li>
@@ -76,12 +76,12 @@ export default function First90DaysPage() {
         point forward will inherit the brand system automatically.
       </p>
 
-      <blockquote className={bq} style={{ color: "#092F64", borderLeft: "3px solid #1A5799" }}>
+      <blockquote className={bq} style={{ color: "#0E172A", borderLeft: "3px solid #1570EF" }}>
         The first two weeks are corporate-level work. By the end of Week 2,
         your brand exists inside Soap as a fully configured environment.
       </blockquote>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>Week 3 to 5: Website Architecture and First Locations</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>Week 3 to 5: Website Architecture and First Locations</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         With the brand configured, Soap begins building out the actual location
@@ -89,7 +89,7 @@ export default function First90DaysPage() {
         focus on architecture and the first wave of franchisee activations.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Site architecture deployment</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Site architecture deployment</h3>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         Soap deploys the /locations URL structure within your corporate domain.
@@ -104,7 +104,7 @@ export default function First90DaysPage() {
         with your portfolio.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>First wave of franchisee activations</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>First wave of franchisee activations</h3>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         We activate the first 5 to 10 franchisees in this window. These are the
@@ -127,7 +127,7 @@ export default function First90DaysPage() {
         ranking signals.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>Week 6 to 8: Portfolio-Wide Rollout</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>Week 6 to 8: Portfolio-Wide Rollout</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         With the architecture validated and the first wave running cleanly, Soap
@@ -135,7 +135,7 @@ export default function First90DaysPage() {
         highest-volume phase of deployment.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Activation cadence</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Activation cadence</h3>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         We typically activate 10 to 20 franchisees per week during this phase.
@@ -148,7 +148,7 @@ export default function First90DaysPage() {
         work per location. The Soap platform handles the scale.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>First content production cycles begin</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>First content production cycles begin</h3>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         Once a franchisee location is live, Soap begins its content production
@@ -169,7 +169,7 @@ export default function First90DaysPage() {
         audits in their history.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>Week 9 to 12: Optimization and First Reporting Cycle</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>Week 9 to 12: Optimization and First Reporting Cycle</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         With the portfolio deployed, the focus shifts from activation to
@@ -177,7 +177,7 @@ export default function First90DaysPage() {
         begins refining performance at the location level.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>First monthly performance report</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>First monthly performance report</h3>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         At Week 10, corporate receives the first monthly performance report.
@@ -192,7 +192,7 @@ export default function First90DaysPage() {
         <li className={li} style={{ color: "#1F1F1F" }}>Action items prioritized by impact</li>
       </ul>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Optimization adjustments</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Optimization adjustments</h3>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         Based on the first reporting cycle, Soap adjusts content priorities,
@@ -202,7 +202,7 @@ export default function First90DaysPage() {
         locations in other hurricane-prone markets.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Franchisee feedback and adoption</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Franchisee feedback and adoption</h3>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         Week 11 and 12 include a structured franchisee feedback cycle. We
@@ -211,13 +211,13 @@ export default function First90DaysPage() {
         90-day mark.
       </p>
 
-      <blockquote className={bq} style={{ color: "#092F64", borderLeft: "3px solid #1A5799" }}>
+      <blockquote className={bq} style={{ color: "#0E172A", borderLeft: "3px solid #1570EF" }}>
         By the 90-day mark, your portfolio has a fully deployed marketing
         infrastructure layer with measurable performance data and a clear
         optimization roadmap.
       </blockquote>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>After Day 90</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>After Day 90</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         Day 90 is not the finish line. It is the point at which your portfolio
@@ -234,14 +234,14 @@ export default function First90DaysPage() {
         operational muscle is already built.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>What Soap Handles vs. What Corporate Handles</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>What Soap Handles vs. What Corporate Handles</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         Throughout the 90 days, the responsibility split is clear and
         consistent:
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Soap handles</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Soap handles</h3>
       <ul className={ul}>
         <li className={li} style={{ color: "#1F1F1F" }}>All technical implementation and platform configuration</li>
         <li className={li} style={{ color: "#1F1F1F" }}>Website deployment and architecture</li>
@@ -253,7 +253,7 @@ export default function First90DaysPage() {
         <li className={li} style={{ color: "#1F1F1F" }}>Franchisee onboarding workflows</li>
       </ul>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Corporate handles</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Corporate handles</h3>
       <ul className={ul}>
         <li className={li} style={{ color: "#1F1F1F" }}>Providing brand assets and documentation in Week 1</li>
         <li className={li} style={{ color: "#1F1F1F" }}>Approving the master design system</li>
@@ -262,7 +262,7 @@ export default function First90DaysPage() {
         <li className={li} style={{ color: "#1F1F1F" }}>Approving any custom integrations or non-standard configurations</li>
       </ul>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Franchisees handle</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Franchisees handle</h3>
       <ul className={ul}>
         <li className={li} style={{ color: "#1F1F1F" }}>Submitting their location-specific information (service area, hours, contact info)</li>
         <li className={li} style={{ color: "#1F1F1F" }}>Uploading photos through the mobile app or platform</li>
@@ -276,7 +276,7 @@ export default function First90DaysPage() {
         overloaded.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>The Deployment Guarantee</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>The Deployment Guarantee</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         We commit to specific deployment milestones in writing. If we miss them
@@ -290,7 +290,7 @@ export default function First90DaysPage() {
         commitments, not aspirational targets.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>Why This Matters</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>Why This Matters</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         Most franchise marketing platforms cannot publish their deployment

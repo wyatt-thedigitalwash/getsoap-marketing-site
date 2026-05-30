@@ -3,7 +3,7 @@ import { PRODUCT_LINKS } from "@/lib/navigation";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#092F64]">
+    <footer className="w-full bg-[#0E172A]">
       <div className="mx-auto max-w-7xl px-6 md:px-10">
         <div style={{ borderTop: "1px solid rgba(255, 255, 255, 0.06)" }} />
       </div>
@@ -31,6 +31,18 @@ export default function Footer() {
                     </Link>
                   </li>
                 ))}
+              </ul>
+            </div>
+            <div>
+              <p className="text-[11px] font-bold uppercase tracking-[0.12em] text-white/40">
+                Integrations
+              </p>
+              <ul className="mt-3 flex flex-col gap-2.5">
+                <li className="text-sm text-white/60">Google Business Profile</li>
+                <li className="text-sm text-white/60">Ahrefs</li>
+                <li className="text-sm text-white/60">Stripe</li>
+                <li className="text-sm text-white/60">Twilio</li>
+                <li className="text-sm text-white/60">Google Analytics</li>
               </ul>
             </div>
             <div>

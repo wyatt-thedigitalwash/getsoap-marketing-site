@@ -45,17 +45,17 @@ function PathNode({
     <div
       className="flex items-center gap-1.5 rounded-lg px-2.5 py-2"
       style={{
-        backgroundColor: highlighted ? "rgba(26, 87, 153, 0.06)" : "#FFFFFF",
-        border: `1px solid ${highlighted ? "#1A5799" : "#E2E8F0"}`,
+        backgroundColor: highlighted ? "rgba(21, 112, 239, 0.06)" : "#FFFFFF",
+        border: `1px solid ${highlighted ? "#1570EF" : "#E2E8F0"}`,
       }}
     >
       <FileText
         size={12}
-        style={{ color: "#1A5799", flexShrink: 0 }}
+        style={{ color: "#1570EF", flexShrink: 0 }}
       />
       <span
         className="whitespace-nowrap font-mono text-[13px] font-medium"
-        style={{ color: "#092F64" }}
+        style={{ color: "#0E172A" }}
       >
         {label}
       </span>
@@ -71,7 +71,7 @@ export default function SitemapTree() {
         className="rounded-xl bg-white px-4 py-3"
         style={{ border: "1px solid #E2E8F0" }}
       >
-        <p className="font-mono text-[14px] font-bold" style={{ color: "#092F64" }}>
+        <p className="font-mono text-[14px] font-bold" style={{ color: "#0E172A" }}>
           bumbleroofing.com
         </p>
         <p className="mt-0.5 text-[11px] font-medium" style={{ color: "#71717A" }}>
@@ -99,7 +99,7 @@ export default function SitemapTree() {
             ))}
             <div
               className="rounded-full px-3 py-1 text-[11px] font-semibold"
-              style={{ backgroundColor: "rgba(26, 87, 153, 0.08)", color: "#1A5799" }}
+              style={{ backgroundColor: "rgba(21, 112, 239, 0.08)", color: "#1570EF" }}
             >
               + 43 more
             </div>
@@ -114,7 +114,7 @@ export default function SitemapTree() {
           >
             <p
               className="text-[11px] font-bold uppercase tracking-[0.08em]"
-              style={{ color: "#1A5799" }}
+              style={{ color: "#1570EF" }}
             >
               /locations/tampa
             </p>
@@ -130,10 +130,10 @@ export default function SitemapTree() {
                 </p>
                 {tampaServices.map((path) => (
                   <div key={path} className="flex items-center gap-1.5">
-                    <FileText size={11} style={{ color: "#1A5799", flexShrink: 0 }} />
+                    <FileText size={11} style={{ color: "#1570EF", flexShrink: 0 }} />
                     <span
                       className="whitespace-nowrap font-mono text-[11px] font-medium md:text-[12px]"
-                      style={{ color: "#092F64" }}
+                      style={{ color: "#0E172A" }}
                     >
                       {path}
                     </span>
@@ -151,10 +151,10 @@ export default function SitemapTree() {
                 </p>
                 {tampaAreas.map((path) => (
                   <div key={path} className="flex items-center gap-1.5">
-                    <FileText size={11} style={{ color: "#1A5799", flexShrink: 0 }} />
+                    <FileText size={11} style={{ color: "#1570EF", flexShrink: 0 }} />
                     <span
                       className="whitespace-nowrap font-mono text-[11px] font-medium md:text-[12px]"
-                      style={{ color: "#092F64" }}
+                      style={{ color: "#0E172A" }}
                     >
                       {path}
                     </span>

@@ -114,10 +114,10 @@ export default function IntegrationsCarousel() {
       style={{ backgroundColor: "#FFFFFF", overflowX: "clip" }}
     >
       <ScrollReveal className="mx-auto max-w-7xl px-6 md:px-16" style={{ marginBottom: 48 }} distance={20}>
-        <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1A5799" }}>
+        <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1570EF" }}>
           Integrations
         </p>
-        <h2 className="mt-4 text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#092F64" }}>
+        <h2 className="mt-4 text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#0E172A" }}>
           Plays nice with the stack you already have.
         </h2>
         <p className="mt-4 max-w-[580px] text-[16px] leading-[1.6] md:text-[17px]" style={{ color: "#1F1F1F" }}>
@@ -145,7 +145,7 @@ export default function IntegrationsCarousel() {
             </div>
             <h3
               className="text-[17px] font-bold"
-              style={{ color: "#092F64", marginTop: 14 }}
+              style={{ color: "#0E172A", marginTop: 14 }}
             >
               {int.name}
             </h3>
@@ -173,7 +173,7 @@ export default function IntegrationsCarousel() {
             aria-label="Previous"
             disabled={!canLeft}
           >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#092F64" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0E172A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <polyline points="15 18 9 12 15 6" />
             </svg>
           </button>
@@ -189,7 +189,7 @@ export default function IntegrationsCarousel() {
             aria-label="Next"
             disabled={!canRight}
           >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#092F64" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0E172A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <polyline points="9 18 15 12 9 6" />
             </svg>
           </button>

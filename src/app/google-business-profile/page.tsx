@@ -25,7 +25,7 @@ export default function GoogleBusinessProfilePage() {
             <div className="mx-auto max-w-[880px] text-center">
               <h1
                 className="text-[36px] font-extrabold leading-[1.05] tracking-[-0.02em] md:text-[56px]"
-                style={{ color: "#092F64" }}
+                style={{ color: "#0E172A" }}
               >
                 The local pack is where the leads are.
               </h1>
@@ -68,18 +68,12 @@ export default function GoogleBusinessProfilePage() {
       <section
         data-bg="dark"
         className="px-6 py-16 md:px-16 md:py-24"
-        style={{ backgroundColor: "#092F64" }}
+        style={{ backgroundColor: "#0E172A" }}
       >
         <Container>
           <ScrollReveal>
             <div className="text-center">
-              <p
-                className="text-[12px] font-bold uppercase tracking-[0.15em]"
-                style={{ color: "#468BE6" }}
-              >
-                Book a Demo
-              </p>
-              <h2 className="mx-auto mt-4 max-w-[720px] text-[36px] font-extrabold leading-tight tracking-[-0.02em] text-white md:text-[48px]">
+              <h2 className="mx-auto max-w-[720px] text-[36px] font-extrabold leading-tight tracking-[-0.02em] text-white md:text-[48px]">
                 See what GBP could look like across your portfolio.
               </h2>
               <p

@@ -105,7 +105,7 @@ export default function PlatformPage() {
             <div className="mx-auto max-w-[880px] text-center">
               <h1
                 className="text-[36px] font-extrabold leading-[1.05] tracking-[-0.02em] md:text-[56px]"
-                style={{ color: "#092F64" }}
+                style={{ color: "#0E172A" }}
               >
                 Built for the way franchise systems actually operate.
               </h1>
@@ -127,7 +127,7 @@ export default function PlatformPage() {
       <section
         data-bg="light"
         className="relative px-6 py-[84px] md:px-16 md:py-[112px]"
-        style={{ backgroundColor: "#E9F5FF" }}
+        style={{ backgroundColor: "#F8FAFC" }}
       >
         <div
           className="pointer-events-none absolute inset-0"
@@ -138,12 +138,12 @@ export default function PlatformPage() {
             <div className="flex flex-col gap-8 md:flex-row md:items-center md:gap-12">
               {/* Left: eyebrow + heading + description */}
               <div className="md:w-1/2">
-                <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1A5799" }}>
+                <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1570EF" }}>
                   Purpose-Built Architecture
                 </p>
                 <h2
                   className="mt-4 text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]"
-                  style={{ color: "#092F64" }}
+                  style={{ color: "#0E172A" }}
                 >
                   The hierarchy Soap was built around.
                 </h2>
@@ -170,8 +170,8 @@ export default function PlatformPage() {
         <Container>
           <ScrollReveal>
             <div className="mb-12 text-center md:mb-16">
-              <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1A5799" }}>Every Role</p>
-              <h2 className="mx-auto mt-4 max-w-[760px] text-[32px] font-extrabold leading-[1.1] tracking-[-0.02em] md:text-[44px]" style={{ color: "#092F64" }}>Three views. One platform.</h2>
+              <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1570EF" }}>Every Role</p>
+              <h2 className="mx-auto mt-4 max-w-[760px] text-[32px] font-extrabold leading-[1.1] tracking-[-0.02em] md:text-[44px]" style={{ color: "#0E172A" }}>Three views. One platform.</h2>
             </div>
           </ScrollReveal>
           <div className="flex flex-col gap-6 md:gap-8">
@@ -181,7 +181,7 @@ export default function PlatformPage() {
                 className="overflow-hidden rounded-[16px] bg-white p-6 md:p-8 card-hover"
                 style={{
                   border: "1px solid #E2E8F0",
-                  boxShadow: "0 4px 20px rgba(9, 47, 100, 0.05)",
+                  boxShadow: "0 4px 20px rgba(14, 23, 42, 0.05)",
                 }}
               >
                 {/* Mobile */}
@@ -193,12 +193,12 @@ export default function PlatformPage() {
                     <DashboardMockup label="PE Firm Dashboard" />
                   </div>
                   <div className="pt-6">
-                    <h2 className="text-[26px] font-extrabold leading-tight tracking-[-0.02em]" style={{ color: "#092F64" }}>Portfolio command across every brand.</h2>
-                    <p className="mt-3 text-[15px] font-medium leading-[1.5] md:text-[16px]" style={{ color: "#468BE6" }}>Built for operating partners managing multi-brand portfolios.</p>
+                    <h2 className="text-[26px] font-extrabold leading-tight tracking-[-0.02em]" style={{ color: "#0E172A" }}>Portfolio command across every brand.</h2>
+                    <p className="mt-3 text-[15px] font-medium leading-[1.5] md:text-[16px]" style={{ color: "#1570EF" }}>Built for operating partners managing multi-brand portfolios.</p>
                     <ul className="mt-4 flex flex-col gap-2">
                       {peFirmFeatures.map((f) => (
                         <li key={f} className="flex items-start gap-2.5">
-                          <Check size={16} style={{ color: "#1A5799", marginTop: 3, flexShrink: 0 }} />
+                          <Check size={16} style={{ color: "#1570EF", marginTop: 3, flexShrink: 0 }} />
                           <span className="text-[15px]" style={{ color: "#1F1F1F" }}>{f}</span>
                         </li>
                       ))}
@@ -211,12 +211,12 @@ export default function PlatformPage() {
                   style={{ gridTemplateColumns: "1fr 1fr", gap: 48, padding: "24px 24px", alignItems: "center" }}
                 >
                   <div className="flex flex-col justify-center">
-                    <h2 className="text-[26px] font-extrabold leading-tight tracking-[-0.02em] md:text-[32px]" style={{ color: "#092F64" }}>Portfolio command across every brand.</h2>
-                    <p className="mt-3 text-[15px] font-medium leading-[1.5] md:text-[16px]" style={{ color: "#468BE6" }}>Built for operating partners managing multi-brand portfolios.</p>
+                    <h2 className="text-[26px] font-extrabold leading-tight tracking-[-0.02em] md:text-[32px]" style={{ color: "#0E172A" }}>Portfolio command across every brand.</h2>
+                    <p className="mt-3 text-[15px] font-medium leading-[1.5] md:text-[16px]" style={{ color: "#1570EF" }}>Built for operating partners managing multi-brand portfolios.</p>
                     <ul className="mt-4 flex flex-col gap-2">
                       {peFirmFeatures.map((f) => (
                         <li key={f} className="flex items-start gap-2.5">
-                          <Check size={16} style={{ color: "#1A5799", marginTop: 3, flexShrink: 0 }} />
+                          <Check size={16} style={{ color: "#1570EF", marginTop: 3, flexShrink: 0 }} />
                           <span className="text-[15px]" style={{ color: "#1F1F1F" }}>{f}</span>
                         </li>
                       ))}
@@ -240,7 +240,7 @@ export default function PlatformPage() {
                 className="overflow-hidden rounded-[16px] bg-white p-6 md:p-8 card-hover"
                 style={{
                   border: "1px solid #E2E8F0",
-                  boxShadow: "0 4px 20px rgba(9, 47, 100, 0.05)",
+                  boxShadow: "0 4px 20px rgba(14, 23, 42, 0.05)",
                 }}
               >
                 {/* Mobile */}
@@ -252,12 +252,12 @@ export default function PlatformPage() {
                     <DashboardMockup label="Franchisor Dashboard" />
                   </div>
                   <div className="pt-6">
-                    <h2 className="text-[26px] font-extrabold leading-tight tracking-[-0.02em]" style={{ color: "#092F64" }}>Corporate command center.</h2>
-                    <p className="mt-3 text-[15px] font-medium leading-[1.5] md:text-[16px]" style={{ color: "#468BE6" }}>Built for franchisors managing every location within their brand.</p>
+                    <h2 className="text-[26px] font-extrabold leading-tight tracking-[-0.02em]" style={{ color: "#0E172A" }}>Corporate command center.</h2>
+                    <p className="mt-3 text-[15px] font-medium leading-[1.5] md:text-[16px]" style={{ color: "#1570EF" }}>Built for franchisors managing every location within their brand.</p>
                     <ul className="mt-4 flex flex-col gap-2">
                       {franchisorFeatures.map((f) => (
                         <li key={f} className="flex items-start gap-2.5">
-                          <Check size={16} style={{ color: "#1A5799", marginTop: 3, flexShrink: 0 }} />
+                          <Check size={16} style={{ color: "#1570EF", marginTop: 3, flexShrink: 0 }} />
                           <span className="text-[15px]" style={{ color: "#1F1F1F" }}>{f}</span>
                         </li>
                       ))}
@@ -278,12 +278,12 @@ export default function PlatformPage() {
                     </div>
                   </div>
                   <div className="flex flex-col justify-center order-2">
-                    <h2 className="text-[26px] font-extrabold leading-tight tracking-[-0.02em] md:text-[32px]" style={{ color: "#092F64" }}>Corporate command center.</h2>
-                    <p className="mt-3 text-[15px] font-medium leading-[1.5] md:text-[16px]" style={{ color: "#468BE6" }}>Built for franchisors managing every location within their brand.</p>
+                    <h2 className="text-[26px] font-extrabold leading-tight tracking-[-0.02em] md:text-[32px]" style={{ color: "#0E172A" }}>Corporate command center.</h2>
+                    <p className="mt-3 text-[15px] font-medium leading-[1.5] md:text-[16px]" style={{ color: "#1570EF" }}>Built for franchisors managing every location within their brand.</p>
                     <ul className="mt-4 flex flex-col gap-2">
                       {franchisorFeatures.map((f) => (
                         <li key={f} className="flex items-start gap-2.5">
-                          <Check size={16} style={{ color: "#1A5799", marginTop: 3, flexShrink: 0 }} />
+                          <Check size={16} style={{ color: "#1570EF", marginTop: 3, flexShrink: 0 }} />
                           <span className="text-[15px]" style={{ color: "#1F1F1F" }}>{f}</span>
                         </li>
                       ))}
@@ -299,7 +299,7 @@ export default function PlatformPage() {
                 className="overflow-hidden rounded-[16px] bg-white p-6 md:p-8 card-hover"
                 style={{
                   border: "1px solid #E2E8F0",
-                  boxShadow: "0 4px 20px rgba(9, 47, 100, 0.05)",
+                  boxShadow: "0 4px 20px rgba(14, 23, 42, 0.05)",
                 }}
               >
                 {/* Mobile */}
@@ -311,12 +311,12 @@ export default function PlatformPage() {
                     <DashboardMockup label="Franchisee Dashboard" />
                   </div>
                   <div className="pt-6">
-                    <h2 className="text-[26px] font-extrabold leading-tight tracking-[-0.02em]" style={{ color: "#092F64" }}>Per-location operations.</h2>
-                    <p className="mt-3 text-[15px] font-medium leading-[1.5] md:text-[16px]" style={{ color: "#468BE6" }}>Built for franchisees running their own location.</p>
+                    <h2 className="text-[26px] font-extrabold leading-tight tracking-[-0.02em]" style={{ color: "#0E172A" }}>Per-location operations.</h2>
+                    <p className="mt-3 text-[15px] font-medium leading-[1.5] md:text-[16px]" style={{ color: "#1570EF" }}>Built for franchisees running their own location.</p>
                     <ul className="mt-4 flex flex-col gap-2">
                       {franchiseeFeatures.map((f) => (
                         <li key={f} className="flex items-start gap-2.5">
-                          <Check size={16} style={{ color: "#1A5799", marginTop: 3, flexShrink: 0 }} />
+                          <Check size={16} style={{ color: "#1570EF", marginTop: 3, flexShrink: 0 }} />
                           <span className="text-[15px]" style={{ color: "#1F1F1F" }}>{f}</span>
                         </li>
                       ))}
@@ -329,12 +329,12 @@ export default function PlatformPage() {
                   style={{ gridTemplateColumns: "1fr 1fr", gap: 48, padding: "24px 24px", alignItems: "center" }}
                 >
                   <div className="flex flex-col justify-center">
-                    <h2 className="text-[26px] font-extrabold leading-tight tracking-[-0.02em] md:text-[32px]" style={{ color: "#092F64" }}>Per-location operations.</h2>
-                    <p className="mt-3 text-[15px] font-medium leading-[1.5] md:text-[16px]" style={{ color: "#468BE6" }}>Built for franchisees running their own location.</p>
+                    <h2 className="text-[26px] font-extrabold leading-tight tracking-[-0.02em] md:text-[32px]" style={{ color: "#0E172A" }}>Per-location operations.</h2>
+                    <p className="mt-3 text-[15px] font-medium leading-[1.5] md:text-[16px]" style={{ color: "#1570EF" }}>Built for franchisees running their own location.</p>
                     <ul className="mt-4 flex flex-col gap-2">
                       {franchiseeFeatures.map((f) => (
                         <li key={f} className="flex items-start gap-2.5">
-                          <Check size={16} style={{ color: "#1A5799", marginTop: 3, flexShrink: 0 }} />
+                          <Check size={16} style={{ color: "#1570EF", marginTop: 3, flexShrink: 0 }} />
                           <span className="text-[15px]" style={{ color: "#1F1F1F" }}>{f}</span>
                         </li>
                       ))}
@@ -360,12 +360,12 @@ export default function PlatformPage() {
         <Container>
           <ScrollReveal>
             <div className="text-center">
-              <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1A5799" }}>
+              <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1570EF" }}>
                 Brand Standards
               </p>
               <h2
                 className="mx-auto mt-4 max-w-[720px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]"
-                style={{ color: "#092F64" }}
+                style={{ color: "#0E172A" }}
               >
                 Independence within guardrails.
               </h2>
@@ -389,8 +389,8 @@ export default function PlatformPage() {
                 className="rounded-xl bg-white"
                 style={{ border: "1px solid #E2E8F0", padding: 32 }}
               >
-                <card.Icon size={28} style={{ color: "#1A5799" }} />
-                <h3 className="mt-5 text-[18px] font-bold" style={{ color: "#092F64" }}>
+                <card.Icon size={28} style={{ color: "#1570EF" }} />
+                <h3 className="mt-5 text-[18px] font-bold" style={{ color: "#0E172A" }}>
                   {card.heading}
                 </h3>
                 <p className="mt-3 text-[14px] leading-[1.6]" style={{ color: "#1F1F1F" }}>
@@ -403,7 +403,7 @@ export default function PlatformPage() {
       </section>
 
       {/* S6: Mobile App */}
-      <section data-bg="dark" className="px-6 py-[84px] md:px-16 md:py-[112px]" style={{ backgroundColor: "#092F64" }}>
+      <section data-bg="dark" className="px-6 py-[84px] md:px-16 md:py-[112px]" style={{ backgroundColor: "#0E172A" }}>
         <Container>
           <div className="flex flex-col gap-12 md:flex-row md:items-center md:gap-16">
             <ScrollReveal className="md:w-1/2">
@@ -457,12 +457,12 @@ export default function PlatformPage() {
         <Container>
           <ScrollReveal>
             <div className="text-center">
-              <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1A5799" }}>
+              <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1570EF" }}>
                 Reporting
               </p>
               <h2
                 className="mx-auto mt-4 max-w-[720px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]"
-                style={{ color: "#092F64" }}
+                style={{ color: "#0E172A" }}
               >
                 Roll up the entire portfolio.
               </h2>
@@ -479,8 +479,8 @@ export default function PlatformPage() {
           <div className="mt-12 grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-x-16 md:gap-y-12">
             {reportBlocks.map((block, i) => (
               <ScrollReveal key={block.heading} delay={100 + i * 80} distance={20}>
-                <block.Icon size={28} style={{ color: "#1A5799" }} />
-                <h3 className="mt-4 text-[18px] font-bold" style={{ color: "#092F64" }}>
+                <block.Icon size={28} style={{ color: "#1570EF" }} />
+                <h3 className="mt-4 text-[18px] font-bold" style={{ color: "#0E172A" }}>
                   {block.heading}
                 </h3>
                 <p className="mt-2 text-[14px] leading-[1.6]" style={{ color: "#1F1F1F" }}>
@@ -496,18 +496,12 @@ export default function PlatformPage() {
       <IntegrationsCarousel />
 
       {/* S9: Final CTA */}
-      <section data-bg="dark" className="px-6 py-16 md:px-16 md:py-24" style={{ backgroundColor: "#092F64" }}>
+      <section data-bg="dark" className="px-6 py-16 md:px-16 md:py-24" style={{ backgroundColor: "#0E172A" }}>
         <Container>
           <ScrollReveal>
             <div className="text-center">
-              <p
-                className="text-[12px] font-bold uppercase tracking-[0.15em]"
-                style={{ color: "#468BE6" }}
-              >
-                Book a Demo
-              </p>
               <h2
-                className="mx-auto mt-4 max-w-[720px] text-[36px] font-extrabold leading-tight tracking-[-0.02em] text-white md:text-[48px]"
+                className="mx-auto max-w-[720px] text-[36px] font-extrabold leading-tight tracking-[-0.02em] text-white md:text-[48px]"
               >
                 See Soap in your own portfolio.
               </h2>

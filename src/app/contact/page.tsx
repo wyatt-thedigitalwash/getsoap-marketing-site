@@ -26,7 +26,7 @@ export default function ContactPage() {
             <ScrollReveal className="md:w-1/2">
               <h1
                 className="text-[36px] font-extrabold leading-[1.05] tracking-[-0.02em] md:text-[56px]"
-                style={{ color: "#092F64" }}
+                style={{ color: "#0E172A" }}
               >
                 Let us clean up your franchise marketing.
               </h1>
@@ -42,14 +42,14 @@ export default function ContactPage() {
               <div className="mt-12">
                 <p
                   className="text-[11px] font-bold uppercase tracking-[0.12em]"
-                  style={{ color: "#1A5799", marginBottom: 12 }}
+                  style={{ color: "#1570EF", marginBottom: 12 }}
                 >
                   Or email directly
                 </p>
                 <a
                   href="mailto:wyatt@thedigitalwash.com"
-                  className="text-[18px] font-semibold transition-colors hover:text-[#1A5799] hover:underline"
-                  style={{ color: "#092F64" }}
+                  className="text-[18px] font-semibold transition-colors hover:text-[#1570EF] hover:underline"
+                  style={{ color: "#0E172A" }}
                 >
                   wyatt@thedigitalwash.com
                 </a>
@@ -66,7 +66,7 @@ export default function ContactPage() {
             <ScrollReveal delay={150} className="md:w-1/2">
               <div
                 className="contact-form-light rounded-[18px]"
-                style={{ backgroundColor: "#E9F5FF", padding: "40px", border: "1px solid #E2E8F0", boxShadow: "0 8px 32px rgba(9, 47, 100, 0.08)" }}
+                style={{ backgroundColor: "#F8FAFC", padding: "40px", border: "1px solid #E2E8F0", boxShadow: "0 8px 32px rgba(14, 23, 42, 0.08)" }}
               >
                 <ContactFormLight />
               </div>
@@ -79,7 +79,7 @@ export default function ContactPage() {
       <section
         data-bg="light"
         className="relative px-6 py-[84px] md:px-16 md:py-[112px]"
-        style={{ backgroundColor: "#E9F5FF" }}
+        style={{ backgroundColor: "#F8FAFC" }}
       >
         <div
           className="pointer-events-none absolute inset-0"
@@ -95,13 +95,13 @@ export default function ContactPage() {
             <div className="text-center">
               <p
                 className="text-[11px] font-bold uppercase tracking-[0.12em]"
-                style={{ color: "#1A5799" }}
+                style={{ color: "#1570EF" }}
               >
                 What to Expect
               </p>
               <h2
                 className="mx-auto mt-4 max-w-[720px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]"
-                style={{ color: "#092F64" }}
+                style={{ color: "#0E172A" }}
               >
                 Here is what happens next.
               </h2>
@@ -136,13 +136,13 @@ export default function ContactPage() {
               >
                 <div
                   className="flex h-8 w-8 items-center justify-center rounded-full text-[14px] font-bold text-white"
-                  style={{ backgroundColor: "#1A5799" }}
+                  style={{ backgroundColor: "#1570EF" }}
                 >
                   {card.num}
                 </div>
                 <h3
                   className="mt-5 text-[17px] font-bold"
-                  style={{ color: "#092F64" }}
+                  style={{ color: "#0E172A" }}
                 >
                   {card.heading}
                 </h3>
@@ -168,13 +168,13 @@ export default function ContactPage() {
             <div className="text-center">
               <p
                 className="text-[11px] font-bold uppercase tracking-[0.12em]"
-                style={{ color: "#1A5799" }}
+                style={{ color: "#1570EF" }}
               >
                 Quick Answers
               </p>
               <h2
                 className="mx-auto mt-4 max-w-[720px] text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]"
-                style={{ color: "#092F64" }}
+                style={{ color: "#0E172A" }}
               >
                 Before you write.
               </h2>

@@ -29,7 +29,7 @@ export default function LocationsPage() {
             <div className="mx-auto max-w-[880px] text-center">
               <h1
                 className="text-[36px] font-extrabold leading-[1.05] tracking-[-0.02em] md:text-[56px]"
-                style={{ color: "#092F64" }}
+                style={{ color: "#0E172A" }}
               >
                 Every location, fully built out within your site.
               </h1>
@@ -56,7 +56,7 @@ export default function LocationsPage() {
       <section
         data-bg="light"
         className="relative px-6 py-[84px] md:px-16 md:py-[112px]"
-        style={{ backgroundColor: "#E9F5FF" }}
+        style={{ backgroundColor: "#F8FAFC" }}
       >
         <div
           className="pointer-events-none absolute inset-0"
@@ -74,13 +74,13 @@ export default function LocationsPage() {
               <div className="md:w-1/2">
                 <p
                   className="text-[11px] font-bold uppercase tracking-[0.12em]"
-                  style={{ color: "#1A5799" }}
+                  style={{ color: "#1570EF" }}
                 >
                   One Domain, Many Pages
                 </p>
                 <h2
                   className="mt-4 text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]"
-                  style={{ color: "#092F64" }}
+                  style={{ color: "#0E172A" }}
                 >
                   Every location, fully built out within your corporate site.
                 </h2>
@@ -117,18 +117,12 @@ export default function LocationsPage() {
       <section
         data-bg="dark"
         className="px-6 py-16 md:px-16 md:py-24"
-        style={{ backgroundColor: "#092F64" }}
+        style={{ backgroundColor: "#0E172A" }}
       >
         <Container>
           <ScrollReveal>
             <div className="text-center">
-              <p
-                className="text-[12px] font-bold uppercase tracking-[0.15em]"
-                style={{ color: "#468BE6" }}
-              >
-                Book a Demo
-              </p>
-              <h2 className="mx-auto mt-4 max-w-[720px] text-[36px] font-extrabold leading-tight tracking-[-0.02em] text-white md:text-[48px]">
+              <h2 className="mx-auto max-w-[720px] text-[36px] font-extrabold leading-tight tracking-[-0.02em] text-white md:text-[48px]">
                 See what your corporate site would look like with Soap.
               </h2>
               <p

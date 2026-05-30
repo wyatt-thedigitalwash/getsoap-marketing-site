@@ -6,7 +6,7 @@ export default function SchemaMockup() {
         border: "1px solid #E2E8F0",
         borderRadius: 10,
         boxShadow:
-          "0 4px 20px rgba(9, 47, 100, 0.06), 0 12px 40px rgba(9, 47, 100, 0.04)",
+          "0 4px 20px rgba(14, 23, 42, 0.06), 0 12px 40px rgba(14, 23, 42, 0.04)",
         overflow: "hidden",
       }}
     >
@@ -72,7 +72,7 @@ function Brace({ children }: { children: React.ReactNode }) {
 }
 
 function Key({ children }: { children: React.ReactNode }) {
-  return <span style={{ color: "#1A5799" }}>{children}</span>;
+  return <span style={{ color: "#1570EF" }}>{children}</span>;
 }
 
 function Str({ children }: { children: React.ReactNode }) {

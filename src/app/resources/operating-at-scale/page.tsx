@@ -32,7 +32,7 @@ export default function OperatingAtScalePage() {
         actual product. Here is what happens under the hood.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>The Scale Problem Nobody Talks About</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>The Scale Problem Nobody Talks About</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         Marketing platforms tend to be designed for one of two scales: small
@@ -58,14 +58,14 @@ export default function OperatingAtScalePage() {
         operational reality that pure software cannot handle.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>The Soap Operational Model</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>The Soap Operational Model</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         Soap is built on three operational principles that make scale work
         without quality drop:
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>AI-drafted, human-reviewed</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>AI-drafted, human-reviewed</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Every piece of content Soap produces starts as an AI draft using
         proprietary prompts trained on franchise marketing patterns. The drafts
@@ -79,7 +79,7 @@ export default function OperatingAtScalePage() {
         humans handle the judgment.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Vertical integration, not vendor stacking</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Vertical integration, not vendor stacking</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Soap owns every part of the marketing workflow in-house. The SEO
         methodology. The content templates. The GBP workflows. The review
@@ -95,7 +95,7 @@ export default function OperatingAtScalePage() {
         are no handoff failures between vendors because there are no vendors.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Productized scope, not custom work</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Productized scope, not custom work</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Each package tier defines a specific scope of work. Platform tier gets
         X. Local tier gets Y. Growth tier gets Z. Dominate tier gets the full
@@ -111,20 +111,20 @@ export default function OperatingAtScalePage() {
         more content output but not proportionally more management overhead.
       </p>
 
-      <blockquote className={bq} style={{ color: "#092F64", borderLeft: "3px solid #1A5799" }}>
+      <blockquote className={bq} style={{ color: "#0E172A", borderLeft: "3px solid #1570EF" }}>
         Pure AI scales volume but loses quality. Pure humans maintain quality
         but cannot scale. The hybrid model captures both: AI handles the volume,
         humans handle the judgment.
       </blockquote>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>Inside the Content Engine</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>Inside the Content Engine</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         Content production is the most operationally intensive part of Soap.
         Here is how it actually works at scale.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Topic generation</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Topic generation</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Each location gets a content calendar generated from a combination of
         factors: the franchisee&apos;s service offerings, seasonal patterns in
@@ -139,7 +139,7 @@ export default function OperatingAtScalePage() {
         applied uniformly across the portfolio.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Draft production</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Draft production</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Once a topic is selected, Soap generates the draft using proprietary AI
         prompts. The prompts are not generic ChatGPT calls. They include the
@@ -154,7 +154,7 @@ export default function OperatingAtScalePage() {
         the specific market, not boilerplate ported across locations.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Editorial review</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Editorial review</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Every draft passes through human editorial review before publishing. The
         editor checks for brand voice alignment, factual accuracy, SEO best
@@ -170,7 +170,7 @@ export default function OperatingAtScalePage() {
         customer count.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Publishing and indexing</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Publishing and indexing</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Approved content publishes to the relevant location pages automatically.
         Schema markup is applied. Internal links are generated. Sitemap entries
@@ -185,7 +185,7 @@ export default function OperatingAtScalePage() {
         improving future content at the location level.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>Inside the GBP Engine</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>Inside the GBP Engine</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         Google Business Profile management is the second most operationally
@@ -194,7 +194,7 @@ export default function OperatingAtScalePage() {
         category.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Profile audits</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Profile audits</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Every franchisee&apos;s GBP is audited weekly. The audit checks profile
         completeness, category accuracy, attribute optimization, photo
@@ -208,7 +208,7 @@ export default function OperatingAtScalePage() {
         logic is consistent across every location in the portfolio.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Post scheduling</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Post scheduling</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Each franchisee gets a continuous calendar of GBP posts based on their
         package tier. Offers, photo posts, blog teasers, seasonal updates,
@@ -224,7 +224,7 @@ export default function OperatingAtScalePage() {
         campaign.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Review monitoring and response</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Review monitoring and response</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Reviews trigger response workflows the moment they are posted. Soap&apos;s
         review response engine drafts a brand-aligned response based on
@@ -238,7 +238,7 @@ export default function OperatingAtScalePage() {
         require human approval regardless of package tier.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Photo management</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Photo management</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Photos are uploaded by franchisees through the mobile app or by the
         operational team during content production. Each photo is auto-resized,
@@ -247,14 +247,14 @@ export default function OperatingAtScalePage() {
         freshness.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>Inside the SEO Engine</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>Inside the SEO Engine</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         SEO is the through-line connecting every other capability. Here is how
         it operates at portfolio scale.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Continuous on-page optimization</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Continuous on-page optimization</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Every page Soap deploys is monitored continuously for on-page
         optimization signals. Title tags, meta descriptions, heading structure,
@@ -269,7 +269,7 @@ export default function OperatingAtScalePage() {
         launch-and-forget activity.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Schema markup deployment</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Schema markup deployment</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Schema markup is deployed on every page automatically. LocalBusiness,
         Service, FAQ, Review, and BreadcrumbList schema. The markup is validated
@@ -278,7 +278,7 @@ export default function OperatingAtScalePage() {
         updates in real time.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Ranking and traffic monitoring</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Ranking and traffic monitoring</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Every location is tracked across hundreds of target keywords. Ranking
         changes are surfaced in real time. Traffic patterns are monitored at the
@@ -286,7 +286,7 @@ export default function OperatingAtScalePage() {
         feeding the prioritization of future work.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>AI and LLM visibility</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>AI and LLM visibility</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Soap optimizes for traditional search and emerging AI search
         simultaneously. ChatGPT, Perplexity, Gemini. The optimization
@@ -300,13 +300,13 @@ export default function OperatingAtScalePage() {
         core capability from day one.
       </p>
 
-      <blockquote className={bq} style={{ color: "#092F64", borderLeft: "3px solid #1A5799" }}>
+      <blockquote className={bq} style={{ color: "#0E172A", borderLeft: "3px solid #1570EF" }}>
         Operational scale is the actual product. Marketing copy is easy. Running
         400 blog posts, 800 GBP posts, and 100 audits per month without quality
         drop is the real engineering.
       </blockquote>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>How Quality Gets Enforced</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>How Quality Gets Enforced</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         At scale, quality erodes silently. A single low-quality piece of content
@@ -315,7 +315,7 @@ export default function OperatingAtScalePage() {
         operational mechanisms to prevent quality erosion.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Editorial quality benchmarks</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Editorial quality benchmarks</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Every piece of content is scored against documented quality benchmarks
         before publishing. Brand voice alignment, factual accuracy, SEO
@@ -324,7 +324,7 @@ export default function OperatingAtScalePage() {
         benchmarks gets revised, not published.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Performance review cycles</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Performance review cycles</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         On a monthly cycle, Soap reviews content performance across the
         portfolio. Pieces that underperform get flagged for refresh. Pieces that
@@ -333,7 +333,7 @@ export default function OperatingAtScalePage() {
         days, not 6 months.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Operational team training</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Operational team training</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         The editorial team is trained on franchise-specific patterns. Service
         business content. Local SEO requirements. Brand voice variations across
@@ -341,7 +341,7 @@ export default function OperatingAtScalePage() {
         home services category. Training is continuous, not onboarding.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Customer feedback integration</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Customer feedback integration</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Corporate and franchisee feedback flows into the operational workflow
         continuously. Issues raised by customers (a content piece that does not
@@ -350,14 +350,14 @@ export default function OperatingAtScalePage() {
         from feedback at the portfolio level.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>What Breaks at Other Platforms</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>What Breaks at Other Platforms</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         Understanding why other platforms struggle at scale clarifies why Soap
         is built the way it is.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Generic content</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Generic content</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Platforms that rely purely on AI generation without editorial review
         produce content that reads generic. Same patterns, same phrasings, same
@@ -365,7 +365,7 @@ export default function OperatingAtScalePage() {
         this. Rankings suffer. Brand equity erodes.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Vendor handoffs</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Vendor handoffs</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Platforms that integrate third-party vendors for SEO, content, GBP, or
         reviews create handoff failures at scale. Each vendor optimizes for
@@ -374,7 +374,7 @@ export default function OperatingAtScalePage() {
         each piece.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Customization at scale</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Customization at scale</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Platforms that allow per-franchisee customization break at scale because
         the operational overhead grows linearly with customization requests. By
@@ -382,7 +382,7 @@ export default function OperatingAtScalePage() {
         100 locations, the customization model is unsustainable.
       </p>
 
-      <h3 className={h3} style={{ color: "#092F64" }}>Reporting fragmentation</h3>
+      <h3 className={h3} style={{ color: "#0E172A" }}>Reporting fragmentation</h3>
       <p className={p} style={{ color: "#1F1F1F" }}>
         Platforms that report on each capability separately (SEO reports,
         content reports, GBP reports, review reports) leave corporate without
@@ -391,7 +391,7 @@ export default function OperatingAtScalePage() {
         overhead rather than strategic value.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>The Operational Footprint</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>The Operational Footprint</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         Soap&apos;s operational team is structured to scale efficiently with
@@ -411,7 +411,7 @@ export default function OperatingAtScalePage() {
         to operational headcount improves rather than degrades.
       </p>
 
-      <h2 className={h2} style={{ color: "#092F64" }}>Why This Matters</h2>
+      <h2 className={h2} style={{ color: "#0E172A" }}>Why This Matters</h2>
 
       <p className={p} style={{ color: "#1F1F1F" }}>
         Franchise marketing platforms are easy to start and hard to scale. The
