@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { NAV_LINKS } from "@/lib/navigation";
 
 export default function GlobalNav({ inline = false }: { inline?: boolean }) {
@@ -76,7 +77,7 @@ export default function GlobalNav({ inline = false }: { inline?: boolean }) {
         {/* Desktop */}
         <div className="hidden grid-cols-3 items-center lg:grid">
           <div className="justify-self-start">
-            <Link href="/" className="text-2xl font-extrabold tracking-tight text-white">Soap.</Link>
+            <Link href="/"><Image src="/soap-watermark-white-blue.svg" alt="Soap." width={80} height={28} priority /></Link>
           </div>
           <div className="flex items-center justify-self-center justify-center gap-1">
             {NAV_LINKS.map((link) => (
@@ -101,7 +102,7 @@ export default function GlobalNav({ inline = false }: { inline?: boolean }) {
         </div>
         {/* Mobile */}
         <div className="flex items-center justify-between lg:hidden">
-          <Link href="/" className="text-2xl font-extrabold tracking-tight text-white">Soap.</Link>
+          <Link href="/"><Image src="/soap-watermark-white-blue.svg" alt="Soap." width={80} height={28} priority /></Link>
           <button
             type="button"
             onClick={() => setMenuOpen((o) => !o)}
@@ -173,7 +174,7 @@ export default function GlobalNav({ inline = false }: { inline?: boolean }) {
       <nav className="px-[44px] py-4 md:px-[56px]">
         <div className="hidden grid-cols-3 items-center lg:grid">
           <div className="justify-self-start">
-            <Link href="/" className="text-2xl font-extrabold tracking-tight" style={{ color: textColor, transition: "color 300ms ease" }}>Soap.</Link>
+            <Link href="/"><Image src={isLight ? "/soap-watermark-blue-dark-blue.svg" : "/soap-watermark-white-blue.svg"} alt="Soap." width={80} height={28} priority /></Link>
           </div>
           <div className="flex items-center justify-self-center justify-center gap-1">
             {NAV_LINKS.map((link) => (
@@ -194,7 +195,7 @@ export default function GlobalNav({ inline = false }: { inline?: boolean }) {
           </div>
         </div>
         <div className="flex items-center justify-between lg:hidden">
-          <Link href="/" className="text-2xl font-extrabold tracking-tight" style={{ color: textColor, transition: "color 300ms ease" }}>Soap.</Link>
+          <Link href="/"><Image src={isLight ? "/soap-watermark-blue-dark-blue.svg" : "/soap-watermark-white-blue.svg"} alt="Soap." width={80} height={28} priority /></Link>
           <button
             type="button"
             onClick={() => setMenuOpen((o) => !o)}

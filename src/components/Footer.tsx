@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { PRODUCT_LINKS } from "@/lib/navigation";
 
 export default function Footer() {
@@ -9,11 +10,8 @@ export default function Footer() {
       </div>
       <div className="mx-auto max-w-7xl px-6 py-12 md:px-10 md:py-12">
         <div className="flex flex-col gap-10 md:flex-row md:justify-between">
-          <Link
-            href="/"
-            className="text-2xl font-extrabold tracking-tight text-white"
-          >
-            Soap.
+          <Link href="/">
+            <Image src="/soap-watermark-white-blue.svg" alt="Soap." width={80} height={28} />
           </Link>
           <div className="flex flex-col gap-10 md:flex-row md:gap-16">
             <div>

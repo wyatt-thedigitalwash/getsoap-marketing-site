@@ -205,7 +205,10 @@ export default function AutomationSection() {
     >
       {/* Header */}
       <ScrollReveal className="mx-auto max-w-7xl px-6 md:px-16" style={{ marginBottom: 48 }} distance={20}>
-        <h2 className="text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#0E172A" }}>
+        <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color: "#1570EF" }}>
+          Automation
+        </p>
+        <h2 className="mt-4 text-[34px] font-extrabold leading-tight tracking-[-0.02em] md:text-[46px]" style={{ color: "#0E172A" }}>
           Automated execution. Human judgment.
         </h2>
         <p className="mt-4 max-w-[580px] text-[16px] leading-[1.6] md:text-[17px]" style={{ color: "#1F1F1F" }}>
